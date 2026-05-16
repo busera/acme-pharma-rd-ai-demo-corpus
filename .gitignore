@@ -1,0 +1,55 @@
+# Runtime / local working artifacts excluded from public package
+logs/
+output/
+state/
+cache/
+_backups/
+_Archive/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.duckdb
+*.parquet
+*.pkl
+*.pickle
+*.jsonl
+
+# Local configs, credentials, and generated APM run configs
+.env
+.env.*
+*.env
+config.yaml
+config.yml
+*config*.yaml
+*config*.yml
+synthetic_config*.yaml
+resume.yaml
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Python/editor/OS noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+# Package/release byproducts
+build/
+dist/
+*.egg-info/
+
+# Local/generated manifests and operational checklists
+manifest.json
+package_manifest.json
+PUBLIC_GITHUB_CHECKLIST.md
+planning/

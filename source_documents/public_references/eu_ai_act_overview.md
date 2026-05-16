@@ -1,0 +1,372 @@
+---
+Document_File_Name: eu_ai_act_overview.md
+IIA_Type: REG
+IIA_Type_Rational: The document summarizes the EU AI Act, a key regulation governing
+  AI systems, making it a regulatory reference for assessing legal review requirements.
+Quality_Rating: H
+Relevance_Score: H
+Fact: The EU AI Act is the first comprehensive legal framework on AI globally, establishing
+  risk-based rules for AI developers and deployers. It aims to foster trustworthy
+  AI in Europe and is part of a broader policy package including the AI Continent
+  Action Plan, AI Innovation Package, and AI Factories. The European Commission has
+  launched the AI Pact, a voluntary initiative to encourage early compliance with
+  the Act's key obligations. An AI Act Service Desk provides information and support
+  for implementation. The Act addresses risks of AI to avoid undesirable outcomes,
+  while recognizing that most AI systems pose limited to no risk.
+Summary: The document is an overview of the EU AI Act, the first-ever comprehensive
+  legal framework on artificial intelligence. It explains that the Act sets out risk-based
+  rules for AI developers and deployers to foster trustworthy AI in Europe. The overview
+  notes that the AI Act is part of a wider package of policy measures, including the
+  AI Continent Action Plan, AI Innovation Package, and AI Factories, which together
+  aim to guarantee safety, fundamental rights, and human-centric AI while strengthening
+  uptake, investment, and innovation. To facilitate the transition to the new regulatory
+  framework, the European Commission launched the AI Pact, a voluntary initiative
+  for early compliance, and the AI Act Service Desk for information and support. The
+  page emphasizes that while most AI systems pose limited to no risk, certain AI systems
+  create risks that must be addressed to avoid undesirable outcomes. The content is
+  hosted on the official European Union website, under the digital strategy policy
+  section. The document serves as a high-level introduction to the regulatory framework
+  and its objectives.
+Section_Context: Regulatory requirements
+IIA_Relevance_Explanation: The document summarizes the EU AI Act, a key regulation
+  governing AI systems, making it a regulatory reference for assessing legal review
+  requirements.
+IIA_Relevance: H
+IIA_Confidence: H
+Notes: 'Auto-derived categorization: The document summarizes the EU AI Act, a key
+  regulation governing AI systems, making it a regulatory reference for assessing
+  legal review requirements.'
+---
+
+[Skip to main content](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai#main-content)
+
+[image omitted]An official website of the European UnionAn official EU website
+How do you know?
+
+
+
+All official European Union website addresses are in the **europa.eu** domain.
+
+[See all EU institutions and bodies](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en)
+
+This site uses cookies. Visit our [cookies policy page](https://commission.europa.eu/cookies-policy_en) or click the link in any footer for more information and to change your preferences.
+
+[Accept all cookies](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai#accept) [Accept only essential cookies](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai#refuse)
+
+# AI Act
+
+The AI Act is the first-ever legal framework on AI, which addresses the risks of AI and positions Europe to play a leading role globally.
+
+
+The [AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689) (Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence) is the first-ever comprehensive legal framework on AI worldwide. The aim of the rules is to foster trustworthy AI in Europe. For any **questions on the AI Act**, check out the [**AI Act Single Information platform**](https://ai-act-service-desk.ec.europa.eu/en).
+
+The AI Act sets out a risk-based rules for AI developers and deployers regarding specific uses of AI. The AI Act is part of a wider package of policy measures to support the development of trustworthy AI, which also includes the [AI Continent Action Plan](https://digital-strategy.ec.europa.eu/en/factpages/ai-continent-action-plan), the [AI Innovation Package](https://ec.europa.eu/commission/presscorner/detail/en/ip_24_383) and the launch of [AI Factories](https://digital-strategy.ec.europa.eu/en/policies/ai-factories). Together, these measures guarantee safety, fundamental rights and human-centric AI, and strengthen uptake, investment and innovation in AI across the EU.
+
+To facilitate the transition to the new regulatory framework, the Commission has launched the [AI Pact](https://digital-strategy.ec.europa.eu/en/policies/ai-pact), a voluntary initiative that seeks to support the future implementation, engage with stakeholders and invite AI providers and deployers from Europe and beyond to comply with the key obligations of the AI Act ahead of time. In parallel, the [AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en) is also providing information and support for a smooth and effective implementation of the AI Act across the EU.
+
+## Why do we need rules on AI?
+
+The AI Act ensures that Europeans can trust what AI has to offer. While most AI systems pose limited to no risk and can contribute to solving many societal challenges, certain AI systems create risks that we must address to avoid undesirable outcomes.
+
+For example, it is often not possible to find out why an AI system has made a decision or prediction and taken a particular action. So, it may become difficult to assess whether someone has been unfairly disadvantaged, such as in a hiring decision or in an application for a public benefit scheme.
+
+Although existing legislation provides some protection, it is insufficient to address the specific challenges AI systems may bring.
+
+## A Risk-based Approach
+
+The AI Act defines 4 levels of risk for AI systems:
+
+[image omitted]
+
+### Unacceptable risk
+
+All AI systems considered a clear threat to the safety, livelihoods and rights of people are banned. The **AI Act prohibits eight practices**, namely:
+
+1. harmful AI-based manipulation and deception
+2. harmful AI-based exploitation of vulnerabilities
+3. social scoring
+4. Individual criminal offence risk assessment or prediction
+5. untargeted scraping of the internet or CCTV material to create or expand facial recognition databases
+6. emotion recognition in workplaces and education institutions
+7. biometric categorisation to deduce certain protected characteristics
+8. real-time remote biometric identification for law enforcement purposes in publicly accessible spaces
+
+The prohibitions became effective in February 2025. The Commission published 2 key documents to support the practical application of the prohibited practices:
+
+- The [guidelines on prohibited AI practices under the AI Act](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act), which offer legal explanations and practical examples to help stakeholders understand and comply with the prohibitions.
+- The [guidelines on the AI system definition of the AI Act](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application), to assist stakeholders in determining the scope of the AI Act
+
+### High risk
+
+AI use cases that can pose serious risks to health, safety or fundamental rights are classified as high-risk. These **high-risk** use-cases include:
+
+- AI safety components in critical infrastructures (e.g. transport), the failure of which could put the life and health of citizens at risk
+- AI solutions used in education institutions, that may determine the access to education and course of someone’s professional life (e.g. scoring of exams)
+- AI-based safety components of products (e.g. AI application in robot-assisted surgery)
+- AI tools for employment, management of workers and access to self-employment (e.g. CV-sorting software for recruitment)
+- Certain AI use-cases utilised to give access to essential private and public services (e.g. credit scoring denying citizens opportunity to obtain a loan)
+- AI systems used for remote biometric identification, emotion recognition and biometric categorisation (e.g. AI system to retroactively identify a shoplifter)
+- AI use-cases in law enforcement that may interfere with people’s fundamental rights (e.g. evaluation of the reliability of evidence)
+- AI use-cases in migration, asylum and border control management (e.g. automated examination of visa applications)
+- AI solutions used in the administration of justice and democratic processes (e.g. AI solutions to prepare court rulings)
+
+**High-risk AI systems** are subject to **strict obligations** before they can be put on the market:
+
+- adequate risk assessment and mitigation systems
+- high-quality of the datasets feeding the system to minimise risks of discriminatory outcomes
+- logging of activity to ensure traceability of results
+- detailed documentation providing all information necessary on the system and its purpose for authorities to assess its compliance
+- clear and adequate information to the deployer
+- appropriate human oversight measures
+- high level of robustness, cybersecurity and accuracy
+
+### Transparency risk
+
+This refers to the risks associated with a need for transparency around the use of AI. The AI Act introduces specific disclosure obligations to ensure that humans are informed when necessary to preserve trust. For instance, when using AI systems such as chatbots, humans should be made aware that they are interacting with a machine so they can take an informed decision.
+
+Moreover, providers of generative AI have to ensure that AI-generated content is identifiable. On top of that, certain AI-generated content should be clearly and visibly labelled, namely deep fakes and text published with the purpose to inform the public on matters of public interest.
+
+The transparency rules of the AI Act will come into effect in August 2026.
+
+### Minimal or no risk
+
+The AI Act does not introduce rules for AI that is deemed minimal or no risk. The vast majority of AI systems currently used in the EU fall into this category. This includes applications such as AI-enabled video games or spam filters.
+
+## How does it all work in practice for providers of high-risk AI systems?
+
+[image omitted]
+
+Once an AI system is on the market, authorities are in charge of market surveillance, deployers ensure human oversight and monitoring, and providers have a post-market monitoring system in place. Providers and deployers will also report serious incidents and malfunctioning.
+
+## What are the rules for General-Purpose AI models?
+
+General-purpose AI (GPAI) models can perform a wide range of tasks and are becoming the basis for many AI systems in the EU. Some of these models could carry systemic risks if they are very capable or widely used. To ensure safe and trustworthy AI, the AI Act puts in place rules for providers of such models. This includes transparency and copyright-related rules. For models that may carry systemic risks, providers should assess and mitigate these risks. The AI Act rules on GPAI became effective in August 2025.
+
+## Supporting compliance
+
+In July 2025, the Commission published 3 key instruments to support the responsible development and deployment of GPAI models:
+
+- The [Guidelines on the scope of the obligations for providers of GPAI models](https://digital-strategy.ec.europa.eu/en/library/guidelines-scope-obligations-providers-general-purpose-ai-models-under-ai-act) clarify the scope of the GPAI obligations under the AI Act, helping actors along the AI value chain understand who must comply with these obligations.
+- The [GPAI Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai) is a voluntary compliance tool submitted to the Commission by independent experts, which offers practical guidance to help providers comply with their obligations under the AI Act related to transparency, copyright, and safety & security.
+- The [Template for the public summary of training content of GPAI models](https://digital-strategy.ec.europa.eu/en/library/explanatory-notice-and-template-public-summary-training-content-general-purpose-ai-models) requires providers to give an overview of the data used to train their models. This includes the sources from which the data was obtained (comprising large datasets and top domain names).The template also requests information about data processing aspects to enable parties with legitimate interests to exercise their rights under EU law.
+
+These tools are designed to work hand-in-hand. Together, they provide a clear and actionable framework for providers of GPAI models to comply with the AI Act, reducing administrative burden, and fostering innovation while safeguarding fundamental rights and public trust.
+
+The Commission is also developing support other tools that offer guidance on how to comply with the AI Act’s transparency rules:
+
+- The [Code of Practice on marking and labelling of AI-generated content](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content) selected by the AI Office. The code will be a voluntary tool to guide providers and deployers of generative AI systems to comply with transparency obligations. These include marking AI generated content and disclosing the artificial nature of images, and audio (including deepfakes) as well as text.
+- The Guidelines on transparent AI systems to clarify the scope of application, relevant legal definitions, the transparency obligations, the exceptions and related horizontal issues.
+
+These support instruments are under preparation and will be published in the second quarter of 2026. Find out more about [how the AI Office is supporting the implementation of the AI Act](https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines).
+
+## Governance and implementation
+
+The [European AI Office](https://digital-strategy.ec.europa.eu/en/policies/ai-office) and authorities of the Member States are responsible for implementing, supervising and enforcing the AI Act. The AI Board, the Scientific Panel and the Advisory Forum steer and advise the AI Act’s governance. Find out more details about the [Governance and enforcement of the AI Act](https://digital-strategy.ec.europa.eu/en/policies/ai-act-governance-and-enforcement).
+
+## Application timeline
+
+The AI Act entered into force on 1 August 2024, and will be fully applicable 2 years later on 2 August 2026, with some exceptions:
+
+- prohibited AI practices and AI literacy obligations entered into application from 2 February 2025
+- the governance rules and the obligations for GPAI models became applicable on 2 August 2025
+- the rules for high-risk AI systems - embedded into regulated products - have an extended transition period until 2 August 2028 (as a result of the political agreement on the proposal to simplify the AI Act – ' [AI omnibus](https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal)')
+
+## How the Commission is simplifying the AI Act implementation?
+
+The [Digital Package on Simplification](https://digital-strategy.ec.europa.eu/en/policies/digital-rulebook) proposed amendments to simplify the AI Act implementation and ensure the rules remain clear, simple, and innovation-friendly. This legislative proposal (dubbed as the ' [AI omnibus](https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal)') has been adopted on 19 November 2025 and a [political agreement](https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens) was reached on 7 May 2026.
+
+Following the political agreement, a **clear implementation timeline** is set for the rules governing **high-risk AI systems**:
+
+- Rules for **systems used in certain high-risk areas** — including biometrics, critical infrastructure, education, employment, migration, asylum and border control — will **apply from 2 December 2027**.
+- For **systems integrated into products** such as lifts or toys, the rules will **apply from 2 August 2028**.
+
+This ensures the rules apply when companies have the right support tools to facilitate implementation, such as standards.
+
+In addition, the following **amendments to the AI Act** have been agreed:
+
+- **Prohibition of AI systems that generate non-consensual sexually explicit and intimate content** or child sexual abuse material, such as AI ‘nudification' apps
+- **Reinforce the AI Office’s powers** and centralise oversight of AI systems built on general-purpose AI models, reducing governance fragmentation
+- **Extend certain simplified requirements** granted to small and medium-sized enterprises are extended to small mid-cap companies (SMEs and SMCs), including simplified technical documentation requirements
+- More innovators will gain access to **regulatory sandboxes**, including an EU-level sandbox, to test their AI solutions in real-world conditions
+- The **interplay between the AI Act and EU product safety laws**, in particular the Machinery Regulation, is clarified, avoiding duplication between sectoral and AI rules.
+
+All this complements AI Office actions already in place to provide clarity for businesses and national authorities. For instance, through guidelines, codes of practice, and the [AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en).
+
+## Latest News
+
+DIGIBYTE
+\| 12 May 2026
+
+[Children’s protection online is high priority for 92% of Europeans](https://digital-strategy.ec.europa.eu/en/news/childrens-protection-online-high-priority-92-europeans)
+
+PRESS RELEASE
+\| 08 May 2026
+
+[Commission opens consultation on draft guidelines for AI transparency obligations](https://digital-strategy.ec.europa.eu/en/news/commission-opens-consultation-draft-guidelines-ai-transparency-obligations)
+
+PRESS RELEASE
+\| 07 May 2026
+
+[EU agrees to simplify AI rules to boost innovation and ban ‘nudification' apps to protect citizens](https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens)
+
+PRESS RELEASE
+\| 21 April 2026
+
+[Commission makes €63.2 million available to support AI innovation in health and online safety](https://digital-strategy.ec.europa.eu/en/news/commission-makes-eu632-million-available-support-ai-innovation-health-and-online-safety)
+
+PRESS RELEASE
+\| 09 April 2026
+
+[AI Continent Action Plan delivers major milestones](https://digital-strategy.ec.europa.eu/en/news/ai-continent-action-plan-delivers-major-milestones)
+
+PRESS RELEASE
+\| 08 April 2026
+
+[Joint press release by the Commission and the Kingdom of Morocco on the launch of a Digital Dialogue to strengthen strategic cooperation](https://digital-strategy.ec.europa.eu/en/news/joint-press-release-commission-and-kingdom-morocco-launch-digital-dialogue-strengthen-strategic)
+
+[Browse Artificial intelligence](https://digital-strategy.ec.europa.eu/en/related-content?topic=119)
+
+## Policy and legislation
+
+- 07-05-2026
+[Draft of the guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of the AI Act](https://digital-strategy.ec.europa.eu/en/library/draft-guidelines-implementation-transparency-obligations-certain-ai-systems-under-article-50-ai-act)
+- 05-03-2026
+[Commission publishes second draft of Code of Practice on Marking and Labelling of AI-generated content](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-second-draft-code-practice-marking-and-labelling-ai-generated-content)
+- 20-02-2026
+[Leaders’ Declaration at AI Impact Summit in India](https://digital-strategy.ec.europa.eu/en/library/leaders-declaration-ai-impact-summit-india)
+
+[More](https://digital-strategy.ec.europa.eu/en/related-content?topic=119&type=25)
+
+## Report / Study
+
+- 08-05-2026
+[Three studies on various aspects of article 5 of the AI Act](https://digital-strategy.ec.europa.eu/en/library/three-studies-various-aspects-article-5-ai-act)
+- 08-05-2026
+[Three studies on technical solutions to mark and detect AI-generated content](https://digital-strategy.ec.europa.eu/en/library/three-studies-technical-solutions-mark-and-detect-ai-generated-content)
+- 07-04-2026
+[Artificial intelligence in cardiovascular care: from promise to practice](https://digital-strategy.ec.europa.eu/en/library/artificial-intelligence-cardiovascular-care-promise-practice)
+
+[More](https://digital-strategy.ec.europa.eu/en/related-content?topic=119&type=28)
+
+## Factsheet / infographic
+
+- 08-10-2025
+[The Commission internal use of Artificial Intelligence](https://digital-strategy.ec.europa.eu/en/library/commission-internal-use-artificial-intelligence)
+- 05-06-2025
+[Factsheet on the International Digital Strategy for the European Union](https://digital-strategy.ec.europa.eu/en/library/factsheet-international-digital-strategy-european-union)
+- 05-04-2024
+[Factsheet: EU-US Trade and Technology Council (2021-2024)](https://digital-strategy.ec.europa.eu/en/library/factsheet-eu-us-trade-and-technology-council-2021-2024)
+
+[More](https://digital-strategy.ec.europa.eu/en/related-content?topic=119&type=21)
+
+## Brochure
+
+- 22-12-2025
+[The rise of the intelligent edge – Insights into MetaOS](https://digital-strategy.ec.europa.eu/en/library/rise-intelligent-edge-insights-metaos)
+- 04-02-2025
+[Living repository to foster learning and exchange on AI literacy](https://digital-strategy.ec.europa.eu/en/library/living-repository-foster-learning-and-exchange-ai-literacy)
+- 04-03-2024
+[Horizon Europe: new projects in AI, Data and Robotics - 2024 Edition](https://digital-strategy.ec.europa.eu/en/library/horizon-europe-new-projects-ai-data-and-robotics-2024-edition)
+
+[More](https://digital-strategy.ec.europa.eu/en/related-content?topic=119&type=17)
+
+## Related Content
+
+### Big Picture
+
+[European approach to artificial intelligence](https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence)
+
+The EU’s approach to artificial intelligence promotes excellence and trust, by boosting research and industrial capacity while ensuring safety and fundamental rights.
+
+- [image omitted]
+
+
+
+
+
+
+
+
+
+[Governance and enforcement of the AI Act](https://digital-strategy.ec.europa.eu/en/policies/ai-act-governance-and-enforcement)
+
+
+
+
+
+
+
+The European AI Office and the national market surveillance authorities are responsible for...
+
+- [image omitted]
+
+
+
+
+
+
+
+
+
+[AI talent, skills and literacy](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy)
+
+
+
+
+
+
+
+The Commission aims to increase the number of AI experts by training and attracting more researchers...
+
+- [image omitted]
+
+
+
+
+
+
+
+
+
+[Standardisation of the AI Act](https://digital-strategy.ec.europa.eu/en/policies/ai-act-standardisation)
+
+
+
+
+
+
+
+Harmonised standards will offer legal certainty under the AI Act, support innovation, and position...
+
+- [image omitted]
+
+
+
+
+
+
+
+
+
+[AI Act Whistleblower Tool](https://digital-strategy.ec.europa.eu/en/policies/ai-act-whistleblower-tool)
+
+
+
+
+
+
+
+The AI Act Whistleblower Tool, empowers individuals to securely submit a report and contribute...
+
+
+PreviousNext
+
+* * *
+
+#### Last update
+
+11 May 2026
+
+* * *
+
+[Print as PDF](https://digital-strategy.ec.europa.eu/en/node/9745/printable/pdf)
