@@ -1,6 +1,6 @@
 # Source map: ACME Pharma R&D AI demo corpus
 
-Updated: 2026-05-16
+Updated: 2026-05-17
 
 ## Counts
 
@@ -67,10 +67,16 @@ Updated: 2026-05-16
 | `32_ai_use_case_inventory.md` | ACME Pharma R&D AI use-case inventory extract | Business-facing AI use-case inventory with running and in-development items |
 | `33_ai_system_inventory.md` | ACME Pharma R&D AI system inventory extract | Technical AI system inventory linked to use cases, lifecycle state, and supplier dependencies |
 
+## Demo output extract
+
+| File | Purpose | Boundary |
+|---|---|---|
+| `example_outputs/ACME_Pharma_RnD_AI_APM_demo_output_5_risks.md` | Curated generated-output example reduced to 5 selected risks out of 27 candidate risks from the source run | Demonstration extract only; not a complete APM, not audit assurance, not a production methodology |
+
 ## Source-status boundary
 
 The central source-status statement is `source_documents/00_meta/DEMO_SOURCE_STATEMENT.md`. Individual ACME Pharma documents are not repeatedly stamped with disclosure language so they can function as realistic article examples.
 
 ## Public package boundary
 
-This repository publishes only the curated demo corpus and navigation material. It intentionally excludes generated audit-planning outputs, logs, runtime state, local configuration, AI runtime implementation details, graph refresh reports, and working-package manifests.
+This repository publishes only the curated demo corpus, navigation material, and selected public demonstration extracts. It intentionally excludes raw generated audit-planning output folders, logs, runtime state, local configuration, AI runtime implementation details, graph refresh reports, and working-package manifests.
