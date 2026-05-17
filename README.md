@@ -43,9 +43,9 @@ Public-reference files summarize why each source matters for an AI-in-R&D audit-
 
 ## Demo output extract
 
-`example_outputs/ACME_Pharma_RnD_AI_APM_demo_output_5_risks.md` is a curated generated-output example. It is reduced to 5 selected risks out of 27 candidate risks identified in the generated run, and includes extracts for the risk universe, risk/control matrix, scope rationale, and work-program rows.
+`example_outputs/ACME_Pharma_RnD_AI_APM_demo_output_5_risks.md` is a curated generated-output example. It is reduced to 5 selected risks out of 27 candidate risks identified in the generated run, and includes multiple APM areas: executive summary, engagement context, organizational context, risk universe, risk/control matrix, scope rationale, engagement objectives, work-program rows, logistics, and selected PBC/evidence requests.
 
-This extract is included to show the type of planning output the corpus can support. It is not a complete APM, not audit assurance, and not a production methodology.
+This extract is included to show the type of planning output the corpus can support across more than one APM chapter. It is not a complete APM, not audit assurance, and not a production methodology.
 
 ## Source-status statement
 

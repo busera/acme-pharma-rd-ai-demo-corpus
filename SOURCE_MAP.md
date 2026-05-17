@@ -71,7 +71,7 @@ Updated: 2026-05-17
 
 | File | Purpose | Boundary |
 |---|---|---|
-| `example_outputs/ACME_Pharma_RnD_AI_APM_demo_output_5_risks.md` | Curated generated-output example reduced to 5 selected risks out of 27 candidate risks from the source run | Demonstration extract only; not a complete APM, not audit assurance, not a production methodology |
+| `example_outputs/ACME_Pharma_RnD_AI_APM_demo_output_5_risks.md` | Curated generated-output example reduced to 5 selected risks out of 27 candidate risks from the source run. Includes executive summary, engagement context, organizational context, selected risk/risk-control/scope/work-program rows, objectives, logistics, and PBC/evidence-request extracts. | Demonstration extract only; not a complete APM, not audit assurance, not a production methodology |
 
 ## Source-status boundary
 
