@@ -29,7 +29,7 @@ Fact: 'The document identifies eight risk areas relevant to the audit objective:
   or experiment suggestions influencing scientific decisions without sufficient source
   review and accountable sign-off; and shadow AI use because researchers need faster
   literature and protocol support than approved tools provide. The ACME Pharma context
-  describes an 80,000-employee global life-sciences company with about 14,500 R&D
+  describes a 50,000-employee global life-sciences company with about 9,000 R&D
   employees, focusing the audit on the R&D AI portfolio including literature intelligence,
   experiment-design challenge, lab-note synthesis, and candidate screening.'
 Summary: "The document serves as an engagement meta file for the ACME Pharma AI in\
@@ -44,7 +44,7 @@ Summary: "The document serves as an engagement meta file for the ACME Pharma AI 
   \ ambiguous ownership of co-developed AI artifacts, incomplete cloud architecture\
   \ transparency, insufficient human review of AI-generated scientific suggestions,\
   \ and the presence of shadow AI due to unmet researcher needs. The final section\
-  \ provides ACME Pharma context, noting the company's scale (80,000 employees, 14,500\
+  \ provides ACME Pharma context, noting the company's scale (50,000 employees, 9,000\
   \ in R&D) and the audit's focus on the R&D AI portfolio, which includes applications\
   \ like literature intelligence, experiment design, lab-note synthesis, and candidate\
   \ screening. The content directly supports the audit objective by framing the governance,\
@@ -86,6 +86,6 @@ Notes: 'Auto-derived categorization: This document is an internal audit planning
 
 # ACME Pharma context for planning
 
-ACME Pharma is modeled as an 80,000-employee global life-sciences company with about 14,500 R&D employees. The audit planning focus is the R&D AI portfolio, including literature intelligence, experiment-design challenge, lab-note synthesis, candidate prioritization, patent landscape support, and future regulatory drafting support.
+ACME Pharma is modeled as a 50,000-employee global life-sciences company with about 9,000 R&D employees. The audit planning focus is the R&D AI portfolio, including literature intelligence, experiment-design challenge, lab-note synthesis, candidate prioritization, patent landscape support, and future regulatory drafting support.
 
 The audit should treat AI in R&D as a cross-functional risk topic. The planning basis needs R&D leadership, R&D Digital Office, Quality, Regulatory Science, Legal/IP, Privacy, Security, Procurement, Third Party Risk Management, Data Stewardship, supplier management, and research-user evidence.

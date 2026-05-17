@@ -16,8 +16,8 @@ Fact: The document states that ACME Pharma is an obviously fake global life-scie
   evidence into a reviewable audit-planning basis. The pack was created to avoid exposing
   real employer data, client data, real audit files, etc. Public references were summarized
   from authoritative public sources; internal-looking ACME Pharma documents were written
-  from scratch. The scenario assumes a global company with about 80,000 employees
-  and an R&D organization of about 14,500. The documents may be used for screenshots,
+  from scratch. The scenario assumes a global company with about 50,000 employees
+  and an R&D organization of about 9,000. The documents may be used for screenshots,
   visuals, audit-planning dry runs, and article examples, but must not be described
   as real audit evidence or regulatory advice. The pack intentionally avoids references
   to any real company, system, or employee.
@@ -26,8 +26,8 @@ Summary: The document is a source statement for a demo evidence pack about ACME 
   to support a public article on AI-assisted audit planning, providing realistic planning
   material without exposing any real data. The pack includes public references summarized
   from authoritative sources and internal-looking documents written from scratch.
-  The scenario assumes a large company with 80,000 employees and an R&D division of
-  14,500. The documents are intended for demonstration purposes only, such as screenshots
+  The scenario assumes a large company with 50,000 employees and an R&D division of
+  9,000. The documents are intended for demonstration purposes only, such as screenshots
   and dry runs, and must not be presented as real audit evidence or regulatory advice.
   The statement emphasizes that all names, governance forums, program labels, risks,
   and control gaps are invented but plausible. The pack avoids any reference to the
@@ -59,7 +59,7 @@ The pack supports a public article about using AI-assisted workflow to turn mess
 - Public references were summarized from authoritative public sources such as FDA, EMA/HMA, MHRA, NIST, OECD, OWASP, AWS, and ISPE/GAMP pages.
 - Internal-looking ACME Pharma documents were written from scratch for demonstration use.
 - Names, governance forums, program labels, counts, roles, project examples, risks, and control gaps are invented but designed to resemble plausible issues in a large pharmaceutical R&D organization.
-- The scenario assumes a global company with about 80,000 employees and an R&D organization of about 14,500 employees.
+- The scenario assumes a global company with about 50,000 employees and an R&D organization of about 9,000 employees.
 
 ## Use boundary
 

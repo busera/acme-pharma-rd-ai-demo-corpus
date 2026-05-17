@@ -13,8 +13,8 @@ IIA_Type_Rational: The document provides organizational structure and governance
   and decision rights.
 Quality_Rating: M
 Relevance_Score: H
-Fact: ACME Pharma has approximately 80,000 employees globally, with the R&D organization
-  comprising about 14,500 employees across discovery, translational science, preclinical
+Fact: ACME Pharma has approximately 50,000 employees globally, with the R&D organization
+  comprising about 9,000 employees across discovery, translational science, preclinical
   safety, clinical development interfaces, regulatory science, biomarker science,
   scientific knowledge management, and R&D digital platforms. The AI-in-R&D audit
   focuses on AI tools used before marketing authorization and before broad production
@@ -29,8 +29,8 @@ Fact: ACME Pharma has approximately 80,000 employees globally, with the R&D orga
   processes; and the Supplier Co-Development Review, which reviews contracts, no-training
   restrictions, support access, derived artifacts, and exit.
 Summary: 'The document presents the ACME Pharma R&D organization chart and governance
-  map. It begins by describing the company''s global workforce of 80,000 and the R&D
-  organization''s 14,500 employees spread across multiple functions. The audit scope
+  map. It begins by describing the company''s global workforce of 50,000 and the R&D
+  organization''s 9,000 employees spread across multiple functions. The audit scope
   is defined as AI tools used before marketing authorization and before broad production
   deployment, covering formal pilots, supplier-supported prototypes, and potential
   shadow AI. The organizational chart shows the reporting structure from the CEO to
@@ -68,7 +68,7 @@ Notes: 'Auto-derived categorization: The document provides organizational struct
 
 ## Company and R&D footprint
 
-ACME Pharma has about 80,000 employees globally. The R&D organization has about 14,500 employees across discovery, translational science, preclinical safety, clinical development interfaces, regulatory science, biomarker science, scientific knowledge management, and R&D digital platforms.
+ACME Pharma has about 50,000 employees globally. The R&D organization has about 9,000 employees across discovery, translational science, preclinical safety, clinical development interfaces, regulatory science, biomarker science, scientific knowledge management, and R&D digital platforms.
 
 The AI-in-R&D audit focuses on AI tools used before marketing authorization and before broad production deployment. The scope includes formal pilots, supplier-supported prototypes, and potential shadow AI use by research teams.
 

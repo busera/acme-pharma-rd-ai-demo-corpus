@@ -22,7 +22,7 @@ Fact: 'The strategy covers four AI capabilities: literature review support, expe
   decisions include whether external model providers may process unpublished research
   text, whether research data may be used for model training, ownership of co-developed
   models, cloud-hosted model endpoint compliance with confidentiality, and how model
-  outputs will be captured in research records. The R&D organization comprises 14,500
+  outputs will be captured in research records. The R&D organization comprises 9,000
   employees, and the AI program sits within Global Research Platforms. The audit scope
   focuses on pre-approval R&D use cases, with the highest risk where AI output influences
   GxP-relevant decisions or regulatory submissions.'
@@ -43,7 +43,7 @@ Summary: 'ACME Pharma''s R&D AI Strategy 2026 aims to improve research productiv
   for model training, ownership of co-developed models, cloud endpoint compliance
   with confidentiality, and capture of model outputs in research records. The document
   describes the operating context: ACME Pharma is a global life-sciences company with
-  14,500 R&D employees, and the AI program is housed in Global Research Platforms,
+  9,000 R&D employees, and the AI program is housed in Global Research Platforms,
   serving multiple scientific domains. The audit scope is limited to pre-approval
   R&D use cases, with the highest risk at the boundary where AI output influences
   GxP-relevant decisions or regulatory submission support activities.'
@@ -89,7 +89,7 @@ The strategy assumes a phased rollout. Pilot use cases may run in a controlled s
 
 ## ACME Pharma R&D operating context
 
-ACME Pharma is an 80,000-employee global life-sciences company with a central R&D organization of roughly 14,500 employees and long-running partnerships with universities, contract research organizations, technology providers, and data vendors. The R&D AI program sits inside the Global Research Platforms group, but its users span discovery biology, translational science, preclinical safety, clinical pharmacology, biomarker science, regulatory science, and scientific knowledge management.
+ACME Pharma is a 50,000-employee global life-sciences company with a central R&D organization of roughly 9,000 employees and long-running partnerships with universities, contract research organizations, technology providers, and data vendors. The R&D AI program sits inside the Global Research Platforms group, but its users span discovery biology, translational science, preclinical safety, clinical pharmacology, biomarker science, regulatory science, and scientific knowledge management.
 
 The current audit scope focuses on pre-approval R&D use cases, not commercial, manufacturing, or patient-facing medical advice. The highest-risk boundary is where AI output starts to influence a GxP-relevant decision, a regulatory submission support activity, or an electronic research record that could later be relied on for development decisions.
 
