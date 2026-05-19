@@ -73,6 +73,12 @@ Updated: 2026-05-17
 |---|---|---|
 | `example_outputs/ACME_Pharma_RnD_AI_APM_demo_output_5_risks.md` | Curated generated-output example reduced to 5 selected risks out of 27 candidate risks from the source run. Includes executive summary, engagement context, organizational context, selected risk/risk-control/scope/work-program rows, objectives, logistics, and PBC/evidence-request extracts. | Demonstration extract only; not a complete APM, not audit assurance, not a production methodology |
 
+## Article visual assets
+
+| Folder | Purpose | Boundary |
+|---|---|---|
+| `article_assets/` | Flattened PNG visuals used in the companion Medium article. | Public-safe article-support images only; not implementation screenshots, raw audit outputs, prompts, configs, logs, or production evidence. |
+
 ## Source-status boundary
 
 The central source-status statement is `source_documents/00_meta/DEMO_SOURCE_STATEMENT.md`. Individual ACME Pharma documents are not repeatedly stamped with disclosure language so they can function as realistic article examples.

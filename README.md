@@ -11,6 +11,7 @@ ACME Pharma is an obviously fake company name. The internal-looking documents ar
 - `source_documents/synthetic_internal/` — ACME Pharma internal-looking R&D AI evidence documents for audit-planning demonstration.
 - `SOURCE_MAP.md` — file-level navigation map for the corpus.
 - `example_outputs/` — curated demonstration output generated from the corpus. The included APM extract is reduced to 5 selected risks out of 27 candidate risks from the source run.
+- `article_assets/` — flattened PNG visuals used in the companion Medium article. These are public-safe article-support images, not implementation screenshots or raw audit outputs.
 
 Current source-document count: 50 markdown files.
 
@@ -22,7 +23,7 @@ Current source-document count: 50 markdown files.
 
 This public package excludes runtime and local working artifacts: logs, raw generated APM output folders, state/cache folders, configuration files, local machine paths, AI runtime implementation details, graph refresh reports, package manifests, and private vault context.
 
-The repository is meant to publish the curated corpus and selected public demonstration extracts, not the broader working folder used to create or process it.
+The repository is meant to publish the curated corpus, selected public demonstration extracts, and article-support visuals, not the broader working folder used to create or process it.
 
 ## How to use this corpus
 
