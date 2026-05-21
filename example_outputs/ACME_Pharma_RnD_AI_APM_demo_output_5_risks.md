@@ -60,6 +60,28 @@ No previous audit of this specific R&D AI governance area is identified in the p
 #### 2.4 GOVERNANCE FRAMEWORK APPLICABILITY
 This audit will evaluate control design and operation against a combination of internal policies and external frameworks. The primary internal governance documents are the **Acceptable Use Policy**, which defines permitted and prohibited uses and user responsibilities [11], and the **R&D Data Classification Standard**, which governs the handling of research data based on sensitivity [15]. A known gap in this standard is that it does not define whether embeddings derived from restricted text inherit the same classification [15]. Key external frameworks include the **NIST AI Risk Management Framework (AI RMF)**, which provides a voluntary, cross-sectoral structure for managing AI risks [15], and the **OWASP Top 10 for Large Language Model Applications**, which lists critical security vulnerabilities specific to generative AI [17]. Compliance obligations are heavily influenced by the **EU AI Act**, which sets risk-based rules with phased implementation dates [4], and **FDA draft guidance**, which offers recommendations for AI used in drug development [5]. Together, these frameworks and regulations establish the maturity model and compliance benchmarks against which the organization’s AI governance for R&D pilots will be assessed.
 
+## 2.5 Original generated chapter reference table
+
+The inline citation numbers in this excerpt restart by generated APM chapter. This table preserves the original generated run's reference mapping for the chapter.
+
+| Ref ID | Document Name | IIA Type | Relevance Score |
+|---|---|---|---|
+| [1] | oecd_ai_science_governance_challenges | [GOV] | H |
+| [2] | aws_genai_security_data_privacy | [GOV] | H |
+| [3] | aws_genai_security_scoping_matrix | [CTX] | L |
+| [4] | owasp_llm_top_10 | [GOV] | H |
+| [5] | oecd_ai_in_science | [GOV] | H |
+| [6] | 18_logging_monitoring_summary | [GOV] | H |
+| [7] | 24_data_retention_deletion_standard | [GOV] | H |
+| [8] | 27_offboarding_external_contributors | [GOV] | H |
+| [9] | 21_model_output_review_template | [GOV] | H |
+| [10] | 02_ai_use_case_register | [GOV] | H |
+| [11] | 23_procurement_intake_questionnaire | [GOV] | H |
+| [12] | 01_rd_ai_strategy_2026 | [CTX] | H |
+| [13] | 14_research_integrity_review_minutes | [GOV] | H |
+| [15] | 22_research_portfolio_board_notes | [GOV] | H |
+| [17] | 26_pilot_success_metrics | [GOV] | M |
+
 # 3. Organizational context excerpt
 
 
@@ -117,6 +139,40 @@ The R&D AI function operates within a complex regulatory and compliance landscap
 | EU AI Act (Regulation (EU) 2024/1689) | High-risk AI systems must implement adequate risk assessment, activity logging, detailed documentation, human oversight, and robustness/cybersecurity controls [26]. | Governance owners identified; high-risk classification and evidence package completeness to be confirmed. |
 | GDPR / Data Protection Legislation | Requirements for handling personal data; explicit GDPR reference in cloud security scoping for data protection [2][3]. | Privacy review required for regulated or personal data; audit to test whether review gates operated before external processing. |
 
+## 3.6 Original generated chapter reference table
+
+The inline citation numbers in this excerpt restart by generated APM chapter. This table preserves the original generated run's reference mapping for the chapter.
+
+| Ref ID | Document Name | IIA Type | Relevance Score |
+|---|---|---|---|
+| [2] | aws_genai_security_data_privacy | [GOV] | H |
+| [3] | aws_genai_security_scoping_matrix | [CTX] | L |
+| [6] | 18_logging_monitoring_summary | [GOV] | H |
+| [7] | 24_data_retention_deletion_standard | [GOV] | H |
+| [8] | 27_offboarding_external_contributors | [GOV] | H |
+| [9] | 21_model_output_review_template | [GOV] | H |
+| [10] | 02_ai_use_case_register | [GOV] | H |
+| [11] | 23_procurement_intake_questionnaire | [GOV] | H |
+| [12] | 01_rd_ai_strategy_2026 | [CTX] | H |
+| [13] | 14_research_integrity_review_minutes | [GOV] | H |
+| [14] | 11_model_card_experiment_design_assistant | [GOV] | H |
+| [15] | 22_research_portfolio_board_notes | [GOV] | H |
+| [16] | 15_acceptable_use_policy | [GOV] | H |
+| [18] | 03_rd_data_classification_standard | [GOV] | H |
+| [19] | 10_model_development_lifecycle_sop | [GOV] | H |
+| [21] | 04_research_collaboration_charter | [GOV] | H |
+| [22] | 12_validation_plan | [GOV] | H |
+| [23] | 08_cloud_architecture_overview | [CTX] | H |
+| [24] | fda_ai_drug_development | [REG] | M |
+| [26] | eu_ai_act_overview | [REG] | H |
+| [27] | ENGAGEMENT_META | [WP] | H |
+| [29] | 07_legal_ip_review_questions | [REG] | H |
+| [31] | 20_change_management_log | [RCM] | M |
+| [33] | 09_data_flow_description | [RCM] | H |
+| [34] | 17_access_control_matrix | [RCM] | H |
+| [36] | 25_shadow_ai_survey_results | [EVD] | H |
+| [37] | 05_vendor_copro_sow_excerpt | [REG] | H |
+
 # 4. Risk identification excerpt
 
 ## 4.1 Risk universe — selected rows
@@ -129,6 +185,47 @@ The R&D AI function operates within a complex regulatory and compliance landscap
 | R-19 | N/A | Incomplete AI Use Case Inventory Hindering Governance | The AI use case register is incomplete, as researcher activities using general-purpose tools are not consistently captured, limiting oversight . Without a comprehensive inventory, unauthorized exposure of confidential data through unvetted tools may go undetected . The register does not distinguish between tools used with public versus confidential data, leading to inconsistent risk profiling . This gap impedes governance efforts and control application across R&D AI initiatives . [28] | Limits oversight and control over AI activities, allowing unauthorized exposures that threaten data protection and compliance. [28] | R&D Data Governance | Use Case Management | Operational |
 | R-22 | N/A | Failure to Capture AI-Influenced Decisions in Research Records | AI outputs influencing critical research decisions may not be captured in formal records, as strategy documents highlight this as a key open decision . Without documented traceability, audit trails for regulatory submissions or patent defenses could be compromised . The model development lifecycle SOP requires recording AI influence on hypothesis generation or candidate selection, but adoption gaps may exist . This lack of documentation hinders accountability and scientific integrity . [30] [13] | Compromises audit trails for regulatory submissions and patent defenses, risking legal challenges and regulatory non-compliance. [30] [13] | Scientific Integrity | Documentation and Traceability | Compliance |
 
+## 4.2 Original generated chapter reference table
+
+The inline citation numbers in this excerpt restart by generated APM chapter. This table preserves the original generated run's reference mapping for the chapter.
+
+| Ref ID | Document Name | IIA Type | Relevance Score |
+|---|---|---|---|
+| [1] | 03_rd_data_classification_standard | N/A | N/A |
+| [2] | 24_data_retention_deletion_standard | N/A | N/A |
+| [3] | 18_logging_monitoring_summary | N/A | N/A |
+| [4] | 05_vendor_copro_sow_excerpt | N/A | N/A |
+| [5] | 06_third_party_risk_assessment | N/A | N/A |
+| [6] | 23_procurement_intake_questionnaire | N/A | N/A |
+| [7] | 08_cloud_architecture_overview | N/A | N/A |
+| [8] | 09_data_flow_description | N/A | N/A |
+| [9] | 14_research_integrity_review_minutes | N/A | N/A |
+| [10] | 21_model_output_review_template | N/A | N/A |
+| [11] | 12_validation_plan | N/A | N/A |
+| [12] | 20_change_management_log | N/A | N/A |
+| [13] | 10_model_development_lifecycle_sop | N/A | N/A |
+| [14] | 25_shadow_ai_survey_results | N/A | N/A |
+| [15] | 15_acceptable_use_policy | N/A | N/A |
+| [16] | 27_offboarding_external_contributors | N/A | N/A |
+| [17] | 11_model_card_experiment_design_assistant | N/A | N/A |
+| [18] | 22_research_portfolio_board_notes | N/A | N/A |
+| [19] | oecd_ai_science_governance_challenges | N/A | N/A |
+| [20] | 19_incident_response_playbook | N/A | N/A |
+| [21] | 07_legal_ip_review_questions | N/A | N/A |
+| [22] | 04_research_collaboration_charter | N/A | N/A |
+| [23] | 26_pilot_success_metrics | N/A | N/A |
+| [24] | 17_access_control_matrix | N/A | N/A |
+| [25] | aws_genai_security_data_privacy | N/A | N/A |
+| [26] | 13_risk_register_extract | N/A | N/A |
+| [27] | aws_genai_security_scoping_matrix | N/A | N/A |
+| [28] | 02_ai_use_case_register | N/A | N/A |
+| [29] | 16_training_material_outline | N/A | N/A |
+| [30] | 01_rd_ai_strategy_2026 | N/A | N/A |
+| [31] | owasp_llm_top_10 | N/A | N/A |
+| [32] | eu_ai_act_overview | N/A | N/A |
+| [33] | fda_ai_drug_development | N/A | N/A |
+| [34] | oecd_ai_in_science | N/A | N/A |
+
 # 5. Risk assessment excerpt
 
 ## 5.1 Risk and control matrix — selected rows
@@ -140,6 +237,44 @@ The R&D AI function operates within a complex regulatory and compliance landscap
 | R-15 | Weak Access Controls for Data Export in AI Systems | **L4 x I5 = 20**<br>*Rationale:* Likelihood is rated 4 because access control matrices do not define who can export retrieved passages, prompt history, embeddings, or generated outputs, creating a gap in data exfiltration controls [18_logging_monitoring_summary]. Without least-privilege enforcement for export functions, sensitive research data could be unauthorizedly extracted [18_logging_monitoring_summary]. Shared accounts are prohibited, but monitoring gaps may allow violations [18_logging_monitoring_summary]. This risk is heightened by external personnel access without time-bound restrictions [18_logging_monitoring_summary]. Impact is rated 5 because unauthorized data exfiltration enables IP loss and compromises the security of R&D assets, which is catastrophic for business objectives [18_logging_monitoring_summary]. | Inferred control: Role-based access control for data export functions | Inferred control: Export functions should be restricted to specific roles such as Principal Scientist or R&D AI Product Owner, requiring approvals based on the general access control matrix to enforce least privilege [18_logging_monitoring_summary]. The objective is to prevent unauthorized data exfiltration by defining and monitoring export permissions [18_logging_monitoring_summary]. [25] [17] | **L4 x I5 = 20**<br>*Rationale:* Residual risk remains high because the inferred control is not explicitly documented or implemented for export functions, leaving the gap in data exfiltration controls unaddressed [18_logging_monitoring_summary]. Therefore, likelihood and impact are unchanged from inherent levels [18_logging_monitoring_summary]. |
 | R-19 | Incomplete AI Use Case Inventory Hindering Governance | **L4 x I4 = 16**<br>*Rationale:* The AI use case register is incomplete, with researcher activities using general-purpose tools not consistently captured, leading to a high likelihood of unauthorized data exposure going undetected [02_ai_use_case_register]. This gap impedes governance and control application, posing a high impact on data protection and compliance [02_ai_use_case_register]. | Inferred Control: AI Use Case Inventory Review Process | A periodic review process where designated human decision owners are responsible for updating the AI use case register to ensure all researcher activities are captured and classified [02_ai_use_case_register]. The objective is to maintain a comprehensive inventory for effective governance and risk management. [24] | **L4 x I4 = 16**<br>*Rationale:* The inferred control is not documented or enforced, so the likelihood of incomplete inventory remains high, and the impact of unauthorized exposures persists [02_ai_use_case_register]. Without a robust process, residual risk is critical. |
 | R-22 | Failure to Capture AI-Influenced Decisions in Research Records | **L4 x I5 = 20**<br>*Rationale:* The likelihood is rated 4 (High) because adoption gaps exist in the model development lifecycle SOP that requires recording AI influence on research decisions [aws_genai_security_data_privacy]. The impact is rated 5 (Very High) as failure to capture these decisions compromises audit trails for regulatory submissions and patent defenses, risking legal challenges and regulatory non-compliance [26_pilot_success_metrics]. | Model Development Lifecycle SOP Requirement for Recording AI Influence | The Model Development Lifecycle SOP mandates that records capture whether AI outputs influence hypothesis generation, candidate selection, experiment prioritization, regulatory evidence, patent decisions, or collaboration discussions to ensure traceability and accountability for audit trails and scientific integrity [aws_genai_security_data_privacy]. [12] [9] | **L3 x I5 = 15**<br>*Rationale:* With the SOP control in place, likelihood is reduced to 3 (Moderate) due to the documented requirement, but adoption gaps persist, limiting effectiveness [aws_genai_security_data_privacy]. Impact remains 5 (Very High) as incomplete implementation could still lead to compromised audit trails and severe regulatory consequences [26_pilot_success_metrics]. |
+
+## 5.2 Original generated chapter reference table
+
+The inline citation numbers in this excerpt restart by generated APM chapter. This table preserves the original generated run's reference mapping for the chapter.
+
+| Ref ID | Document Name | IIA Type | Relevance Score |
+|---|---|---|---|
+| [1] | 24_data_retention_deletion_standard | N/A | N/A |
+| [2] | 06_third_party_risk_assessment | N/A | N/A |
+| [3] | 07_legal_ip_review_questions | N/A | N/A |
+| [4] | 19_incident_response_playbook | N/A | N/A |
+| [5] | 08_cloud_architecture_overview | N/A | N/A |
+| [6] | 09_data_flow_description | N/A | N/A |
+| [7] | oecd_ai_science_governance_challenges | N/A | N/A |
+| [8] | 21_model_output_review_template | N/A | N/A |
+| [9] | aws_genai_security_data_privacy | N/A | N/A |
+| [10] | 12_validation_plan | N/A | N/A |
+| [11] | 20_change_management_log | N/A | N/A |
+| [12] | 10_model_development_lifecycle_sop | N/A | N/A |
+| [13] | owasp_llm_top_10 | N/A | N/A |
+| [14] | aws_genai_security_scoping_matrix | N/A | N/A |
+| [15] | fda_ai_drug_development | N/A | N/A |
+| [16] | 15_acceptable_use_policy | N/A | N/A |
+| [17] | 18_logging_monitoring_summary | N/A | N/A |
+| [18] | eu_ai_act_overview | N/A | N/A |
+| [19] | 25_shadow_ai_survey_results | N/A | N/A |
+| [20] | 27_offboarding_external_contributors | N/A | N/A |
+| [21] | 11_model_card_experiment_design_assistant | N/A | N/A |
+| [22] | 23_procurement_intake_questionnaire | N/A | N/A |
+| [23] | 04_research_collaboration_charter | N/A | N/A |
+| [24] | 02_ai_use_case_register | N/A | N/A |
+| [25] | 17_access_control_matrix | N/A | N/A |
+| [26] | 28_awp_pbc_request_draft | N/A | N/A |
+| [27] | 13_risk_register_extract | N/A | N/A |
+| [28] | 16_training_material_outline | N/A | N/A |
+| [29] | ENGAGEMENT_META | N/A | N/A |
+| [30] | 01_rd_ai_strategy_2026 | N/A | N/A |
+| [31] | 03_rd_data_classification_standard | N/A | N/A |
 
 # 6. Risk prioritization and scope excerpt
 
@@ -163,6 +298,34 @@ The generated APM derives three primary objectives. In this five-risk public ext
 
 These objectives are a reduced public-facing interpretation of the generated objective chapter; the full generated APM contains broader risk traceability across all 27 candidate risks.
 
+## 7.1 Original generated chapter reference table
+
+The inline citation numbers in this excerpt restart by generated APM chapter. This table preserves the original generated run's reference mapping for the chapter.
+
+| Ref ID | Document Name | IIA Type | Relevance Score |
+|---|---|---|---|
+| [2] | aws_genai_security_data_privacy | [GOV] | H |
+| [3] | owasp_llm_top_10 | [GOV] | H |
+| [4] | nist_ai_rmf_genai_profile | [RCM] | H |
+| [5] | oecd_ai_in_science | [GOV] | H |
+| [6] | 18_logging_monitoring_summary | [GOV] | H |
+| [7] | 24_data_retention_deletion_standard | [GOV] | H |
+| [8] | 27_offboarding_external_contributors | [GOV] | H |
+| [9] | 21_model_output_review_template | [GOV] | H |
+| [11] | 23_procurement_intake_questionnaire | [GOV] | H |
+| [12] | 14_research_integrity_review_minutes | [GOV] | M |
+| [13] | 11_model_card_experiment_design_assistant | [GOV] | M |
+| [15] | 22_research_portfolio_board_notes | [GOV] | M |
+| [18] | 09_data_flow_description | [RCM] | M |
+| [20] | 26_pilot_success_metrics | [GOV] | M |
+| [21] | 17_access_control_matrix | [RCM] | H |
+| [23] | 10_model_development_lifecycle_sop | [GOV] | H |
+| [27] | 12_validation_plan | [GOV] | M |
+| [30] | eu_ai_act_overview | [REG] | M |
+| [31] | ENGAGEMENT_META | [WP] | Critical |
+| [34] | 01_rd_ai_strategy_2026 | [CTX] | H |
+| [35] | 25_shadow_ai_survey_results | [EVD] | H |
+
 # 8. Audit work program excerpt
 
 The following rows preserve generated work-program wording for the selected risks where present. They are dense by design: the purpose is to show the type of test logic produced, not to optimize GitHub readability.
@@ -174,6 +337,43 @@ The following rows preserve generated work-program wording for the selected risk
 | R-15 | Weak Access Controls for Data Export in AI Systems | Access Control Testing for Data Export Functions in AI Systems | This audit procedure assesses the design and operating effectiveness of controls governing the export of data from AI systems, including retrieved passages, prompt history, embeddings, and generated outputs. The objective is to determine whether export functions are restricted to authorized roles through role-based access controls and approval workflows, thereby preventing unauthorized data exfiltration. Testing will evaluate if the control design is fit-for-purpose and if it operates consistently over time with adequate monitoring. | The Test of Design (ToD) will evaluate whether the control design for data export functions is fit-for-purpose to mitigate the risk of unauthorized data exfiltration. The approach involves reviewing documented policies, access matrices, and design specifications to ensure export permissions are explicitly defined and restricted.<br><br>**Detailed Test Steps:**<br>1. Obtain and review the access control matrix [17_access_control_matrix] to verify if export permissions for data types (e.g., retrieved passages, embeddings) are defined for specific roles (e.g., Principal Scientist, R&D AI Product Owner).<br>2. Review the data export policy or procedures referenced in logging and monitoring summaries [18_logging_monitoring_summary] to confirm requirements for approvals, role-based restrictions, and least-privilege principles.<br>3. Interview the R&D AI Product Owner or system administrators to understand the intended control design, including approval workflows for export requests and any exceptions.<br>4. Assess the design for completeness by checking if it includes mechanisms to prevent unauthorized exports, such as automated checks, segregation of duties, and integration with identity management systems.<br><br>**Required Artifacts:** Access control matrix, data export policy documents, system design diagrams, interview notes or transcripts.<br>**Sources:** [17_access_control_matrix], [18_logging_monitoring_summary], [08_cloud_architecture_overview] for system context, and key personnel interviews. | The Test of Effectiveness (ToE) will evaluate whether the access controls for data export operate consistently and correctly over a defined period, using evidence from system logs and monitoring reports. A sampling strategy will be applied to test actual export events.<br><br>**Sampling Strategy:** Select a random sample of 30 export events from system logs over the last 3 months (or since pilot inception if shorter). If fewer than 30 events exist, test all available events. Additionally, sample 5 instances of access reviews or monitoring reports from the same period to assess oversight.<br><br>**Detailed Test Steps:**<br>1. Extract export event logs from the AI system for the sampling period, focusing on events tagged as data exports (e.g., retrieval of passages, download of embeddings).<br>2. For each sampled export event, verify the user identity and role against the access control matrix [17_access_control_matrix] to ensure the user is authorized for export functions.<br>3. Check approval records (e.g., manager or leadership approval logs) to confirm that required approvals were obtained prior to export, as per policy.<br>4. Review monitoring reports [18_logging_monitoring_summary] to ensure that unauthorized export attempts or anomalies (e.g., high-volume exports) were detected, logged, and escalated.<br>5. Examine incident response records [19_incident_response_playbook] for any reported incidents related to data exfiltration or unauthorized exports, and verify that corrective actions were taken.<br>6. Assess the effectiveness of periodic access reviews by sampling recent access review reports to confirm that export permissions are regularly validated and revoked if unnecessary.<br><br>**Required Artifacts:** Export event logs, approval records (e.g., email or system approvals), monitoring reports, incident response logs, access review reports.<br>**Sources:** System logs (from AI applications), [18_logging_monitoring_summary], [19_incident_response_playbook], [17_access_control_matrix] for role definitions, and access review documentation. |
 | R-19 | Incomplete AI Use Case Inventory Hindering Governance | Assessment of AI Use Case Inventory Completeness and Review Process | This audit procedure aims to evaluate whether the AI use case inventory is comprehensive and regularly updated to capture all researcher activities involving AI tools. The objective is to ensure that governance controls are based on a complete inventory, preventing unauthorized data exposures. Testing will assess the design of the review process and its operating effectiveness over a defined period to verify that oversight is not hindered. | The Test of Design will assess whether the documented AI use case inventory review process is fit-for-purpose to address the risk of incomplete inventory hindering governance. Steps include: 1. Obtain and review the AI use case register [02_ai_use_case_register] to examine its structure, fields (e.g., use cases, data involved, third parties, statuses, human decision owners), and any documented review procedures. 2. Identify the formal process for periodic reviews, including the definition of roles and responsibilities for human decision owners, frequency of updates (e.g., quarterly), and procedures for adding or modifying entries. 3. Evaluate if the control design includes explicit criteria for capturing all AI activities, such as shadow AI usage from general-purpose tools, and for classifying use cases by data sensitivity and external dependency to enable risk profiling. 4. Determine if the design aligns with governance objectives by ensuring the inventory supports oversight, control application, and prevention of unauthorized data exposures. <br><br>**Required Artifacts:** AI use case register document, policy or standard operating procedure (SOP) for inventory review and updates, role definition matrices for human decision owners. <br>**Sources:** [02_ai_use_case_register], [10_model_development_lifecycle_sop] for intake and use-case classification stages, [04_research_collaboration_charter] for collaboration definitions. | The Test of Effectiveness will evaluate whether the AI use case inventory review process operates consistently and correctly over the past 6 months. Sampling Strategy: Select a random sample of 15 use cases from the current AI use case register and a sample of 10 researcher activities reported in the shadow AI survey [25_shadow_ai_survey_results] to test for completeness and classification accuracy. Steps include: 1. Define the testing period as the last 6 months to cover at least one full review cycle. 2. Review meeting minutes, change logs, or version histories of the AI use case register to evidence regular updates and approvals by designated decision owners during this period. 3. For the sampled 15 use cases, verify that each has been reviewed, updated as needed, and includes accurate classifications for data sensitivity and external dependency. 4. Compare the sampled survey activities against the inventory to identify any gaps where AI tool usage is not captured, particularly for confidential data handling. 5. Check if any incidents of unauthorized data exposure were detected or prevented through inventory-based governance actions, using incident logs if available. 6. Assess the timeliness and completeness of updates by tracking the date of last review for each sampled use case against the defined frequency. <br><br>**Required Artifacts:** Updated versions of the AI use case register (e.g., snapshots over 6 months), meeting minutes or logs of review activities, shadow AI survey results dataset, incident response logs or reports, access logs for AI tools to correlate usage. <br>**Sources:** [02_ai_use_case_register], [25_shadow_ai_survey_results], [20_change_management_log] for change records, [18_logging_monitoring_summary] for access and monitoring data, [19_incident_response_playbook] for incident handling evidence. |
 | R-22 | Failure to Capture AI-Influenced Decisions in Research Records | Audit of AI Influence Documentation in Research Records | This procedure evaluates the design and effectiveness of controls ensuring that AI-influenced research decisions are documented for traceability. It tests whether the Model Development Lifecycle SOP's requirements are properly designed and consistently followed to capture AI impact on hypothesis generation, candidate selection, and other critical decisions. The objective is to mitigate risks to regulatory audit trails and scientific integrity by verifying documentation completeness and adherence. | **Test of Design Approach:** Assess the fit-for-purpose design of the Model Development Lifecycle SOP requirement for recording AI influence. <br><br>**Test Steps:** 1. Obtain and review the latest version of the Model Development Lifecycle SOP [10_model_development_lifecycle_sop]. 2. Identify specific clauses that mandate documentation of AI influence on research decisions, such as hypothesis generation, candidate selection, experiment prioritization, regulatory evidence, patent decisions, and collaboration discussions. 3. Evaluate if the SOP design includes clear instructions, roles, responsibilities, and enforcement mechanisms for capturing this information. 4. Verify that the design aligns with the control objective of ensuring traceability and accountability, referencing [aws_genai_security_data_privacy] for context on audit logging needs. 5. Check for design gaps, such as undefined decision types or lack of integration with research record systems. <br><br>**Required Artifacts:** Model Development Lifecycle SOP document, any related policy amendments or guidelines. <br>**Sources:** 10_model_development_lifecycle_sop, aws_genai_security_data_privacy | **Test of Effectiveness Approach:** Evaluate the consistent operation of the documentation control over the past 6 months using random sampling. <br><br>**Sampling Strategy:** Randomly select 10 AI use cases from the AI use-case register [02_ai_use_case_register] that were active or completed in the past 6 months. If fewer than 10 exist, select all. For each sampled use case, examine associated documentation to test adherence. <br><br>**Test Steps:** - Extract the list of AI use cases from [02_ai_use_case_register] with statuses indicating active or completed pilots. - Apply random sampling to select 10 use cases. - For each selected use case, retrieve the use-case record, validation plan, and any completed model output review templates [21_model_output_review_template]. - Review these documents to verify if they capture whether AI outputs influenced research decisions as specified in the SOP, including fields for decision impact and follow-up actions. - Check for evidence of principal scientist approval or similar oversight where required. - Interview responsible research leads or product owners to confirm adherence and identify adoption gaps. - Document findings and assess the consistency of control operation across the sample. <br><br>**Required Artifacts:** AI use-case register, sample use-case records, model output review templates, interview transcripts or notes. <br>**Sources:** 02_ai_use_case_register, 21_model_output_review_template, 10_model_development_lifecycle_sop |
+
+## 8.1 Original generated chapter reference table
+
+The inline citation numbers in this excerpt restart by generated APM chapter. This table preserves the original generated run's reference mapping for the chapter. Rows marked as citation-support rows are a manual editorial intervention: they are added from cited filenames in the generated work-program text where the original generated reference table did not include that numeric ID.
+
+| Ref ID | Document Name | IIA Type | Relevance Score |
+|---|---|---|---|
+| [1] | oecd_ai_science_governance_challenges | [GOV] | M |
+| [2] | aws_genai_security_data_privacy | [GOV] | H |
+| [6] | 18_logging_monitoring_summary | [GOV] | H |
+| [7] | 24_data_retention_deletion_standard | [GOV] | H |
+| [8] | 27_offboarding_external_contributors | [GOV] | H |
+| [9] | 21_model_output_review_template | [GOV] | H |
+| [10] | 02_ai_use_case_register | [GOV] | H |
+| [11] | 23_procurement_intake_questionnaire | [GOV] | H |
+| [12] | 01_rd_ai_strategy_2026 | [CTX] | H |
+| [13] | 14_research_integrity_review_minutes | [GOV] | H |
+| [14] | 11_model_card_experiment_design_assistant | [GOV] | H |
+| [15] | 22_research_portfolio_board_notes | [GOV] | H |
+| [16] | 16_training_material_outline | [GOV] | M — citation-support row |
+| [17] | 26_pilot_success_metrics | [GOV] | M |
+| [18] | 03_rd_data_classification_standard | [GOV] | H |
+| [19] | 10_model_development_lifecycle_sop | [GOV] | H |
+| [20] | 16_training_material_outline | [GOV] | M |
+| [22] | 12_validation_plan | [GOV] | H |
+| [23] | 08_cloud_architecture_overview | [CTX] | H |
+| [25] | 25_shadow_ai_survey_results | [EVD] | H — citation-support row |
+| [26] | eu_ai_act_overview | [REG] | H |
+| [27] | ENGAGEMENT_META | [WP] | M |
+| [29] | 07_legal_ip_review_questions | [REG] | H |
+| [30] | 06_third_party_risk_assessment | [RCM] | H |
+| [31] | 20_change_management_log | [RCM] | H |
+| [33] | 09_data_flow_description | [RCM] | H |
+| [34] | 17_access_control_matrix | [RCM] | H |
+| [35] | 19_incident_response_playbook | [RCM] | H |
+| [36] | 25_shadow_ai_survey_results | [EVD] | H |
+| [37] | 05_vendor_copro_sow_excerpt | [REG] | H |
 
 # 9. Engagement logistics excerpt
 
