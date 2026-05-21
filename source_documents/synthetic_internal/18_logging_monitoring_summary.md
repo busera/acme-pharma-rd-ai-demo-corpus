@@ -7,48 +7,25 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 18_logging_monitoring_summary.md
-IIA_Type: GOV
-IIA_Type_Rational: This document outlines the logging and monitoring design for the
-  AI sandbox, which is a key governance control for traceability and security. It
-  describes monitoring objectives, logged events, and design tensions, making it a
-  governance document.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The sandbox logging design expects to capture authentication, document ingestion,
-  permission changes, retrieval queries, model requests, administrative actions, exports,
-  and deletions. Monitoring objectives include detecting unauthorized access to restricted
-  project corpora, unusually high query or export volume, attempts to process restricted
-  data classes, and vendor support access. There is an unresolved tension between
-  auditability and data minimization because logs may contain sensitive prompts, retrieved
-  passages, or research hypotheses. The current proposal is to keep full payloads
-  only in an approved evidence store, use hashed or redacted payload references in
-  operational logs, and require elevated access for incident reconstruction. Monitoring
-  is split into operational monitoring (errors, performance, model endpoint failures)
-  and governance monitoring (unusual usage patterns, restricted data in wrong workspace,
-  exports from high-risk workspaces, repeated use after pilot expiry, supplier access
-  outside approved windows). The summary acknowledges current monitoring limitations.
-Summary: The document is a draft logging and monitoring summary for the AI sandbox.
-  It lists the types of events expected to be logged, including authentication, document
-  ingestion, permission changes, retrieval queries, model requests, administrative
-  actions, exports, and deletions. The monitoring objectives focus on detecting unauthorized
-  access, unusual query or export volumes, attempts to process restricted data, vendor
-  support access, and supporting investigations. A key tension is balancing auditability
-  with data minimization, as logs may contain sensitive research content. The proposed
-  solution is to store full payloads only in an approved evidence store, use hashed
-  or redacted references in operational logs, and require elevated access for incident
-  reconstruction. Monitoring is divided into operational monitoring for errors and
-  performance, and governance monitoring for unusual usage patterns and policy violations.
-  The document also notes that the team has not fully resolved the trade-off between
-  auditability and data minimization, and that current monitoring limitations exist.
-Section_Context: Governance framework
-IIA_Relevance_Explanation: This document outlines the logging and monitoring design
-  for the AI sandbox, which is a key governance control for traceability and security.
-  It describes monitoring objectives, logged events, and design tensions, mak...
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: This document outlines the logging and monitoring
-  design for the AI sandbox, which is a key governance control for traceability and
-  security. It describes mo...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'scenario: AI in Research and Development planning evidence. The sandbox is
+  expected to log authentication events, document ingestion events, permission changes,
+  retrieval queries, model requests, administrative actions, export events, and deletion
+  jobs.'
+Summary: 'title: Logging and Monitoring Summary. doc_type: monitoring summary. owner:
+  Security Operations. status: draft. company: ACME Pharma. confidentiality: Internal.
+  scenario: AI in Research and Development planning evidence. Logging and Monitoring
+  Summary. Logged events. The sandbox is expected to log authentication events, document
+  ingestion events, permission changes, retrieval queries, model requests, administrative
+  actions, export events, and deletion jobs.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Logging and Monitoring Summary

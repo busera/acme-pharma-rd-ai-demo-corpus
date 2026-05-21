@@ -7,48 +7,23 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 15_acceptable_use_policy.md
-IIA_Type: GOV
-IIA_Type_Rational: This document is an internal policy that defines permitted and
-  prohibited uses of AI in R&D, establishing governance controls for AI pilots.
-Quality_Rating: H
-Relevance_Score: H
-Fact: The policy permits researchers to use approved AI tools for summarizing public
-  literature, drafting non-confidential outlines, comparing public methods, generating
-  non-production code examples, and preparing expert review questions. It prohibits
-  uploading confidential research data to unapproved AI services, using AI for final
-  scientific, safety, regulatory, or portfolio decisions, processing human-subject
-  or clinical data, uploading partner data without contractual permission, inferring
-  trade secrets, and using AI-generated content in external submissions without review.
-  Users must check source evidence, label AI-assisted content, retain review notes
-  for decision-relevant outputs, and report suspected data leakage or incorrect output
-  that influenced a decision. The policy does not yet define how to monitor compliance
-  without excessive surveillance. It also states that prompts and outputs containing
-  internal research context are company records, and deleting a chat window does not
-  delete them.
-Summary: The Acceptable Use Policy for AI in R&D, owned by the AI Governance Office,
-  establishes rules for researchers using AI tools. It permits the use of approved
-  AI tools for tasks such as public-literature summarization, drafting non-confidential
-  outlines, comparing public methods, generating code examples for non-production
-  analysis, and preparing questions for expert review. Prohibited activities include
-  uploading confidential research data to unapproved AI services, using AI to make
-  final scientific, safety, regulatory, or portfolio decisions, processing human-subject,
-  clinical, or personal data, uploading partner data without contractual permission,
-  and using AI-generated content in external submissions without review. Users are
-  responsible for verifying source evidence, labeling AI-assisted content where required,
-  retaining review notes for decision-relevant outputs, and reporting any suspected
-  data leakage or incorrect output that influenced a decision. The policy also notes
-  that prompts and outputs become company records when they contain internal research
-  context, and users must not assume that deleting a chat window deletes the underlying
-  data. An open issue is that the policy does not yet define how to monitor compliance
-  without creating excessive surveillance of research work.
-Section_Context: Governance framework
-IIA_Relevance_Explanation: This document is an internal policy that defines permitted
-  and prohibited uses of AI in R&D, establishing governance controls for AI pilots.
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: This document is an internal policy that defines
-  permitted and prohibited uses of AI in R&D, establishing governance controls for
-  AI pilots.'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Acceptable Use Policy for AI in R&D. scenario: AI in Research and Development
+  planning evidence.'
+Summary: 'title: Acceptable Use Policy for AI in R&D. doc_type: policy. owner: AI
+  Governance Office. status: approved. company: ACME Pharma. confidentiality: Internal.
+  scenario: AI in Research and Development planning evidence. Acceptable Use Policy
+  for AI in R&D. Permitted uses. Researchers may use approved AI tools for public-literature
+  summarization, drafting non-confidential outlines, comparing public methods, generating
+  code examples for non-production analysis, and preparing questions for expert review.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Acceptable Use Policy for AI in R&D

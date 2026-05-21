@@ -7,56 +7,23 @@ status: working
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 33_ai_system_inventory.md
-IIA_Type: EVD
-IIA_Type_Rational: This document is an AI system inventory extract that provides factual
-  evidence of the current AI systems in R&D, their lifecycle states, and identified
-  control gaps, directly supporting the audit objective to assess governance and traceability.
-Quality_Rating: H
-Relevance_Score: H
-Fact: 'The inventory records nine AI systems used or planned in R&D, maintained by
-  Enterprise Architecture with input from AI Governance, R&D Digital Office, Security,
-  Data Stewardship, and system owners. Systems are in various lifecycle states: Running,
-  Running pilot, In development, On hold, and Proposed. Several systems have significant
-  control gaps: SYS-AI-001 has limited source-quality monitoring; SYS-AI-002 lacks
-  consistent evidence of support access reviews; SYS-AI-003 has pending derived artifact
-  ownership and GxP classification; SYS-AI-004 shows weak portfolio decision traceability;
-  SYS-AI-005 has unresolved Part 11, data integrity, and validation approach; SYS-AI-006
-  has unresolved privilege, IP reuse, and supplier training terms; SYS-AI-007 has
-  an undefined submission-support boundary and quality review model; SYS-AI-008 has
-  thin vendor change notification and evaluation evidence. The inventory also notes
-  that SYS-AI-009, External General AI Tools, is listed but the snippet is incomplete.
-  These gaps directly relate to governance, security, legal review, human control,
-  and traceability concerns for AI pilots before expansion.'
-Summary: The document is an extract from the ACME Pharma R&D AI system inventory,
-  which records technical AI solutions used or planned in R&D. It is maintained by
-  Enterprise Architecture with cross-functional input and must reconcile with business
-  use cases, supplier records, cloud assets, model lifecycle documentation, and retirement
-  plans. The extract presents a table of nine AI systems, each with a system ID, AI
-  system name, type, hosting/supplier model, lifecycle state, supported use cases,
-  highest data class, monitoring status, and key control gap. The systems range from
-  a knowledge search assistant and an insight workspace to a co-developed experiment-design
-  assistant, a candidate evidence ranker, a lab record drafting assistant, a patent
-  landscape copilot, a regulatory drafting support tool, a partner intelligence feed,
-  and external general AI tools. Lifecycle states include Running, Running pilot,
-  In development, On hold, and Proposed, indicating a mix of operational and pre-operational
-  systems. Monitoring statuses vary from basic usage and citation monitoring to blocked-request
-  and reviewer-disposition monitoring, test monitoring only, reviewer override tracking,
-  and none. Key control gaps highlight deficiencies in source-quality monitoring,
-  support access review evidence, derived artifact ownership and GxP classification,
-  portfolio decision traceability, Part 11 and data integrity compliance, privilege
-  and IP reuse terms, submission-support boundary definition, and vendor change notification
-  evaluation. The inventory serves as a foundational record for assessing the governance,
-  security, legal, human-control, and traceability posture of AI pilots before any
-  expansion beyond the sandbox.
-Section_Context: Evidence artifact
-IIA_Relevance_Explanation: This document is an AI system inventory extract that provides
-  factual evidence of the current AI systems in R&D, their lifecycle states, and identified
-  control gaps, directly supporting the audit objective to assess g...
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: This document is an AI system inventory extract
-  that provides factual evidence of the current AI systems in R&D, their lifecycle
-  states, and identified contr...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: ACME Pharma R&D AI system inventory extract. owner: Enterprise Architecture
+  / AI Governance Office.'
+Summary: 'title: ACME Pharma R&D AI system inventory extract. company: ACME Pharma.
+  doc_type: system inventory extract. owner: Enterprise Architecture / AI Governance
+  Office. status: working. confidentiality: Internal. scenario: AI in Research and
+  Development planning evidence. ACME Pharma R&D AI system inventory extract. Inventory
+  purpose. The AI system inventory records the technical AI solutions used or planned
+  in R&D.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # ACME Pharma R&D AI system inventory extract

@@ -7,59 +7,23 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 05_vendor_copro_sow_excerpt.md
-IIA_Type: GOV
-IIA_Type_Rational: The document is a contract excerpt defining terms for AI co-development,
-  including data use, ownership, and exit clauses, which are governance controls for
-  the AI pilot.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The SOW excerpt reveals ambiguous data-use language that does not clearly distinguish
-  between improving the customer-specific solution and the vendor's general products,
-  nor define whether prompts, embeddings, and evaluation cases are confidential. Ownership
-  language fails to classify co-developed model adapters, evaluation harnesses, prompt
-  libraries, feature engineering decisions, or workflow design patterns. Contract
-  clause gaps include unclear training restrictions on support telemetry, unnamed
-  derived artifacts, incomplete subprocessor listing, unspecified support access log
-  review timing, and exit obligations that omit derived artifacts and backups. The
-  document is intentionally ambiguous to drive discovery on IP ownership, vendor training,
-  data retention, subcontracting, and post-engagement know-how. For Project NEURALIS,
-  source code and formal documentation are named as ACME-owned deliverables, but other
-  artifacts are not specified.
-Summary: 'This excerpt from an AI Co-Development Statement of Work outlines the implementation
-  partner''s role in designing a prototype assistant for experiment planning and research-document
-  synthesis, including configuring retrieval workflows, assisting with evaluation
-  design, and supporting pilot users during controlled testing. The data-use language
-  is ambiguous, as it states project materials may be used to improve solution performance
-  without distinguishing between customer-specific improvements and vendor general
-  product enhancements, and does not clarify whether prompts, embeddings, evaluation
-  cases, and error examples are customer confidential information. Ownership language
-  assigns pre-existing vendor tools to the vendor and project-specific deliverables
-  to the customer, but does not classify co-developed model adapters, evaluation harnesses,
-  prompt libraries, feature engineering decisions, or workflow design patterns. A
-  table of contract clauses under review identifies specific gaps: training restrictions
-  are unclear on support telemetry and prompt analytics; derived artifacts such as
-  embeddings, evaluation cases, and model adapters are not named, creating ownership
-  and exit ambiguity; subprocessors beyond cloud hosting are not fully listed; emergency
-  support access lacks specified log review timing; and exit obligations require return/deletion
-  of source data but not derived artifacts and backups. The document is intentionally
-  ambiguous to prompt audit discovery questions around IP ownership, vendor training
-  restrictions, data retention, subcontracting, and post-engagement use of know-how.
-  It specifies minimum evidence expected for audit, including the signed agreement,
-  data processing addendum, AI-specific no-training language, subprocessor list, architecture
-  annex, support-access procedure, change-notification obligations, deletion certificate
-  template, and a worked example for retrieving or destroying derived artifacts at
-  exit. For Project NEURALIS, the SOW names source code and formal documentation as
-  ACME-owned deliverables but does not clearly address other artifacts, leaving potential
-  gaps in ownership and exit rights.'
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document is a contract excerpt defining terms for AI
-  co-development, including data use, ownership, and exit clauses, which are governance
-  controls for the AI pilot.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a contract excerpt defining terms
-  for AI co-development, including data use, ownership, and exit clauses, which are
-  governance controls for t...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: ''Excerpt: AI Co-Development Statement of Work''. scenario: AI in Research
+  and Development planning evidence.'
+Summary: 'title: ''Excerpt: AI Co-Development Statement of Work''. doc_type: contract
+  excerpt. owner: Procurement / Legal. status: sample. company: ACME Pharma. confidentiality:
+  Internal. scenario: AI in Research and Development planning evidence. Excerpt: AI
+  Co-Development Statement of Work. Scope excerpt. The implementation partner will
+  support the design of a prototype assistant for experiment planning and research-document
+  synthesis.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Excerpt: AI Co-Development Statement of Work

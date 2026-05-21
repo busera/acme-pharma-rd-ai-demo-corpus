@@ -7,69 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 27_offboarding_external_contributors.md
-IIA_Type: GOV
-IIA_Type_Rational: The document describes a governance process for offboarding external
-  AI contributors, including access removal, data deletion, and IP protection, which
-  is a control activity within the governance framework.
-Quality_Rating: M
-Relevance_Score: H
-Fact: 'The offboarding checklist requires confirming end date, removing system access,
-  retrieving or deleting local copies of company material, and confirming deletion
-  of prompts, outputs, evaluation cases, embeddings, and support logs. It mandates
-  review of deliverables for confidential research information and return of documentation,
-  code, configuration, and co-developed artifacts. Contributors must be reminded of
-  confidentiality, IP, and post-engagement obligations, with written attestation when
-  contractually required. A gap is identified: the checklist is strong on access removal
-  but weak on non-documentary know-how, suggesting legal should define controls through
-  confidentiality, conflict-of-interest, and non-use clauses. The offboarding sequence
-  includes account disablement, project-role removal, retrieval of ACME-owned work
-  products, deletion or return of source data, confirmation for derived artifacts,
-  review of open support tickets, subprocessor obligations, final access-log review,
-  and Legal/IP review of reusable know-how restrictions. Evidence gaps exist for service
-  accounts, shared workspaces, vendor-managed notebooks, exported evaluation sets,
-  and embeddings; audit should test offboarding with a real project closeout. Offboarding
-  triggers include end of supplier engagement, subcontractor departure, co-development
-  phase closure, support role termination, or project workspace retirement, applying
-  to named users, shared technical accounts, development environments, collaboration
-  folders, test data, support logs, evaluation examples, and retained artifacts. Required
-  evidence includes access-removal screenshots or reports, supplier attestation, subprocessor
-  confirmation, deletion logs, final deliverable inventory, unresolved-risk list,
-  and business-owner acceptance. Legal/IP must review any supplier request to retain
-  generic components developed during the project. The document stresses that offboarding
-  should occur when pilot phases end, not only at contract termination.'
-Summary: 'The document is an offboarding checklist for external AI contributors at
-  ACME Pharma. It outlines steps to confirm end date, remove system access, retrieve
-  or delete local copies of company material, and confirm deletion of AI-related artifacts
-  such as prompts, outputs, evaluation cases, embeddings, and support logs. The checklist
-  requires review of deliverables for confidential research information and return
-  of all company-owned documentation, code, configuration, and co-developed artifacts.
-  Contributors must be reminded of confidentiality, IP, and post-engagement obligations,
-  with written attestation obtained when contractually required. A gap is noted: the
-  checklist is strong on access removal but weak on controlling non-documentary know-how,
-  and legal should define controls through confidentiality, conflict-of-interest,
-  and non-use clauses. The offboarding sequence details account disablement, project-role
-  removal, retrieval of work products, deletion or return of source data, confirmation
-  for derived artifacts, review of support tickets, subprocessor obligations, access-log
-  review, and legal/IP review of reusable know-how restrictions. An evidence gap is
-  identified for service accounts, shared workspaces, vendor-managed notebooks, exported
-  evaluation sets, and embeddings, recommending audit test with a real project closeout.
-  Offboarding triggers include end of supplier engagement, subcontractor departure,
-  co-development phase closure, support role termination, or project workspace retirement,
-  applying to various accounts and environments. Required evidence includes access-removal
-  screenshots, supplier attestation, subprocessor confirmation, deletion logs, deliverable
-  inventory, unresolved-risk list, and business-owner acceptance, with legal/IP review
-  for any supplier request to retain generic components. The document emphasizes that
-  offboarding should occur at pilot phase ends, not just contract termination, and
-  that a supplier may retain only what is explicitly permitted.'
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document describes a governance process for offboarding
-  external AI contributors, including access removal, data deletion, and IP protection,
-  which is a control activity within the governance framework.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document describes a governance process for
-  offboarding external AI contributors, including access removal, data deletion, and
-  IP protection, which is a...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Offboarding Checklist for External AI Contributors. scenario: AI in
+  Research and Development planning evidence.'
+Summary: 'title: Offboarding Checklist for External AI Contributors. doc_type: checklist.
+  owner: R&D Partnerships / IAM. status: draft. company: ACME Pharma. confidentiality:
+  Internal. scenario: AI in Research and Development planning evidence. Offboarding
+  Checklist for External AI Contributors. Checklist. Confirm end date and remove system
+  access.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Offboarding Checklist for External AI Contributors

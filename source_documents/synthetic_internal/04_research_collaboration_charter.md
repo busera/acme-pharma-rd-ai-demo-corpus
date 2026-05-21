@@ -7,54 +7,23 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 04_research_collaboration_charter.md
-IIA_Type: GOV
-IIA_Type_Rational: The document is a charter that establishes governance structures,
-  roles, responsibilities, and required controls for AI research collaborations, aligning
-  with IIA's governance documentation type.
-Quality_Rating: M
-Relevance_Score: H
-Fact: 'The charter defines collaboration types: advisory support, data processing,
-  tool configuration, model evaluation, model co-development, and joint research.
-  Each collaboration must define data shared, outputs created, ownership, reuse, personnel
-  access, and post-engagement handling. Subcontracting must be disclosed and approved.
-  Co-development clauses cover ownership of model artifacts, prompts, evaluation datasets,
-  embeddings, code, and documentation; restrictions on partner use of project learnings;
-  audit rights; exit support; and data destruction. Roles include research sponsor,
-  scientific product owner, data steward, model owner, supplier technical lead, Quality,
-  Legal/IP, Privacy, Security, and Internal Audit observer. ACME retains accountability
-  for intended use, source-data approval, scientific interpretation, regulated records,
-  and expansion decisions. Joint work products must be listed in a collaboration asset
-  register with ownership and reuse restrictions. Project NEURALIS is a test case
-  for the collaboration model with HelixBridge Analytics. The planning note states
-  Legal and Third Party Risk Management own contractual interpretation, and Internal
-  Audit should verify assessments happened and risk owners understand residual exposure.'
-Summary: The Research Collaboration Charter for AI-Enabled Projects defines how ACME
-  Pharma R&D collaborates with universities, contract research organizations, analytics
-  vendors, and AI implementation partners. It specifies required controls for each
-  collaboration, including data sharing, output ownership, reuse rights, personnel
-  access, and post-engagement obligations, with subcontracting requiring disclosure
-  and approval. The charter details co-development clauses to confirm, such as ownership
-  of model artifacts, prompts, evaluation datasets, embeddings, code, and documentation,
-  as well as restrictions on partner use of learnings, audit rights, exit support,
-  and data destruction. It assigns clear roles and responsibilities, with ACME retaining
-  accountability for scientific use, data handling, and regulatory decisions, while
-  suppliers handle technical configuration. A shared-responsibility boundary is established,
-  and joint work products must be recorded in a collaboration asset register with
-  ownership and reuse restrictions. The document notes that Legal and Third Party
-  Risk Management own contractual interpretation, and Internal Audit should verify
-  that proper assessments occurred and risk owners understand residual exposure. Project
-  NEURALIS, a co-developed R&D AI assistant with HelixBridge Analytics, is identified
-  as a test case for the collaboration model. The charter is in draft status and is
-  internal to ACME Pharma.
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document is a charter that establishes governance structures,
-  roles, responsibilities, and required controls for AI research collaborations, aligning
-  with IIA's governance documentation type.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a charter that establishes governance
-  structures, roles, responsibilities, and required controls for AI research collaborations,
-  aligning wit...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Research Collaboration Charter for AI-Enabled Projects. scenario: AI
+  in Research and Development planning evidence.'
+Summary: 'title: Research Collaboration Charter for AI-Enabled Projects. doc_type:
+  charter. owner: R&D Partnerships. status: draft. company: ACME Pharma. confidentiality:
+  Internal. scenario: AI in Research and Development planning evidence. Research Collaboration
+  Charter for AI-Enabled Projects. Collaboration model. ACME Pharma R&D collaborates
+  with universities, contract research organizations, analytics vendors, and specialist
+  AI implementation partners.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Research Collaboration Charter for AI-Enabled Projects

@@ -7,44 +7,23 @@ status: in development
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 31_external_party_research_project_neuralis.md
-IIA_Type: GOV
-IIA_Type_Rational: The document is a project charter that establishes governance structures,
-  roles, responsibilities, and boundaries for the AI co-development project, making
-  it a governance document.
-Quality_Rating: H
-Relevance_Score: H
-Fact: 'Project NEURALIS is an AI-supported research-assistant workflow co-developed
-  with HelixBridge Analytics. The business case is approved but risk appetite for
-  broader rollout is not documented. Architecture review is not final, and data upload
-  enforcement and deletion evidence are not proven. The GxP classification is not
-  finalized, though outputs may influence protocol design. Validation testing for
-  negative evidence is immature. Legal/IP review is assigned but derived artifacts
-  are not fully named in the contract annex. The exit checklist is draft and lacks
-  explicit handling for embeddings, evaluation cases, and backups. The document defines
-  clear roles: ACME Translational Medicine owns scientific intended use, reviewer
-  process, and expansion criteria; Legal/IP reviews ownership and exit terms.'
-Summary: This project charter outlines Project NEURALIS, an AI-supported research-assistant
-  workflow for translational medicine teams at ACME Pharma, co-developed with HelixBridge
-  Analytics. The solution helps scientists compare public literature, summarize internal
-  research context, identify contradictory evidence, and challenge experiment designs.
-  The charter includes a status table covering business case, technical build, data
-  use, supplier role, GxP boundary, validation, IP ownership, and exit, each with
-  identified audit concerns. It details parties and responsibilities, assigning ACME
-  Translational Medicine as business owner, R&D Digital Office as product owner, Data
-  Stewardship, Quality/Regulatory Science, Legal/IP, and others, with clear responsibility
-  boundaries. Key gaps noted include undocumented risk appetite for rollout, incomplete
-  architecture review, unproven data controls, pending GxP classification, immature
-  validation, and incomplete exit handling. The document serves to define governance
-  and accountability for the AI pilot before any expansion beyond the sandbox.
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document is a project charter that establishes governance
-  structures, roles, responsibilities, and boundaries for the AI co-development project,
-  making it a governance document.
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: The document is a project charter that establishes
-  governance structures, roles, responsibilities, and boundaries for the AI co-development
-  project, making i...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Project NEURALIS external-party R&D AI co-development charter. owner:
+  R&D Digital Office / Translational Medicine.'
+Summary: 'title: Project NEURALIS external-party R&D AI co-development charter. company:
+  ACME Pharma. doc_type: project charter. owner: R&D Digital Office / Translational
+  Medicine. status: in development. confidentiality: Internal. scenario: AI in Research
+  and Development planning evidence. Project NEURALIS external-party R&D AI co-development
+  charter. Project summary. Project NEURALIS is developing an AI-supported research-assistant
+  workflow for translational medicine teams.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Project NEURALIS external-party R&D AI co-development charter

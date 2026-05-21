@@ -7,55 +7,23 @@ status: approved for pilot governance
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 30_ai_governance_operating_model.md
-IIA_Type: GOV
-IIA_Type_Rational: The document defines the AI governance operating model, including
-  principles, decision rights, and lifecycle controls, directly addressing the governance
-  and control environment for AI pilots.
-Quality_Rating: H
-Relevance_Score: H
-Fact: 'The governance model treats AI governance as a lifecycle control system covering
-  proposal, classification, building, approval, monitoring, change, expansion, and
-  retirement. The R&D AI portfolio must be visible through two linked registers: an
-  AI use-case inventory and an AI system inventory. The human accountability principle
-  states that named ACME Pharma scientists or process owners remain accountable for
-  decisions even when AI supports analysis. Intended-use clarity requires every use
-  case to state what the AI output may and may not be used for. Risk-based assurance
-  scales testing, validation, review, and documentation with data sensitivity, decision
-  impact, GxP relevance, and external-party exposure. Source traceability mandates
-  that material claims, summaries, rankings, and recommendations be traceable to source
-  material and reviewer judgment. Change control requires impact assessment and proportionate
-  retesting for model, prompt, retrieval, data-source, workflow, vendor, or configuration
-  changes. Governance forums include the AI Governance Review Board for new AI ideas,
-  the R&D AI Steering Committee for pilot prioritization, and the GxP Boundary Review
-  for setting GxP or electronic-record boundaries.'
-Summary: 'The document presents ACME Pharma''s AI governance operating model as a
-  lifecycle control system rather than a static policy. It requires the R&D AI portfolio
-  to be tracked through two interconnected registers: one for use cases and one for
-  systems, enabling audit to test both business and technical perspectives. Seven
-  governance principles are defined: human accountability, intended-use clarity, risk-based
-  assurance, source traceability, data minimization, supplier accountability, and
-  change control. Each principle is translated into practical meaning for R&D AI,
-  such as ensuring named scientists remain accountable and that AI outputs have clear
-  permitted uses. The model establishes specific governance forums with decision rights:
-  the AI Governance Review Board accepts new AI ideas, the R&D AI Steering Committee
-  prioritizes pilots, and the GxP Boundary Review determines GxP or electronic-record
-  boundaries. Required inputs for each decision are outlined, linking use-case owners,
-  business rationale, data classes, and supplier involvement. The framework emphasizes
-  that ACME Pharma retains accountability for intended use, data approval, scientific
-  interpretation, and risk acceptance even when external parties provide tools or
-  support. Continuous monitoring is required for high-impact systems to detect performance
-  drift, source-quality issues, and incidents. The document is approved for pilot
-  governance and serves as the foundational governance structure for AI initiatives
-  in R&D.'
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document defines the AI governance operating model,
-  including principles, decision rights, and lifecycle controls, directly addressing
-  the governance and control environment for AI pilots.
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: The document defines the AI governance operating
-  model, including principles, decision rights, and lifecycle controls, directly addressing
-  the governance and...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: ACME Pharma AI governance operating model. scenario: AI in Research
+  and Development planning evidence.'
+Summary: 'title: ACME Pharma AI governance operating model. company: ACME Pharma.
+  doc_type: governance framework. owner: Enterprise AI Governance Office. status:
+  approved for pilot governance. confidentiality: Internal. scenario: AI in Research
+  and Development planning evidence. ACME Pharma AI governance operating model. Governance
+  concept. ACME Pharma treats AI governance as a lifecycle control system, not a policy
+  page.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # ACME Pharma AI governance operating model

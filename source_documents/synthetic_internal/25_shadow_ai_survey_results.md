@@ -7,52 +7,21 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 25_shadow_ai_survey_results.md
-IIA_Type: EVD
-IIA_Type_Rational: The document presents survey data on actual AI tool usage, providing
-  direct evidence of shadow AI practices and potential control gaps relevant to the
-  audit objective.
-Quality_Rating: M
-Relevance_Score: H
-Fact: A voluntary survey of 480 R&D employees found that 38% used at least one non-approved
-  AI tool for public information. Nine percent were uncertain whether internal project
-  language had been pasted into an external tool. The most common reasons cited were
-  faster literature summaries, easier meeting preparation, and frustration with slow
-  approval of sanctioned tools. Researchers reported using AI for literature summaries,
-  language polishing, code snippets, meeting-note cleanup, and first-pass protocol
-  challenge. Several users were unsure whether internal abstracts, unpublished hypotheses,
-  or partner-provided protocol text counted as confidential. Some believed removing
-  compound names or project codes was sufficient to make content safe for public tools.
-  Approved tools were viewed as slower and less flexible than public assistants, and
-  governance intake was described as unclear. Users were not necessarily trying to
-  bypass controls but were solving immediate work problems where approved routes felt
-  too slow.
-Summary: 'The R&D Digital Office conducted a voluntary survey of 480 employees across
-  discovery, translational science, preclinical safety, regulatory science, and portfolio
-  teams to understand how researchers use AI tools. The survey revealed three usage
-  patterns: approved enterprise tools for drafting and summarization, public tools
-  for literature questions, and unapproved tools used experimentally for code, translation,
-  and explaining methods. Key findings indicated that some researchers do not know
-  whether public AI tools retain prompts, many assume public papers can always be
-  pasted into any AI tool, and a minority reported using AI to summarize internal
-  meeting notes. Users expressed a desire for a safe tool for quick literature and
-  protocol questions, and few understood the difference between data processing and
-  model training. The survey snapshot showed that 38% used non-approved AI tools for
-  public information and 9% were uncertain about pasting internal project language
-  into external tools. The most common reasons were faster literature summaries, easier
-  meeting preparation, and frustration with slow approval of sanctioned tools. The
-  document concludes that a policy-only response is unlikely to work and that the
-  survey signals a demand for approved ways to summarize literature, compare sources,
-  and challenge experiment assumptions. The audit should test whether approved tooling,
-  training, and intake speed are realistic enough to reduce shadow use.'
-Section_Context: Evidence artifact
-IIA_Relevance_Explanation: The document presents survey data on actual AI tool usage,
-  providing direct evidence of shadow AI practices and potential control gaps relevant
-  to the audit objective.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document presents survey data on actual AI
-  tool usage, providing direct evidence of shadow AI practices and potential control
-  gaps relevant to the audit...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'scenario: AI in Research and Development planning evidence. A voluntary survey
+  asked researchers how they use AI tools.'
+Summary: 'title: Shadow AI Survey Results in R&D. doc_type: survey summary. owner:
+  R&D Digital Office. status: sample. company: ACME Pharma. confidentiality: Internal.
+  scenario: AI in Research and Development planning evidence. Shadow AI Survey Results
+  in R&D. Survey summary. A voluntary survey asked researchers how they use AI tools.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Shadow AI Survey Results in R&D

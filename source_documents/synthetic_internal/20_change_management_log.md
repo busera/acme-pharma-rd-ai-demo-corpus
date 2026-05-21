@@ -7,55 +7,21 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 20_change_management_log.md
-IIA_Type: EVD
-IIA_Type_Rational: The document is a change management log that records technical
-  changes to the R&D AI pilot, serving as direct evidence of the change control process
-  and its gaps.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The change management log records technical changes to the R&D AI pilot, including
-  additions of data sources, configuration support, and retrieval settings. The log
-  acknowledges that the change process does not consistently identify whether a change
-  affects legal, privacy, security, or scientific-integrity risk. For instance, adding
-  internal research summaries alters the data-risk profile more than the change entry
-  suggests. Changes under review include a patent-search connector, retrieval weighting
-  updates, reviewer comments, external collaborator role, and expanded summary templates,
-  each accompanied by risk questions. The log identifies a gap where changes that
-  appear minor technically may still be material from an R&D governance perspective,
-  affecting intended use, GxP classification, supplier obligations, or validation
-  scope. The log tracks change categories such as model endpoint changes, prompt-library
-  updates, retrieval-source changes, user-interface changes, access-role changes,
-  retention-setting changes, supplier subprocessor changes, and intended-use changes.
-  It notes that model upgrades are treated as potentially material even if application
-  code is unchanged, and that changes can affect scientific interpretation without
-  affecting system availability.
-Summary: 'The document is a change management log maintained by the R&D AI Product
-  Owner. It records recent changes such as adding a public literature corpus, internal
-  research summaries, vendor configuration support, retrieval settings modifications,
-  and an output review template, along with their approval statuses. The log raises
-  a concern that the change process does not consistently identify whether a change
-  affects legal, privacy, security, or scientific-integrity risk, citing the example
-  of adding internal research summaries. A table of changes under review includes
-  a patent-search connector, retrieval weighting update, reviewer comments, external
-  collaborator role, and expanded summary templates, each with a specific risk question.
-  The document identifies a change-control gap: the log does not always state whether
-  a change affects intended use, GxP classification, supplier obligations, or validation
-  scope, and notes that minor technical changes can be material from an R&D governance
-  perspective. It lists the change categories tracked, including model endpoint changes,
-  prompt-library updates, retrieval-source changes, user-interface changes, access-role
-  changes, retention-setting changes, supplier subprocessor changes, and intended-use
-  changes. The log emphasizes that for R&D AI, a change can affect scientific interpretation
-  without changing system availability, and that model upgrades are treated as potentially
-  material. The document ends with an incomplete audit observations section.'
-Section_Context: Evidence artifact
-IIA_Relevance_Explanation: The document is a change management log that records technical
-  changes to the R&D AI pilot, serving as direct evidence of the change control process
-  and its gaps.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a change management log that
-  records technical changes to the R&D AI pilot, serving as direct evidence of the
-  change control process and its...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Change Management Log for R&D AI Pilot. scenario: AI in Research and
+  Development planning evidence.'
+Summary: 'title: Change Management Log for R&D AI Pilot. doc_type: change log. owner:
+  R&D AI Product Owner. status: working. company: ACME Pharma. confidentiality: Internal.
+  scenario: AI in Research and Development planning evidence. Change Management Log
+  for R&D AI Pilot. Recent changes. Concern.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Change Management Log for R&D AI Pilot

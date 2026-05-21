@@ -7,65 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 07_legal_ip_review_questions.md
-IIA_Type: CTX
-IIA_Type_Rational: The document provides context on legal and IP considerations for
-  AI pilots, outlining questions that must be addressed to ensure legal review and
-  governance, which aligns with the audit objective.
-Quality_Rating: M
-Relevance_Score: H
-Fact: 'The document lists specific legal and IP review questions for AI-assisted R&D,
-  including protectability of AI-generated hypotheses, trade secret risks from disclosing
-  unpublished research to external models, vendor contract prohibitions on using confidential
-  material for training, ownership of co-developed prompts and artifacts, reuse of
-  know-how by third-party personnel, offboarding evidence requirements, and records
-  retention for patent and regulatory integrity. It states that R&D and Internal Audit
-  should not answer these questions independently; the expected control is escalation,
-  documented legal advice, and explicit business risk acceptance. Legal review groups
-  concerns into five areas: sending confidential information to AI, supplier reuse
-  of ACME know-how, ownership of co-developed items, impact on inventorship/patentability,
-  and separation of privileged legal analysis from general R&D AI workflows. Practical
-  examples illustrate scenarios requiring documented answers on data use, retention,
-  privilege, ownership, and human review. The review also considers whether AI processing
-  creates derivative artifacts that could reveal ACME''s scientific direction, and
-  distinguishes administrative, scientific, and other output types.'
-Summary: 'This document, drafted by Legal/IP Counsel, presents a structured set of
-  legal and intellectual property review questions for the use of AI in R&D at ACME
-  Pharma. It begins with specific questions addressing the protectability of AI-generated
-  outputs, trade secret implications of sharing unpublished research with external
-  models, contractual prohibitions on vendor use of confidential data for training,
-  ownership of co-developed prompts and other artifacts, reuse of know-how by third-party
-  personnel, offboarding evidence, and records retention for patent and regulatory
-  integrity. The document establishes a legal boundary, emphasizing that R&D and Internal
-  Audit must escalate these questions to Legal rather than answering them independently,
-  with the expected control being documented legal advice and business risk acceptance.
-  The legal review focus is consolidated into five key questions: whether ACME confidential
-  information can be sent to the AI environment, whether supplier personnel or systems
-  can reuse ACME know-how, who owns co-developed prompts, workflows, evaluation sets,
-  adapters, and embeddings, whether AI-assisted invention support affects inventorship
-  or patentability review, and how privileged or confidential legal analysis is kept
-  out of general R&D AI workflows. Practical examples are provided to test these questions,
-  such as a scientist uploading an unpublished assay summary, a vendor engineer reviewing
-  failed prompts, a patent analyst comparing internal hypotheses with public claims,
-  and a regulatory scientist drafting response language from approved internal documents.
-  Each example requires a documented answer covering data use, retention, privilege/confidentiality,
-  output ownership, and required human review. The document further frames the legal
-  issue as whether AI processing changes the confidentiality, ownership, or reuse
-  profile of ACME research information, noting that prompts, embeddings, reviewer
-  comments, evaluation sets, and generated outputs could create derivative artifacts
-  that reveal ACME''s scientific direction even if original data is deleted. The IP
-  team distinguishes three types of output, including administrative and scientific,
-  to guide review. Overall, the document serves as a planning tool to ensure legal
-  and IP risks are systematically addressed before expanding AI pilots beyond the
-  sandbox.'
-Section_Context: Strategic/operational context
-IIA_Relevance_Explanation: The document provides context on legal and IP considerations
-  for AI pilots, outlining questions that must be addressed to ensure legal review
-  and governance, which aligns with the audit objective.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document provides context on legal and IP
-  considerations for AI pilots, outlining questions that must be addressed to ensure
-  legal review and governance,...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Legal and IP Review Questions for R&D AI. scenario: AI in Research and
+  Development planning evidence.'
+Summary: 'title: Legal and IP Review Questions for R&D AI. doc_type: legal questions.
+  owner: Legal / IP Counsel. status: draft. company: ACME Pharma. confidentiality:
+  Internal. scenario: AI in Research and Development planning evidence. Legal and
+  IP Review Questions for R&D AI. Questions for AI-assisted R&D work. Are AI-generated
+  hypotheses, summaries, or candidate rankings protectable or usable in patent strategy?'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Legal and IP Review Questions for R&D AI

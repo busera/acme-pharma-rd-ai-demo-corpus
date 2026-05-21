@@ -7,51 +7,22 @@ status: working
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 02_ai_use_case_register.md
-IIA_Type: EVD
-IIA_Type_Rational: The document is an internal working register that captures AI intake
-  requests and triage decisions, serving as direct evidence of the early-stage governance
-  process for AI pilots.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The register is an R&D Digital Office intake log, distinct from the formal enterprise
-  AI use-case inventory, and requires reconciliation with it. It contains intake items
-  such as INT-RD-026 (literature review assistant accepted for sandbox but needing
-  clearer data-use boundaries), INT-RD-031 (experiment-design assistant accepted for
-  development with a pending quality boundary decision), INT-RD-034 (lab-note synthesis
-  parked due to unresolved Part 11, audit-trail, and original-record protection issues),
-  INT-RD-037 (candidate prioritization in controlled pilot with inconsistent review
-  rationale and decision-log evidence), INT-RD-041 (patent landscape summarizer accepted
-  for development but lacking final sign-off on privilege, reuse, and no-training
-  terms), INT-RD-044 (regulatory response drafting proposed only and not approved
-  for submission-ready content), and INT-RD-049 (biomarker-study feasibility summarization
-  requested). The register highlights open issues and incomplete governance steps
-  for several AI use cases before expansion beyond sandbox.
-Summary: The document is an R&D AI Intake and Exception Register maintained by the
-  R&D Digital Office to log proposed AI ideas, early triage decisions, exceptions,
-  and items awaiting reconciliation into the formal use-case inventory. It clarifies
-  that this working register is not the formal inventory but the initial intake point,
-  capturing a range of submissions from sandbox concepts to more advanced pilots.
-  The extract lists several intake items with their sources, requested user groups,
-  expected data, triage outcomes, links to formal inventory entries, and open issues.
-  Examples include a literature review assistant accepted for sandbox but requiring
-  clearer separation of public and restricted data, an experiment-design assistant
-  accepted for development with a pending quality boundary decision, and a lab-note
-  synthesis tool parked due to unresolved compliance with Part 11 and audit trail
-  requirements. Other items show inconsistent decision-log evidence, missing legal
-  sign-offs on privilege and no-training terms, and a regulatory drafting tool that
-  is only proposed and not approved for submission-ready content. The register demonstrates
-  that while some AI pilots have been accepted for sandbox or development, significant
-  governance, legal, and compliance gaps remain, underscoring the need for thorough
-  review before broader expansion.
-Section_Context: Evidence artifact
-IIA_Relevance_Explanation: The document is an internal working register that captures
-  AI intake requests and triage decisions, serving as direct evidence of the early-stage
-  governance process for AI pilots.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is an internal working register
-  that captures AI intake requests and triage decisions, serving as direct evidence
-  of the early-stage governance...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: R&D AI Intake and Exception Register. scenario: AI in Research and Development
+  planning evidence.'
+Summary: 'title: R&D AI Intake and Exception Register. company: ACME Pharma. doc_type:
+  working register. owner: R&D Digital Office. status: working. confidentiality: Internal.
+  scenario: AI in Research and Development planning evidence. R&D AI Intake and Exception
+  Register. Purpose. This working register is not the formal enterprise AI use-case
+  inventory.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # R&D AI Intake and Exception Register

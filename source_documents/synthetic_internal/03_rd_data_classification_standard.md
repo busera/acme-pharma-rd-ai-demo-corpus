@@ -7,56 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 03_rd_data_classification_standard.md
-IIA_Type: GOV
-IIA_Type_Rational: This document is an internal policy that establishes data classification
-  categories and AI handling rules, serving as a governance framework for R&D AI pilots.
-  It defines controls and requirements, making it a governance document.
-Quality_Rating: H
-Relevance_Score: H
-Fact: 'The standard defines five R&D data classes: public scientific information,
-  internal research context, confidential research data, restricted trade-secret material,
-  and regulated personal or clinical data. AI handling rules require that public information
-  may be processed by approved tools with copyright and license respect; internal
-  context only in approved enterprise tools; confidential and trade-secret data require
-  documented business owner approval, legal review for third-party processing, and
-  technical controls preventing vendor training or uncontrolled retention; regulated
-  personal data requires privacy review and lawful basis. A known gap is that embeddings
-  derived from restricted research text are not yet classified, raising questions
-  about vector databases, retrieval indexes, cache layers, and vendor telemetry. The
-  standard also includes a table with additional classes such as GxP or submission-relevant
-  records, which require Quality/Regulatory assessment, validated or assured workflow,
-  audit trail, and retention rules. Data-quality controls mandate that AI workflows
-  preserve source identity, source version, extraction date, and transformation status,
-  and require users to flag sources that are incomplete, outdated, or contradicted.'
-Summary: 'The R&D Data Classification Standard is an approved internal policy that
-  categorizes ACME Pharma''s research and development data into five classes: public
-  scientific information, internal research context, confidential research data, restricted
-  trade-secret material, and regulated personal or clinical data. For each class,
-  it prescribes specific AI handling rules. Public scientific information may be processed
-  by approved external AI tools provided copyright and license terms are respected.
-  Internal research context is restricted to approved enterprise tools only. Confidential
-  research data and trade-secret material require documented business owner approval,
-  legal review when third-party processing is involved, and technical controls that
-  prevent vendor training or uncontrolled retention. Regulated personal or clinical
-  data necessitates a privacy review and an explicit lawful basis for processing.
-  The standard also identifies a known gap: it does not define whether embeddings
-  derived from restricted research text inherit the same classification, which creates
-  uncertainty for vector databases, retrieval indexes, cache layers, and vendor telemetry.
-  Additionally, a table extends the classification to include GxP or submission-relevant
-  records, which demand Quality/Regulatory assessment, validated or assured workflows,
-  audit trails, and retention rules. Data-quality controls are specified, requiring
-  AI workflows to preserve source identity, version, extraction date, and transformation
-  status, and obligating users to flag sources that are incomplete, outdated, or contradicted.
-  The document serves as a governance baseline for AI use in R&D.'
-Section_Context: Governance framework
-IIA_Relevance_Explanation: This document is an internal policy that establishes data
-  classification categories and AI handling rules, serving as a governance framework
-  for R&D AI pilots. It defines controls and requirements, making it a governa...
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: This document is an internal policy that establishes
-  data classification categories and AI handling rules, serving as a governance framework
-  for R&D AI pilot...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'scenario: AI in Research and Development planning evidence. Public scientific
+  information: published papers, public patents, conference abstracts, public standards.'
+Summary: 'title: R&D Data Classification Standard. doc_type: policy. owner: Information
+  Governance. status: approved. company: ACME Pharma. confidentiality: Internal. scenario:
+  AI in Research and Development planning evidence. R&D Data Classification Standard.
+  R&D data classes. Public scientific information: published papers, public patents,
+  conference abstracts, public standards.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # R&D Data Classification Standard

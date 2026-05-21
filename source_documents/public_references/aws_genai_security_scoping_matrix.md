@@ -1,32 +1,22 @@
 ---
 Document_File_Name: aws_genai_security_scoping_matrix.md
-IIA_Type: CTX
-IIA_Type_Rational: The document is a public reference that was expected to provide
-  context on AWS AI security scoping but contains only cookie consent information,
-  thus providing no relevant context.
+IIA_Type: UNK
 Quality_Rating: L
 Relevance_Score: L
-Fact: The document contains only cookie preference settings and no substantive content
-  about AWS generative AI security scoping. The page presents a cookie consent interface
-  with options for essential, performance, functional, and advertising cookies. Users
-  can customize their preferences or opt out of cross-context behavioral advertising.
-  There is no information about AI security, scoping matrix, or any technical content.
-  The document is essentially a placeholder and does not contribute to the audit objective.
-Summary: The document is a cookie consent page from AWS. It allows users to select
-  preferences for essential, performance, functional, and advertising cookies. It
-  includes links to the AWS Cookie Notice and options to opt out of cross-context
-  behavioral advertising. The page does not contain any information related to generative
-  AI security scoping or any other substantive content. It appears to be a misdirected
-  or incomplete reference.
-Section_Context: Strategic/operational context
-IIA_Relevance_Explanation: The document is a public reference that was expected to
-  provide context on AWS AI security scoping but contains only cookie consent information,
-  thus providing no relevant context.
+Fact: We use essential cookies and similar tools that are necessary to provide our
+  site and services. We use performance cookies to collect anonymous statistics, so
+  we can understand how customers use our site and make improvements.
+Summary: 'Document_File_Name: aws_genai_security_scoping_matrix.md. IIA_Type: UNK.
+  Quality_Rating: L. Relevance_Score: L. Fact: We use essential cookies and similar
+  tools that are necessary to provide our. site and services. We use performance cookies
+  to collect anonymous statistics, so. we can understand how customers use our site
+  and make improvements. Quality_Rating: L. Relevance_Score: L.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
 IIA_Relevance: L
 IIA_Confidence: L
-Notes: 'Auto-derived categorization: The document is a public reference that was expected
-  to provide context on AWS AI security scoping but contains only cookie consent information,
-  thus providi...'
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 ## Select your cookie preferences

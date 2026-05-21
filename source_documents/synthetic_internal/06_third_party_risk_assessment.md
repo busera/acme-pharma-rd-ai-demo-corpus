@@ -7,59 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 06_third_party_risk_assessment.md
-IIA_Type: CTX
-IIA_Type_Rational: The document provides contextual information about third-party
-  risks associated with the R&D AI pilot, which is essential for planning the audit
-  of governance, security, and legal review controls before expansion beyond the sandbox.
-Quality_Rating: M
-Relevance_Score: H
-Fact: 'The assessment covers the proposed R&D AI implementation partner and a cloud-hosted
-  model service, processing public literature, internal research summaries, experiment
-  protocols, and redacted lab-note excerpts. Data confidentiality risk is rated high
-  if unpublished research content is sent externally without no-training and retention
-  restrictions. Operational dependency risk is medium, subcontractor risk is unknown
-  due to missing subcontractor list, data residency risk is open, and exit risk is
-  medium because deletion evidence and export format are undefined. The supplier is
-  rated high inherent risk because it processes restricted R&D information, operates
-  a cloud-hosted AI workflow, supports configuration changes, and can access support
-  logs. Residual risk is unsupported pending three controls: contractual restriction
-  on training/product improvement, independent review of the cloud data-flow diagram,
-  and operational evidence of logged and reviewed support access. Open TPRM findings
-  include weak R&D-specific data segregation, privacy review gaps for collaborator
-  and coded subject-data edge cases, an exit plan that omits embeddings, cached prompts,
-  monitoring logs, and evaluation datasets, and an unclear boundary between configuration
-  advice and reusable product learning in the SOW. The assessment is scoped to R&D
-  AI support, not general corporate IT, because R&D prompts may include unpublished
-  hypotheses.'
-Summary: 'This Third Party Risk Assessment Summary evaluates the proposed R&D AI implementation
-  partner and cloud-hosted model service for the pilot. The scope includes processing
-  public literature, internal research summaries, experiment protocols, and redacted
-  lab-note excerpts. Preliminary risks are identified: high data confidentiality risk
-  without contractual no-training and retention restrictions, medium operational dependency
-  and exit risks, unknown subcontractor risk, and open data residency risk. The document
-  lists seven categories of evidence requested from the vendor, such as security whitepapers,
-  data processing agreements, model training terms, subprocessor lists, architecture
-  diagrams, access control models, and secure deletion evidence. It stresses that
-  vendor approval is incomplete until Legal, Privacy, Security, and business risk
-  owners each document their review. The inherent risk rating for the supplier is
-  high due to handling restricted R&D data, cloud-hosted AI, configuration changes,
-  and support log access; residual risk cannot be confirmed until three key controls
-  are in place. Open findings from the third-party risk management process highlight
-  insufficient R&D data segregation, privacy review gaps for non-employee users, an
-  incomplete exit plan that ignores AI-specific artifacts like embeddings and cached
-  prompts, and ambiguity in the statement of work regarding the boundary between configuration
-  advice and product learning. The assessment explicitly distinguishes R&D AI support
-  from general corporate IT because prompts may contain unpublished hypotheses, underscoring
-  the need for tailored controls.'
-Section_Context: Strategic/operational context
-IIA_Relevance_Explanation: The document provides contextual information about third-party
-  risks associated with the R&D AI pilot, which is essential for planning the audit
-  of governance, security, and legal review controls before expansion beyo...
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document provides contextual information
-  about third-party risks associated with the R&D AI pilot, which is essential for
-  planning the audit of governanc...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Third Party Risk Assessment Summary. scenario: AI in Research and Development
+  planning evidence.'
+Summary: 'title: Third Party Risk Assessment Summary. doc_type: assessment. owner:
+  Third Party Risk Management. status: in review. company: ACME Pharma. confidentiality:
+  Internal. scenario: AI in Research and Development planning evidence. Third Party
+  Risk Assessment Summary. Assessment scope. The assessment covers the proposed R&D
+  AI implementation partner and a cloud-hosted model service.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Third Party Risk Assessment Summary

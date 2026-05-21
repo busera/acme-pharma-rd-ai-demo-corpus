@@ -7,51 +7,21 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 26_pilot_success_metrics.md
-IIA_Type: GOV
-IIA_Type_Rational: The document defines proposed success metrics for the R&D AI pilot,
-  serving as a governance artifact that will guide go/no-go decisions and ensure balanced
-  evaluation of productivity, quality, safety, and control.
-Quality_Rating: H
-Relevance_Score: H
-Fact: The document proposes a set of pilot success metrics for ACME Pharma's R&D AI
-  initiative. It warns that productivity metrics alone are insufficient and that safety,
-  traceability, and review quality must be included. The balanced metrics cover productivity,
-  evidence quality, scientific review, safety, data quality, adoption, and supplier
-  control. Specific measures include time saved in literature summaries, percentage
-  of outputs with reviewable source references, reviewer ratings, number of unsupported
-  claims detected, escalations for data classification or IP issues, and blocked restricted-data
-  uploads. The document states that the team should not use simple output volume or
-  time saved as the primary success measure. It emphasizes that if speed is rewarded
-  without evidence quality, the pilot could create polished but weak scientific material.
-  The metrics are intended to support go/no-go decisions, not just show adoption.
-  The document is in draft status and owned by the R&D AI Product Owner.
-Summary: 'The document outlines proposed success metrics for ACME Pharma''s R&D AI
-  pilot, emphasizing a balanced approach beyond productivity. It lists initial metrics
-  including time saved, source reference coverage, reviewer ratings, unsupported claims,
-  escalations, rejected requests, adoption, and feedback-driven changes. A warning
-  stresses that productivity alone is insufficient and that safety, traceability,
-  and review quality must be part of success. A table categorizes metrics into productivity,
-  evidence quality, scientific review, safety, data quality, adoption, and supplier
-  control, with example measures and their importance. Another warning cautions against
-  using simple output volume or time saved as the primary measure, as speed without
-  evidence quality could yield polished but weak scientific material. The document
-  further details metric categories: value metrics like time saved and faster identification
-  of contradictory evidence; quality metrics like source-grounding accuracy and reviewer
-  acceptance rate; control metrics covering intake, data classification, access review,
-  supplier review, and output-review evidence; adoption metrics tracking active users,
-  repeat usage, and use-case expansion; and risk metrics including policy exceptions,
-  restricted-data warnings, and overdue reviews. It concludes that the metrics are
-  intended to support go/no-go decisions, not merely demonstrate adoption, and warns
-  that high usage with weak source grounding or uncl...'
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document defines proposed success metrics for the R&D
-  AI pilot, serving as a governance artifact that will guide go/no-go decisions and
-  ensure balanced evaluation of productivity, quality, safety, and control.
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: The document defines proposed success metrics
-  for the R&D AI pilot, serving as a governance artifact that will guide go/no-go
-  decisions and ensure balanced e...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'scenario: AI in Research and Development planning evidence. Time saved in preparing
+  literature summaries.'
+Summary: 'title: Pilot Success Metrics for R&D AI. doc_type: metrics. owner: R&D AI
+  Product Owner. status: draft. company: ACME Pharma. confidentiality: Internal. scenario:
+  AI in Research and Development planning evidence. Pilot Success Metrics for R&D
+  AI. Proposed metrics. Time saved in preparing literature summaries.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Pilot Success Metrics for R&D AI

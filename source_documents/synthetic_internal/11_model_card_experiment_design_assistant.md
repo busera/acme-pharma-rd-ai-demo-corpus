@@ -7,46 +7,23 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 11_model_card_experiment_design_assistant.md
-IIA_Type: EVD
-IIA_Type_Rational: The model card serves as documented evidence of the AI pilot's
-  intended use, limitations, and human review requirements, directly supporting the
-  audit's assessment of governance and human control.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The model card states the Experiment Design Assistant is not intended for autonomous
-  experiment approval, safety-critical decisions without scientific review, regulatory
-  claim drafting, or use with restricted human-subject or clinical data. A principal
-  scientist must approve any experiment design that relies on AI-generated suggestions,
-  and reviewer notes should identify accepted and rejected suggestions. The model
-  may overstate weak evidence, miss negative results, confuse similar protocols, or
-  create plausible but unsupported rationale. Evaluation results show literature-grounded
-  suggestions are mostly met but weak when source documents use inconsistent assay
-  names, negative evidence retrieval is only partially met, and scientist usability
-  is mixed with senior scientists wanting clearer uncertainty labels. The document
-  is marked as draft and internal to ACME Pharma.
-Summary: 'This internal draft model card describes the Experiment Design Assistant,
-  an AI tool that reviews proposed early research experiments and suggests missing
-  controls, confounders, feasibility constraints, and evidence gaps. It is intended
-  to challenge completeness of study plans, not to decide final design or approve
-  protocols. The document explicitly lists prohibited uses, including autonomous experiment
-  approval, safety-critical decisions without scientific review, regulatory claim
-  drafting, and use with restricted data. Known limitations include overstating weak
-  evidence, missing contradictory internal notes, and producing plausible controls
-  without recognizing feasibility constraints. Human review is mandatory: a principal
-  scientist must approve any design relying on AI suggestions, documenting accepted
-  and rejected suggestions. Evaluation results are provided for literature-grounded
-  suggestions, negative evidence retrieval, GxP boundary handling, and scientist usability,
-  with mixed performance noted. The model card is owned by the R&D AI Product Owner
-  and is in draft status, indicating it is a living governance artifact.'
-Section_Context: Evidence artifact
-IIA_Relevance_Explanation: The model card serves as documented evidence of the AI
-  pilot's intended use, limitations, and human review requirements, directly supporting
-  the audit's assessment of governance and human control.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The model card serves as documented evidence
-  of the AI pilot''s intended use, limitations, and human review requirements, directly
-  supporting the audit''s asse...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: ''Model Card: Experiment Design Assistant''. scenario: AI in Research
+  and Development planning evidence.'
+Summary: 'title: ''Model Card: Experiment Design Assistant''. doc_type: model card.
+  owner: R&D AI Product Owner. status: draft. company: ACME Pharma. confidentiality:
+  Internal. scenario: AI in Research and Development planning evidence. Model Card:
+  Experiment Design Assistant. Intended use. The assistant suggests experiment-planning
+  considerations based on approved protocols, historical observations, and public
+  scientific context.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Model Card: Experiment Design Assistant

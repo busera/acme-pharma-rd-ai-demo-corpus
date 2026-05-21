@@ -1,36 +1,20 @@
 ---
 Document_File_Name: oecd_ai_science_governance_challenges.md
-IIA_Type: CTX
-IIA_Type_Rational: The document is a policy essay from the OECD providing contextual
-  analysis of AI governance challenges in scientific research, not a direct standard
-  or regulation.
-Quality_Rating: M
-Relevance_Score: M
-Fact: The essay explores science policy and governance implications of AI within the
-  broader debate about scientific productivity. It reviews lessons from previous waves
-  of automation in science and their impact on the practice of science. The paper
-  considers possible implications of AI use on scientific human capital. It examines
-  a range of policy and governance implications, including how AI tools might be used
-  in funding and governance practices.
-Summary: This document is a chapter from an OECD report on artificial intelligence
-  in science, focusing on policy and governance challenges. It argues that increased
-  application of AI is often promoted as a solution to the problem of scientific productivity.
-  The essay reviews historical lessons from earlier waves of automation in science
-  and their effects on scientific practice. It also considers the potential impact
-  of AI on scientific human capital, given that the public science base develops advanced
-  skills. The chapter further examines policy and governance implications, including
-  the possible use of AI tools in research funding and governance practices. The content
-  is part of a broader report addressing challenges, opportunities, and the future
-  of research.
-Section_Context: Strategic/operational context
-IIA_Relevance_Explanation: The document is a policy essay from the OECD providing
-  contextual analysis of AI governance challenges in scientific research, not a direct
-  standard or regulation.
-IIA_Relevance: M
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a policy essay from the OECD
-  providing contextual analysis of AI governance challenges in scientific research,
-  not a direct standard or regul...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: '[Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en/full-report/ai-and-scientific-productivity-considering-policy-and-governance-challenges_da5bf9a6.html#main-content).
+  Challenges, Opportunities and the Future of Research.'
+Summary: 'Document_File_Name: oecd_ai_science_governance_challenges.md. IIA_Type:
+  UNK. Quality_Rating: L. Relevance_Score: L. Fact: ''[Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en/full-report/ai-and-scientific-productivity-considering-policy-and-governance-challenges_da5bf9a6.html#main-content).
+  Challenges, Opportunities and the Future of Research.''. UNK. Quality_Rating: L.
+  Relevance_Score: L. Fact: ''''[Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en/full-report/ai-and-scientific-productivity-considering-policy-and-governance-challenges_da5bf9a6.html#main-content).'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 [Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en/full-report/ai-and-scientific-productivity-considering-policy-and-governance-challenges_da5bf9a6.html#main-content)

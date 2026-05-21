@@ -7,49 +7,21 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 21_model_output_review_template.md
-IIA_Type: GOV
-IIA_Type_Rational: The document is a template that establishes required review procedures
-  and controls for human-in-the-loop oversight of AI model outputs, which is a governance
-  mechanism.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The template defines mandatory review fields including source adequacy, evidence
-  conflicts, uncertainty, decision impact, and reviewer sign-off. It instructs reviewers
-  to verify claims against primary sources and not to accept fluent writing as evidence.
-  The template is required for outputs used in study design, candidate review, regulatory
-  drafting, or governance material, but not for low-risk summaries. Its existence
-  supports human-in-the-loop control, but audit must verify actual use and whether
-  reviewers have sufficient time and expertise. Completed templates with only 'reviewed'
-  and no rationale indicate weak control. For candidate prioritization or experiment
-  design, the reviewer must state whether any AI suggestion changed the planned next
-  step.
-Summary: The Model Output Review Template outlines required review fields such as
-  request topic, source documents, key claims, evidence support, missing evidence,
-  reviewer decision, influence on research planning, and follow-up action. Reviewer
-  guidance warns against treating fluent writing as evidence and requires checking
-  source currency, capturing uncertainty, distinguishing public from internal findings,
-  and avoiding unsupported recommendations. For experiment changes, a principal scientist
-  must document the final decision. The template mandates source adequacy, diversity,
-  evidence conflicts, uncertainty level, data class, intended use, decision influence,
-  reviewer edits, final disposition, and accountable sign-off. For high-impact use
-  cases, accepted output must include an evidence note linking conclusions to primary
-  sources. The template is mandatory when output is reused in study design, candidate
-  review, regulatory drafting, or governance material, but not for every low-risk
-  summary. Reviewers must identify source documents, note missing primary evidence,
-  and remove or correct unsupported claims. If the output identifies a risk or contradiction,
-  the reviewer records whether it changed the planned research action. Completed templates
-  can demonstrate genuine human-in-the-loop control, with strong examples showing
-  what was checked, changed, uncertain, and who accepted the scientific output, while
-  weak templates merely check 'reviewed' without rationale.
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document is a template that establishes required review
-  procedures and controls for human-in-the-loop oversight of AI model outputs, which
-  is a governance mechanism.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a template that establishes required
-  review procedures and controls for human-in-the-loop oversight of AI model outputs,
-  which is a governanc...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'scenario: AI in Research and Development planning evidence. Reviewer decision:
+  accept, reject, revise, escalate.'
+Summary: 'title: Model Output Review Template. doc_type: template. owner: R&D Quality.
+  status: draft. company: ACME Pharma. confidentiality: Internal. scenario: AI in
+  Research and Development planning evidence. Model Output Review Template. Review
+  fields. Request topic.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Model Output Review Template

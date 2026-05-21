@@ -7,57 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 23_procurement_intake_questionnaire.md
-IIA_Type: GOV
-IIA_Type_Rational: The document is a procurement intake questionnaire that defines
-  required vendor responses and control questions, serving as a governance tool to
-  ensure AI vendors meet security, data handling, and IP requirements before engagement.
-Quality_Rating: M
-Relevance_Score: H
-Fact: 'The questionnaire requires vendors to describe AI models, data usage for training,
-  tenant segregation, encryption, retention periods, data return/deletion, audit reports,
-  IP ownership, and model change communication. It identifies a gap: no clear scoring
-  model or decision threshold for R&D-sensitive data. Additional procurement questions
-  added for AI vendors cover data usage for training, subprocessors, deletion evidence,
-  retention disablement, change communication, GAMP/CSA documentation, and audit rights.
-  A procurement gap notes the questionnaire is too IT-security heavy and needs stronger
-  R&D questions about scientific integrity, IP, GxP trigger management, source traceability,
-  and exit from co-developed artifacts. Intake questions added for AI services ask
-  about processing of prompts, source files, embeddings, outputs, feedback, telemetry,
-  support logs, evaluation examples; data usage for training, improvement, benchmarking,
-  abuse monitoring, diagnostics; subprocessors, data residency, deletion evidence,
-  support-access model, incident notification. For co-development, questions cover
-  ownership of prompts, configurations, evaluation sets, model adaptations, workflow
-  designs, defect findings, and whether supplier personnel will learn ACME-specific
-  research methods and how that knowledge may be reused. The control gap states the
-  questionnaire is only effective if used early in procurement.'
-Summary: The document is a draft procurement intake questionnaire for AI vendors.
-  It lists required vendor responses covering AI models, data usage, security controls,
-  retention periods, data return/deletion, audit reports, IP ownership, and model
-  change communication. The document identifies a gap in the lack of a scoring model
-  or decision threshold for R&D-sensitive data. Additional procurement questions added
-  for AI vendors address data usage for training, subprocessors, deletion evidence,
-  retention disablement, change communication, GAMP/CSA documentation, and audit rights.
-  A procurement gap is noted that the questionnaire is too IT-security heavy and needs
-  stronger R&D questions on scientific integrity, IP, GxP trigger management, source
-  traceability, and exit from co-developed artifacts. Intake questions added for AI
-  services inquire about processing of prompts, source files, embeddings, outputs,
-  feedback, telemetry, support logs, and evaluation examples, as well as data usage
-  for training, improvement, benchmarking, abuse monitoring, and diagnostics. They
-  also ask about subprocessors, data residency, deletion evidence, support-access
-  model, and incident notification. For co-development, the questionnaire asks about
-  ownership of prompts, configurations, evaluation sets, model adaptations, workflow
-  designs, and defect findings, and whether supplier personnel will learn ACME-specific
-  research methods and how that knowledge may be reused. Finally, a control gap highlights
-  that the questionnaire is only effective if used early in the procurement process.
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document is a procurement intake questionnaire that
-  defines required vendor responses and control questions, serving as a governance
-  tool to ensure AI vendors meet security, data handling, and IP requirements befo...
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a procurement intake questionnaire
-  that defines required vendor responses and control questions, serving as a governance
-  tool to ensure AI ve...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Procurement Intake Questionnaire for AI Vendors. scenario: AI in Research
+  and Development planning evidence.'
+Summary: 'title: Procurement Intake Questionnaire for AI Vendors. doc_type: questionnaire.
+  owner: Procurement. status: draft. company: ACME Pharma. confidentiality: Internal.
+  scenario: AI in Research and Development planning evidence. Procurement Intake Questionnaire
+  for AI Vendors. Required vendor responses. Describe all AI models, services, subcontractors,
+  and regions involved.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Procurement Intake Questionnaire for AI Vendors

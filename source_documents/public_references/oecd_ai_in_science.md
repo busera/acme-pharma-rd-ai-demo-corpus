@@ -1,42 +1,21 @@
 ---
 Document_File_Name: oecd_ai_in_science.md
-IIA_Type: CTX
-IIA_Type_Rational: The OECD report provides contextual background on AI in science,
-  including governance and policy considerations, which informs the audit's understanding
-  of the broader landscape for AI pilots in R&D.
-Quality_Rating: H
-Relevance_Score: M
-Fact: The OECD report highlights that AI is penetrating all domains of science and
-  its full potential is far from realised. It emphasises that accelerating the productivity
-  of research could be the most economically and socially valuable use of AI. Policy
-  makers can deepen AI's use in science and magnify its positive effects while adapting
-  to fast-changing implications for research governance. The report examines current,
-  emerging, and potential future uses of AI in science, and measures to expedite AI
-  integration in research, including in developing countries.
-Summary: This OECD publication examines the rapid advances of artificial intelligence
-  and its applications in science. It argues that accelerating scientific productivity
-  through AI could be the most economically and socially valuable use of the technology.
-  The book is aimed at policy makers, the public, and stakeholders, and gathers perspectives
-  from prominent researchers and practitioners. It explores current, emerging, and
-  potential future uses of AI in science, areas where progress is needed, and changes
-  in scientific productivity. The report also addresses measures to expedite the integration
-  of AI into research in developing countries. A distinctive contribution is its examination
-  of policies for AI in science, emphasizing that policy makers can deepen AI's use
-  and magnify its positive effects while adapting to the fast-changing implications
-  for research governance. The executive summary stresses that ambitious multidisciplinary
-  programmes can promote progress and that policy makers across research systems can
-  accelerate the uptake of AI in science. The publication aims to support OECD countries
-  in growing, innovating, and meeting global challenges such as climate change and
-  new contagions.
-Section_Context: Strategic/operational context
-IIA_Relevance_Explanation: The OECD report provides contextual background on AI in
-  science, including governance and policy considerations, which informs the audit's
-  understanding of the broader landscape for AI pilots in R&D.
-IIA_Relevance: M
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: The OECD report provides contextual background
-  on AI in science, including governance and policy considerations, which informs
-  the audit''s understanding of t...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: '[Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html#main-content).
+  Challenges, Opportunities and the Future of Research.'
+Summary: 'Document_File_Name: oecd_ai_in_science.md. IIA_Type: UNK. Quality_Rating:
+  L. Relevance_Score: L. Fact: ''[Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html#main-content).
+  Challenges, Opportunities and the Future of Research.''. L. Relevance_Score: L.
+  Fact: ''''[Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html#main-content).
+  Challenges, Opportunities and the Future of Research.''''.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 [Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html#main-content)

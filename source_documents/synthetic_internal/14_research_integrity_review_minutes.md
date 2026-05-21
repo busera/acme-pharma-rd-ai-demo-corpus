@@ -7,57 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 14_research_integrity_review_minutes.md
-IIA_Type: EVD
-IIA_Type_Rational: The document is meeting minutes from the Research Integrity Committee,
-  providing direct evidence of governance discussions, concerns, and decisions about
-  AI-generated summaries in research records. It serves as evidence of the control
-  environment and oversight activities relevant to the audit objective.
-Quality_Rating: H
-Relevance_Score: H
-Fact: The Research Integrity Committee discussed whether AI-generated summaries may
-  be attached to experiment records, agreeing that AI outputs can support preparation
-  but must be distinguished from source evidence and scientist judgment. Concerns
-  were raised that AI summaries may flatten disagreement, underrepresent negative
-  results, and lead researchers to accept ranked candidates without checking assumptions.
-  The committee noted that AI outputs could create discoverability or retention issues
-  in patent or regulatory contexts. Decisions require the pilot to proceed only with
-  mock and approved low-sensitivity material until data classification and legal
-  questions are closed, with any use of confidential research data requiring a documented
-  exception and business-owner approval. AI summaries are allowed only as supporting
-  drafts, not original evidence; candidate ranking is advisory with a required rationale
-  and scientist override log; negative results must be explicitly searched and documented;
-  protocol suggestions require protocol owner review and sign-off; and regulatory
-  wording is not approved for submission-ready use. The committee rejected AI-generated
-  summaries as scientific evidence by themselves and asked for clear separation between
-  source evidence, AI interpretation, scientist judgment, and final record language,
-  along with labeling of AI-assisted sections and confirmation of source evidence
-  by accountable scientists.
-Summary: The Research Integrity Committee convened to evaluate the use of AI-generated
-  summaries in research records. Members acknowledged that AI can assist scientists
-  in finding sources and challenging assumptions but stressed that AI outputs must
-  not replace primary evidence review. The committee identified risks including the
-  flattening of disagreement in source literature, underrepresentation of negative
-  results, and potential misinterpretation of cited documents. They decided that the
-  AI pilot may continue only with mock and low-sensitivity material, while any
-  use of confidential research data requires a documented exception and business-owner
-  approval. AI summaries are permitted solely as supporting drafts, not as original
-  evidence, and candidate rankings must include a rationale and a scientist override
-  log. Negative results must be explicitly searched and documented, and protocol suggestions
-  require review and sign-off by the protocol owner. Regulatory wording is not approved
-  for submission use. The committee also called for clearer labeling of AI-assisted
-  sections and a requirement that accountable scientists confirm source evidence before
-  relying on AI output. Open actions include defining label and retention rules, building
-  test cases for negative results, and having Regulatory Science define a controlled
-  pilot boundary.
-Section_Context: Evidence artifact
-IIA_Relevance_Explanation: The document is meeting minutes from the Research Integrity
-  Committee, providing direct evidence of governance discussions, concerns, and decisions
-  about AI-generated summaries in research records. It serves as eviden...
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: The document is meeting minutes from the Research
-  Integrity Committee, providing direct evidence of governance discussions, concerns,
-  and decisions about AI-...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Research Integrity Review Minutes. scenario: AI in Research and Development
+  planning evidence.'
+Summary: 'title: Research Integrity Review Minutes. doc_type: meeting minutes. owner:
+  Research Integrity Committee. status: sample. company: ACME Pharma. confidentiality:
+  Internal. scenario: AI in Research and Development planning evidence. Research Integrity
+  Review Minutes. Discussion summary. The committee discussed whether AI-generated
+  summaries may be attached to experiment records.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Research Integrity Review Minutes

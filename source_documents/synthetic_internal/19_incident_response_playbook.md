@@ -7,63 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 19_incident_response_playbook.md
-IIA_Type: GOV
-IIA_Type_Rational: The document is a procedural playbook that defines incident response
-  steps for AI data leakage, establishing governance controls for managing AI-related
-  risks.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The playbook is in draft status and contains an open question about verifying
-  deletion from external AI-provider systems. It defines triggers such as confidential
-  data uploaded to unapproved AI services, vendor access without approval, and AI
-  output exposing data from another project. Response steps include preserving evidence,
-  disabling access, notifying R&D owner, Security, Legal, Privacy, and TPRM, and determining
-  notification requirements. Incident scenarios cover restricted compound data uploaded
-  to an unapproved endpoint, supplier viewing a prompt with unpublished strategy,
-  AI output with fabricated citations copied into a meeting pack, and a vendor subprocessor
-  discovered after pilot data processing. The playbook requires response evidence
-  like event timeline, affected data class, containment action, deletion or return
-  evidence, and corrective action owner. It warns against deleting evidence before
-  impact assessment is complete.
-Summary: This draft incident response playbook addresses AI data leakage within ACME
-  Pharma's R&D environment. It lists trigger examples including confidential research
-  text uploaded to unapproved AI services, vendor support accessing restricted material
-  without approval, AI output exposing data from another project corpus, prompt or
-  log retention outside the approved environment, and a third party unable to prove
-  deletion of pilot data after engagement close. The response steps prescribe preserving
-  evidence, identifying affected data classes, disabling access or stopping processing,
-  notifying the R&D owner, Security, Legal, Privacy, and TPRM, determining whether
-  partner, regulator, or contractual notification is required, reviewing external AI-provider
-  retention and training terms, assessing whether outputs, embeddings, logs, or caches
-  must be deleted, and documenting root cause and corrective action. An open question
-  highlights that the playbook does not yet define how to verify deletion from external
-  AI-provider systems if data was incorporated into training or evaluation workflows.
-  The document outlines incident scenarios such as restricted compound data uploaded
-  to an unapproved AI endpoint, supplier support viewing a prompt containing unpublished
-  target strategy, AI output with fabricated citations copied into a meeting pack,
-  user exporting model output and source snippets to an uncontrolled collaboration
-  space, vendor subprocessor discovered after pilot data has already been processed,
-  and a retrieval or model change causing material degradation in negative-evidence
-  detection. For each scenario, response evidence must include event timeline, affected
-  data class, users and support personnel involved, system/version context, source/output
-  artifacts, containment action, deletion or return evidence, regulatory/Quality/Legal
-  notification decision, and corrective action owner. The playbook also defines AI-specific
-  incident scenarios with intake routes, initial containment steps, required stakeholders,
-  and evidence-preservation expectations. The first containment step is typically
-  to stop further use, preserve prompts and outputs where available, identify affected
-  workspaces, and classify the data involved. Legal/IP, Privacy, Security, Quality,
-  and the accountable R&D owner are involved depending on data class and decision
-  impact. The playbook explicitly warns against deleting evidence before the impact
-  assessment is complete.
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document is a procedural playbook that defines incident
-  response steps for AI data leakage, establishing governance controls for managing
-  AI-related risks.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a procedural playbook that defines
-  incident response steps for AI data leakage, establishing governance controls for
-  managing AI-related risks.'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: ''Incident Response Playbook: AI Data Leakage in R&D''. scenario: AI
+  in Research and Development planning evidence.'
+Summary: 'title: ''Incident Response Playbook: AI Data Leakage in R&D''. doc_type:
+  playbook. owner: Security Incident Response. status: draft. company: ACME Pharma.
+  confidentiality: Internal. scenario: AI in Research and Development planning evidence.
+  Incident Response Playbook: AI Data Leakage in R&D. Trigger examples. Vendor support
+  accesses restricted material without approval.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Incident Response Playbook: AI Data Leakage in R&D

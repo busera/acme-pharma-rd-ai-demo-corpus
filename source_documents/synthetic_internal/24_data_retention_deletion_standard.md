@@ -7,60 +7,23 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 24_data_retention_deletion_standard.md
-IIA_Type: GOV
-IIA_Type_Rational: This document is an internal standard that defines retention and
-  deletion requirements for AI pilot data, establishing governance controls over data
-  lifecycle management.
-Quality_Rating: H
-Relevance_Score: H
-Fact: The standard requires AI pilot data to be retained only as long as needed for
-  evaluation, traceability, security investigation, and legal obligations. It covers
-  source documents, normalized text, embeddings, prompts, outputs, logs, model evaluation
-  cases, caches, and backups. At pilot end, the product owner must confirm which artifacts
-  are retained, deleted, anonymized, or transferred to production controls, and third-party
-  providers must supply deletion evidence. Embeddings and evaluation examples are
-  treated as derived artifacts that inherit source classification unless a documented
-  risk assessment states otherwise. The retention model specifies default rules and
-  exceptions for each data object, such as deleting source documents earlier if the
-  project owner withdraws approval and treating embeddings as derived confidential
-  data that must be deleted with the source unless a documented basis exists. Deletion
-  evidence must cover the full artifact chain, including supplier-held support artifacts,
-  but the standard is clearer on source files than on derived artifacts. Prompts and
-  outputs inherit the classification and retention requirement of the highest-risk
-  source material when they contain internal research context.
-Summary: "This draft standard establishes data retention and deletion requirements\
-  \ for AI pilots at ACME Pharma. It defines retention principles, stating that AI\
-  \ pilot data should be kept only as long as necessary for evaluation, traceability,\
-  \ security, and legal needs. The standard covers a wide range of artifacts including\
-  \ source documents, extracted text, embeddings, prompts, outputs, logs, evaluation\
-  \ cases, caches, and backups. At the conclusion of a pilot, the product owner must\
-  \ determine the disposition of each artifact\u2014retention, deletion, anonymization,\
-  \ or transfer to production controls\u2014and third-party providers must furnish\
-  \ deletion evidence where contractually required. A special section addresses embeddings\
-  \ and derived artifacts, noting they may retain sensitive meaning and inherit the\
-  \ classification of the source unless a risk assessment indicates otherwise. The\
-  \ document includes a detailed retention model table that prescribes default rules\
-  \ and exceptions for each data object, such as aligning extracted text retention\
-  \ to the source and treating embeddings as derived confidential data that must be\
-  \ deleted with the source workspace unless Legal or Quality requires retention.\
-  \ Deletion evidence expectations are outlined, requiring coverage of source files,\
-  \ extracted text, embeddings, prompts, outputs, logs, caches, evaluation sets, backups\
-  \ where feasible, and supplier-held support artifacts. The standard acknowledges\
-  \ that it is clearer on source files than on derived artifacts. Retention categories\
-  \ are defined for source documents, extracted text, embeddings, prompts, outputs,\
-  \ reviewer feedback, telemetry, audit logs, support logs, and exported files, with\
-  \ source documents following governing research-record or collaboration-retention\
-  \ rules and prompts/outputs inheriting the highest-risk source classification when\
-  \ containing internal research context."
-Section_Context: Governance framework
-IIA_Relevance_Explanation: This document is an internal standard that defines retention
-  and deletion requirements for AI pilot data, establishing governance controls over
-  data lifecycle management.
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: This document is an internal standard that defines
-  retention and deletion requirements for AI pilot data, establishing governance controls
-  over data lifecycl...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Data Retention and Deletion Standard for AI Pilots. scenario: AI in
+  Research and Development planning evidence.'
+Summary: 'title: Data Retention and Deletion Standard for AI Pilots. doc_type: standard.
+  owner: Information Governance. status: draft. company: ACME Pharma. confidentiality:
+  Internal. scenario: AI in Research and Development planning evidence. Data Retention
+  and Deletion Standard for AI Pilots. Retention principles. AI pilot data should
+  be retained only as long as needed for evaluation, traceability, security investigation,
+  and legal obligations.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Data Retention and Deletion Standard for AI Pilots

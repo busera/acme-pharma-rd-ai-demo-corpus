@@ -7,70 +7,21 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 10_model_development_lifecycle_sop.md
-IIA_Type: GOV
-IIA_Type_Rational: The document is a Standard Operating Procedure that defines the
-  lifecycle stages, required artifacts, and control expectations for AI model development,
-  establishing a governance framework against which audit testing can be performed.
-Quality_Rating: M
-Relevance_Score: H
-Fact: 'The SOP defines ten lifecycle stages from intake and use-case classification
-  through decommissioning or controlled expansion. Required artifacts for each AI
-  use case include a use-case record, accountable owner, data classification, model
-  or service description, data-flow diagram, validation plan, known limitations, human
-  review procedure, third-party risk assessment, security review, and change log.
-  For R&D use cases, the record must capture whether outputs influence hypothesis
-  generation, candidate selection, experiment prioritization, regulatory evidence,
-  patent decisions, or collaboration discussions. The SOP distinguishes exploratory
-  AI tools from systems supporting regulated or GxP-relevant activity. GxP trigger
-  questions require Quality assessment if model output is copied into a controlled
-  record, supports a regulatory submission decision, changes acceptance criteria or
-  experimental design, affects GxP data processing, or becomes part of a validated
-  process. The SOP currently does not define who makes the final GxP classification
-  when R&D, Quality, and Regulatory disagree. The lifecycle stages are further detailed:
-  intake captures business problem, intended use, users, data class, supplier involvement,
-  and decision impact; risk classification determines whether the use case is productivity
-  support, decision support, GxP-adjacent, or record-generating; design defines allowed
-  inputs, expected outputs, human review points, and evidence retention; development
-  may involve prompt configuration, retrieval setup, workflow design, model selection,
-  interface design, or supplier co-development; evaluation must test output quality
-  against realistic examples, not only technical availability.'
-Summary: "This draft Standard Operating Procedure, owned by the AI Governance Office,\
-  \ establishes a model development lifecycle for R&D AI at ACME Pharma. It outlines\
-  \ ten sequential stages: intake and use-case classification, data suitability and\
-  \ rights review, threat and misuse analysis, prototype design in sandbox, evaluation\
-  \ design and acceptance criteria, pilot approval, human review and feedback capture,\
-  \ production-readiness assessment, monitoring and periodic reassessment, and decommissioning\
-  \ or controlled expansion. The SOP mandates a comprehensive set of artifacts for\
-  \ each AI use case, including a use-case record, accountable owner, data classification,\
-  \ model description, data-flow diagram, validation plan, known limitations, human\
-  \ review procedure, third-party risk assessment, security review, and change log.\
-  \ For research-specific applications, additional documentation must capture whether\
-  \ outputs influence hypothesis generation, candidate selection, experiment prioritization,\
-  \ regulatory evidence, patent decisions, or collaboration discussions. The procedure\
-  \ distinguishes between exploratory AI tools and those that support regulated or\
-  \ GxP-relevant activities, providing trigger questions to determine when a Quality\
-  \ assessment is required\u2014such as when model output enters a controlled record,\
-  \ supports a regulatory submission, alters acceptance criteria, affects GxP data\
-  \ processing, or becomes part of a validated process. A noted gap is the absence\
-  \ of a defined authority for final GxP classification in cases of disagreement among\
-  \ R&D, Quality, and Regulatory functions. The lifecycle is further elaborated with\
-  \ detailed descriptions of intake, risk classification into productivity support,\
-  \ decision support, GxP-adjacent, or record-generating categories, design specifications\
-  \ for inputs, outputs, human review points, and evidence retention, and development\
-  \ activities ranging from prompt configuration to supplier co-development. Evaluation\
-  \ is emphasized to test output quality against realistic examples rather than mere\
-  \ technical availability. The SOP serves as an expected-control baseline for audit\
-  \ planning, enabling comparison of actual pilot documentation against the required\
-  \ artifacts."
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document is a Standard Operating Procedure that defines
-  the lifecycle stages, required artifacts, and control expectations for AI model
-  development, establishing a governance framework against which audit testing...
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a Standard Operating Procedure
-  that defines the lifecycle stages, required artifacts, and control expectations
-  for AI model development, esta...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Model Development Lifecycle SOP for R&D AI. scenario: AI in Research
+  and Development planning evidence.'
+Summary: 'title: Model Development Lifecycle SOP for R&D AI. doc_type: SOP. owner:
+  AI Governance Office. status: draft. company: ACME Pharma. confidentiality: Internal.
+  scenario: AI in Research and Development planning evidence. Model Development Lifecycle
+  SOP for R&D AI. Lifecycle stages. Intake and use-case classification.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Model Development Lifecycle SOP for R&D AI

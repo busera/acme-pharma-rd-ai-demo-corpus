@@ -6,59 +6,23 @@ audit_objective: Assess whether ACME Pharma R&D AI pilots are governed, secure, 
 audit_context: ACME Pharma R&D AI audit-planning scenario. Central source-status disclosure
   is maintained in DEMO_SOURCE_STATEMENT.md.
 Document_File_Name: ENGAGEMENT_META.md
-IIA_Type: WP
-IIA_Type_Rational: This document is an internal audit planning work paper that records
-  risk taxonomy and initial risk hypotheses for the engagement, serving as a foundational
-  planning document.
-Quality_Rating: H
-Relevance_Score: H
-Fact: 'The document identifies eight risk areas relevant to the audit objective: R&D
-  data governance (confidential data processed by external AI), third-party/co-development
-  (unclear vendor rights to model artifacts), cloud/security (sandbox architecture
-  exposing prompts and logs), scientific integrity (AI output influencing research
-  without expert review), lifecycle and validation (pilot expansion before maturity),
-  GxP and electronic records (AI output copied into controlled records), privacy and
-  personal data (researcher or clinical-adjacent data entering AI workflows), and
-  data quality and retrieval (AI missing negative results or outdated sources). Initial
-  team risk hypotheses include confidential research material sent to external AI
-  services before legal, privacy, security, and TPRM reviews are complete; vendor
-  contracts not clearly restricting model training, product improvement, or reuse
-  of know-how; unclear ownership of co-developed artifacts like prompts, embeddings,
-  and evaluation cases; cloud architecture not fully showing where prompts, retrieved
-  passages, outputs, embeddings, logs, and caches are stored; AI-generated summaries
-  or experiment suggestions influencing scientific decisions without sufficient source
-  review and accountable sign-off; and shadow AI use because researchers need faster
-  literature and protocol support than approved tools provide. The ACME Pharma context
-  describes a 50,000-employee global life-sciences company with about 9,000 R&D
-  employees, focusing the audit on the R&D AI portfolio including literature intelligence,
-  experiment-design challenge, lab-note synthesis, and candidate screening.'
-Summary: "The document serves as an engagement meta file for the ACME Pharma AI in\
-  \ Research and Development Planning Review. It presents a risk planning taxonomy\
-  \ table that maps eight key areas\u2014R&D data governance, third-party/co-development,\
-  \ cloud/security, scientific integrity, lifecycle and validation, GxP and electronic\
-  \ records, privacy and personal data, and data quality and retrieval\u2014to example\
-  \ risk themes and their planning relevance for the audit. Following the table, the\
-  \ document lists six initial team risk hypotheses that elaborate on potential issues\
-  \ such as premature exposure of confidential research material to external AI services,\
-  \ inadequate vendor contract restrictions on model training and know-how reuse,\
-  \ ambiguous ownership of co-developed AI artifacts, incomplete cloud architecture\
-  \ transparency, insufficient human review of AI-generated scientific suggestions,\
-  \ and the presence of shadow AI due to unmet researcher needs. The final section\
-  \ provides ACME Pharma context, noting the company's scale (50,000 employees, 9,000\
-  \ in R&D) and the audit's focus on the R&D AI portfolio, which includes applications\
-  \ like literature intelligence, experiment design, lab-note synthesis, and candidate\
-  \ screening. The content directly supports the audit objective by framing the governance,\
-  \ security, legal, human-control, and traceability risks associated with AI pilots\
-  \ before expansion beyond a sandbox."
-Section_Context: Workpaper summary
-IIA_Relevance_Explanation: This document is an internal audit planning work paper
-  that records risk taxonomy and initial risk hypotheses for the engagement, serving
-  as a foundational planning document.
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: This document is an internal audit planning work
-  paper that records risk taxonomy and initial risk hypotheses for the engagement,
-  serving as a foundational p...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'audit_name: ACME Pharma AI in Research and Development Planning Review. audit_objective:
+  Assess whether ACME Pharma R&D AI pilots are governed, secure, legally.'
+Summary: 'audit_id: DEMO-RND-AI-001. audit_name: ACME Pharma AI in Research and Development
+  Planning Review. audit_objective: Assess whether ACME Pharma R&D AI pilots are governed,
+  secure, legally. reviewed, human-controlled, and traceable before expansion beyond
+  a sandbox. audit_context: ACME Pharma R&D AI audit-planning scenario. Central source-status
+  disclosure. is maintained in DEMO_SOURCE_STATEMENT.md. Risk Planning Taxonomy. Initial
+  Team Risk Hypotheses.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Risk Planning Taxonomy

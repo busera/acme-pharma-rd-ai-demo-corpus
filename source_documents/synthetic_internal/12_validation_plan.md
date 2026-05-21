@@ -7,54 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 12_validation_plan.md
-IIA_Type: GOV
-IIA_Type_Rational: The document is a validation plan that defines the governance framework
-  for testing the AI pilot's compliance with requirements before expansion, making
-  it a governance document.
-Quality_Rating: M
-Relevance_Score: H
-Fact: 'The validation plan defines test categories including retrieval relevance,
-  context handling, citation quality, limitation recognition, safety boundaries, and
-  reviewer usability. Acceptance criteria must exist before expansion beyond the sandbox.
-  The plan identifies residual risk of overreliance if users treat confident wording
-  as scientific evidence. It uses a risk-based assurance approach: for exploratory
-  literature support, evidence focuses on intended use, user training, source traceability,
-  and output review; for GxP or submission-support workflows, a stronger package is
-  required including requirements, risk assessment, test cases, traceability matrix,
-  audit trail review, access-control evidence, change-control procedure, and periodic
-  review. The plan aligns with FDA''s risk-based computer software assurance, Part
-  11, and GAMP 5. Test scenarios include blocking restricted internal research notes
-  from unapproved external processing, requiring scientist approval for experiment-design
-  suggestions, preventing lab-note synthesis from overwriting original records, and
-  handling retrieval misses with contradictory evidence. The assurance approach is
-  risk-based, not uniform for every AI use case.'
-Summary: 'The document is a validation plan for ACME Pharma''s R&D AI pilot. The validation
-  objective is to test whether the AI workflow produces useful, traceable, and reviewable
-  suggestions under controlled conditions, not to prove scientific correctness. Six
-  test categories are defined: retrieval relevance, context handling, citation quality,
-  limitation recognition, safety boundaries, and reviewer usability. Acceptance criteria
-  must be established before expansion beyond the sandbox, though specific thresholds
-  are not provided. The plan acknowledges residual risk of overreliance if users treat
-  confident AI output as scientific evidence. A risk-based assurance model is adopted:
-  for exploratory literature support, evidence focuses on intended use, user training,
-  source traceability, and output review; for workflows that may affect GxP or submission-support
-  records, a more rigorous package is required, including requirements, risk assessment,
-  test cases, traceability matrix, audit trail review, access-control evidence, change-control
-  procedure, and periodic review. The plan aligns with FDA''s risk-based computer
-  software assurance, Part 11 principles, and GAMP 5 themes. Seven test scenarios
-  are described, such as blocking restricted internal notes from unapproved external
-  processing, requiring scientist approval for experiment-design suggestions, and
-  preventing lab-note synthesis from overwriting original records. The assurance approach
-  is risk-based and not uniform for every AI use case.'
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document is a validation plan that defines the governance
-  framework for testing the AI pilot's compliance with requirements before expansion,
-  making it a governance document.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a validation plan that defines
-  the governance framework for testing the AI pilot''s compliance with requirements
-  before expansion, making it a...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'scenario: AI in Research and Development planning evidence. The pilot validation
+  does not prove scientific correctness.'
+Summary: 'title: Validation Plan for R&D AI Pilot. doc_type: validation plan. owner:
+  R&D Quality / AI Governance. status: draft. company: ACME Pharma. confidentiality:
+  Internal. scenario: AI in Research and Development planning evidence. Validation
+  Plan for R&D AI Pilot. Validation objective. The pilot validation does not prove
+  scientific correctness.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Validation Plan for R&D AI Pilot

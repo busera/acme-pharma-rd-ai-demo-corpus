@@ -7,55 +7,24 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 01_rd_ai_strategy_2026.md
-IIA_Type: GOV
-IIA_Type_Rational: The document is a strategy that defines governance boundaries,
-  objectives, and controls for the R&D AI pilots, aligning with IIA's governance document
-  type.
-Quality_Rating: M
-Relevance_Score: H
-Fact: 'The strategy covers four AI capabilities: literature review support, experiment
-  design suggestions, lab-note synthesis, and candidate prioritization. It explicitly
-  prohibits AI from independently approving research direction, replacing peer review,
-  approving regulatory claims, or deciding candidate progression. A phased rollout
-  is planned, with pilots in a controlled sandbox using approved data sets; production
-  use requires security, legal, privacy, validation, and R&D governance review. Open
-  decisions include whether external model providers may process unpublished research
-  text, whether research data may be used for model training, ownership of co-developed
-  models, cloud-hosted model endpoint compliance with confidentiality, and how model
-  outputs will be captured in research records. The R&D organization comprises 9,000
-  employees, and the AI program sits within Global Research Platforms. The audit scope
-  focuses on pre-approval R&D use cases, with the highest risk where AI output influences
-  GxP-relevant decisions or regulatory submissions.'
-Summary: 'ACME Pharma''s R&D AI Strategy 2026 aims to improve research productivity
-  while protecting research integrity, confidentiality, intellectual property, and
-  regulatory readiness. It introduces four initial AI-enabled capabilities: literature
-  review support, experiment design suggestions, lab-note synthesis, and candidate
-  prioritization. The strategy sets five objectives, including reducing time for summarization,
-  improving experiment planning consistency, supporting hypothesis generation with
-  human decision-making, safeguarding confidential data, and creating reusable governance
-  patterns. Boundaries are clearly defined: AI may assist with search, summarization,
-  classification, drafting, and comparison, but must not independently approve research
-  direction, replace scientific peer review, approve regulatory claims, or decide
-  candidate advancement. The rollout is phased, with pilots in a controlled sandbox
-  using approved data, and any production use must pass security, legal, privacy,
-  validation, and R&D governance reviews. Several critical decisions remain open,
-  such as external model provider access to unpublished text, use of research data
-  for model training, ownership of co-developed models, cloud endpoint compliance
-  with confidentiality, and capture of model outputs in research records. The document
-  describes the operating context: ACME Pharma is a global life-sciences company with
-  9,000 R&D employees, and the AI program is housed in Global Research Platforms,
-  serving multiple scientific domains. The audit scope is limited to pre-approval
-  R&D use cases, with the highest risk at the boundary where AI output influences
-  GxP-relevant decisions or regulatory submission support activities.'
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document is a strategy that defines governance boundaries,
-  objectives, and controls for the R&D AI pilots, aligning with IIA's governance document
-  type.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a strategy that defines governance
-  boundaries, objectives, and controls for the R&D AI pilots, aligning with IIA''s
-  governance document type.'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'scenario: AI in Research and Development planning evidence. ACME Pharma R&D
+  wants to use AI to improve research productivity without weakening research integrity,
+  confidentiality, intellectual property protection, or regulatory readiness.'
+Summary: 'title: R&D AI Strategy 2026. doc_type: strategy. owner: ACME Pharma R&D
+  Leadership. status: draft. company: ACME Pharma. confidentiality: Internal. scenario:
+  AI in Research and Development planning evidence. R&D AI Strategy 2026. Purpose.
+  ACME Pharma R&D wants to use AI to improve research productivity without weakening
+  research integrity, confidentiality, intellectual property protection, or regulatory
+  readiness.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # R&D AI Strategy 2026

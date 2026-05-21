@@ -1,38 +1,23 @@
 ---
 Document_File_Name: owasp_llm_top_10.md
-IIA_Type: REG
-IIA_Type_Rational: The OWASP Top 10 for LLM Applications is an industry-recognized
-  standard identifying critical security vulnerabilities in LLM applications, serving
-  as a benchmark for evaluating security controls in the audit.
+IIA_Type: UNK
 Quality_Rating: L
-Relevance_Score: H
-Fact: The OWASP Top 10 for Large Language Model Applications is a core component of
-  the OWASP GenAI Security Project, which is a global, open-source initiative dedicated
-  to identifying and mitigating security risks in generative AI. The project has over
-  600 contributing experts from more than 18 countries and nearly 8,000 active community
-  members. It provides comprehensive guidance for secure development, deployment,
-  and governance of generative AI systems. The Top 10 list identifies the most critical
-  security vulnerabilities in LLM applications.
-Summary: The document is the README for the OWASP Top 10 for Large Language Model
-  Applications repository. It explains that the project has evolved into the comprehensive
-  OWASP GenAI Security Project, a global initiative to address security and safety
-  risks of generative AI. The project's mission is to empower organizations with guidance
-  and tools for secure development, deployment, and governance of generative AI systems.
-  The OWASP Top 10 for LLM Applications remains a core component, identifying critical
-  vulnerabilities. The project has grown from a small group in 2023 to over 600 experts
-  from 18 countries and nearly 8,000 community members. The document provides links
-  to the project site, mission, contribution guidelines, meeting schedules, and community
-  channels like Slack and LinkedIn. It also mentions a newsletter and invites sponsorship
-  support.
-Section_Context: Regulatory requirements
-IIA_Relevance_Explanation: The OWASP Top 10 for LLM Applications is an industry-recognized
-  standard identifying critical security vulnerabilities in LLM applications, serving
-  as a benchmark for evaluating security controls in the audit.
-IIA_Relevance: H
+Relevance_Score: L
+Fact: This is the repository for the OWASP Top 10 for Large Language Model Applications.
+  However, this project has now grown into the comprehensive OWASP GenAI Security
+  Project \- a global initiative that encompasses multiple security initiatives beyond
+  just the Top 10 list.
+Summary: 'Document_File_Name: owasp_llm_top_10.md. IIA_Type: UNK. Quality_Rating:
+  L. Relevance_Score: L. Fact: This is the repository for the OWASP Top 10 for Large
+  Language Model Applications. However, this project has now grown into the comprehensive
+  OWASP GenAI Security. Project \- a global initiative that encompasses multiple security
+  initiatives beyond. just the Top 10 list. L. Relevance_Score: L.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
 IIA_Confidence: L
-Notes: 'Auto-derived categorization: The OWASP Top 10 for LLM Applications is an industry-recognized
-  standard identifying critical security vulnerabilities in LLM applications, serving
-  as a benc...'
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # OWASP Top 10 for Large Language Model Applications

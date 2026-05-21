@@ -7,49 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 09_data_flow_description.md
-IIA_Type: EVD
-IIA_Type_Rational: The document is a factual description of the data flow for the
-  R&D AI pilot, providing evidence of the system's design and control points.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The data flow begins with approved source documents collected from R&D project
-  owners, screened for data class and third-party restrictions, and loaded into a
-  controlled repository. Text is extracted and normalized, then indexed for retrieval.
-  A researcher asks a question, the system retrieves relevant passages, and the model
-  drafts a response with source references and uncertainty notes. The researcher reviews
-  the output, corrects assumptions, and records whether the output influenced a decision.
-  Control points include data classification before ingestion, retrieval not crossing
-  project boundaries, and human responsibility for output review. Logs must be retained
-  for incident review but not so long that sensitive research traces are retained
-  unnecessarily. An unresolved issue is whether rejected documents are logged and
-  whether rejection reasons reveal sensitive project metadata. The flow does not yet
-  specify how rejected outputs are retained for monitoring without becoming part of
-  the scientific record. For co-development projects, supplier engineers may receive
-  test data, anonymized examples, evaluation rubrics, defect reports, user feedback,
-  and performance statistics.
-Summary: The document describes the data flow for ACME Pharma's R&D AI pilot. It outlines
-  a nine-step flow from source document collection to researcher review of AI-generated
-  responses. Key control points include data classification before ingestion, project
-  boundary enforcement during retrieval, and mandatory human review of outputs. The
-  flow includes logging requirements for incident review, with a caution against excessive
-  retention of sensitive traces. An unresolved issue is the logging of rejected documents
-  and potential exposure of sensitive metadata through rejection reasons. The narrative
-  details how a researcher uploads approved materials, the system records metadata,
-  and text is normalized and indexed. User prompts trigger retrieval and generation
-  of draft answers, which are stored with source references and reviewer disposition.
-  The document notes that exported outputs become part of normal research records.
-  It also highlights additional complexity for co-development projects where supplier
-  engineers may access test data and feedback. The flow description identifies breakpoints
-  such as intake approval, extraction quality, retrieval relevance, model-output review,
-  and deletion/exit, but lacks clarity on retaining rejected outputs for monitoring.
-Section_Context: Evidence artifact
-IIA_Relevance_Explanation: The document is a factual description of the data flow
-  for the R&D AI pilot, providing evidence of the system's design and control points.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a factual description of the
-  data flow for the R&D AI pilot, providing evidence of the system''s design and control
-  points.'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: ''Data Flow Description: R&D AI Pilot''. scenario: AI in Research and
+  Development planning evidence.'
+Summary: 'title: ''Data Flow Description: R&D AI Pilot''. doc_type: data flow. owner:
+  R&D Digital Office. status: draft. company: ACME Pharma. confidentiality: Internal.
+  scenario: AI in Research and Development planning evidence. Data Flow Description:
+  R&D AI Pilot. Flow summary. Approved source documents are collected from R&D project
+  owners.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Data Flow Description: R&D AI Pilot

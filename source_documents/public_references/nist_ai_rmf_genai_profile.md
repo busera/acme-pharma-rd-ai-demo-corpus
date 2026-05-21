@@ -1,36 +1,21 @@
 ---
 Document_File_Name: nist_ai_rmf_genai_profile.md
-IIA_Type: REG
-IIA_Type_Rational: This document is a NIST standard (AI RMF Generative AI Profile)
-  providing risk management guidance for generative AI, making it a regulatory/standard
-  reference for the audit.
-Quality_Rating: H
-Relevance_Score: H
-Fact: The document is the NIST AI RMF Generative AI Profile, published on July 26,
-  2024. It serves as a cross-sectoral companion to the AI RMF 1.0, specifically addressing
-  generative AI risks. The profile was developed pursuant to Executive Order 14110
-  on Safe, Secure, and Trustworthy AI and is intended for voluntary use to help organizations
-  integrate trustworthiness into AI system design, development, use, and evaluation.
-Summary: This NIST publication presents a Generative AI Profile for the AI Risk Management
-  Framework (AI RMF 1.0). It was published on July 26, 2024, as a cross-sectoral resource
-  to help organizations address risks unique to generative AI. The profile was developed
-  under Executive Order 14110, which emphasizes safe, secure, and trustworthy artificial
-  intelligence. It is voluntary and aims to improve the incorporation of trustworthiness
-  considerations into the design, development, use, and evaluation of AI products,
-  services, and systems. The document is part of the NIST Trustworthy and Responsible
-  AI series (Report Number 600-1) and includes guidance for AI lifecycle stages and
-  actors. It identifies key risk areas and provides a structured approach to managing
-  generative AI risks. The profile is intended to complement the broader AI RMF, offering
-  specific considerations for generative AI technologies.
-Section_Context: Regulatory requirements
-IIA_Relevance_Explanation: This document is a NIST standard (AI RMF Generative AI
-  Profile) providing risk management guidance for generative AI, making it a regulatory/standard
-  reference for the audit.
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: This document is a NIST standard (AI RMF Generative
-  AI Profile) providing risk management guidance for generative AI, making it a regulatory/standard
-  referen...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: '[Skip to main content](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence#main-content).
+  A .gov website belongs to an official government organization in the United States.'
+Summary: 'Document_File_Name: nist_ai_rmf_genai_profile.md. IIA_Type: UNK. Quality_Rating:
+  L. Relevance_Score: L. Fact: ''[Skip to main content](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence#main-content).
+  A .gov website belongs to an official government organization in the United States.''.
+  L. Relevance_Score: L. Fact: ''''[Skip to main content](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence#main-content).
+  A .gov website belongs to an official government organization in the United States.''''.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 [Skip to main content](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence#main-content)

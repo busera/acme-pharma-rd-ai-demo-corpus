@@ -7,61 +7,22 @@ status: draft
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 29_rd_org_chart_and_governance.md
-IIA_Type: CTX
-IIA_Type_Rational: The document provides organizational structure and governance forums
-  relevant to the audit scope, serving as background context for understanding roles
-  and decision rights.
-Quality_Rating: M
-Relevance_Score: H
-Fact: ACME Pharma has approximately 50,000 employees globally, with the R&D organization
-  comprising about 9,000 employees across discovery, translational science, preclinical
-  safety, clinical development interfaces, regulatory science, biomarker science,
-  scientific knowledge management, and R&D digital platforms. The AI-in-R&D audit
-  focuses on AI tools used before marketing authorization and before broad production
-  deployment, including formal pilots, supplier-supported prototypes, and potential
-  shadow AI use by research teams. The R&D Digital Office includes R&D AI Product
-  Owners, R&D Data Stewardship, and an R&D AI Platform Team. Governance forums include
-  the R&D AI Steering Committee, which prioritizes use cases and approves pilot expansion;
-  the AI Governance Review Board, which reviews intended use, model lifecycle, monitoring,
-  and responsible AI controls; the R&D Data Council, which approves data classes,
-  source systems, retention, and data quality expectations; the GxP Boundary Review,
-  which decides whether a use case affects GxP records, submission support, or validated
-  processes; and the Supplier Co-Development Review, which reviews contracts, no-training
-  restrictions, support access, derived artifacts, and exit.
-Summary: 'The document presents the ACME Pharma R&D organization chart and governance
-  map. It begins by describing the company''s global workforce of 50,000 and the R&D
-  organization''s 9,000 employees spread across multiple functions. The audit scope
-  is defined as AI tools used before marketing authorization and before broad production
-  deployment, covering formal pilots, supplier-supported prototypes, and potential
-  shadow AI. The organizational chart shows the reporting structure from the CEO to
-  the Global Head of R&D, and then to various R&D units including Discovery Research,
-  Translational Medicine, Preclinical Safety, Clinical Development Interface, Regulatory
-  Science, Scientific Knowledge Management, R&D Digital Office, and R&D Operations.
-  The R&D Digital Office is further broken down into R&D AI Product Owners, R&D Data
-  Stewardship, and R&D AI Platform Team. Dotted lines indicate governance relationships
-  with the Enterprise AI Governance Office, Quality and GxP Compliance, Regulatory
-  Quality, Legal and Intellectual Property, Privacy Office, Information Security,
-  and Procurement and Third Party Risk. A table details key governance forums: the
-  R&D AI Steering Committee chaired by a delegate of the Global Head of R&D, which
-  prioritizes use cases and approves pilot expansion; the AI Governance Review Board
-  chaired by the Enterprise AI Governance Office, which reviews intended use, model
-  lifecycle, monitoring, and responsible AI controls; the R&D Data Council chaired
-  by R&D Data Stewardship, which approves data classes, source systems, retention,
-  and data quality expectations; the GxP Boundary Review chaired by Quality and Regulatory
-  Science, which determines GxP impact; and the Supplier Co-Development Review chaired
-  by Procurement, TPRM, and Legal/IP, which reviews contracts and shared responsibilities.
-  Each forum''s audit relevance is noted, confirming whether AI use is business-led
-  and risk-aware, whether use cases are inventoried and governed consistently, whether
-  restricted research data is controlled, and whether third-party risks are managed.'
-Section_Context: Strategic/operational context
-IIA_Relevance_Explanation: The document provides organizational structure and governance
-  forums relevant to the audit scope, serving as background context for understanding
-  roles and decision rights.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document provides organizational structure
-  and governance forums relevant to the audit scope, serving as background context
-  for understanding roles and d...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: ACME Pharma R&D organization chart and governance map. scenario: AI
+  in Research and Development planning evidence.'
+Summary: 'title: ACME Pharma R&D organization chart and governance map. company: ACME
+  Pharma. doc_type: organization chart. owner: Global R&D Operations. status: draft.
+  confidentiality: Internal. scenario: AI in Research and Development planning evidence.
+  ACME Pharma R&D organization chart and governance map. Company and R&D footprint.
+  ACME Pharma has about 50,000 employees globally.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # ACME Pharma R&D organization chart and governance map

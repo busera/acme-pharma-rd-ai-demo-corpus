@@ -7,53 +7,22 @@ status: working
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 32_ai_use_case_inventory.md
-IIA_Type: EVD
-IIA_Type_Rational: This inventory extract provides factual evidence of AI use cases,
-  their status, and identified governance gaps, directly supporting the audit objective
-  to assess governance and control before expansion.
-Quality_Rating: H
-Relevance_Score: H
-Fact: The inventory lists nine AI use cases across R&D, with statuses including Running,
-  Running pilot, In development, Proposed, and On hold. Each entry identifies a key
-  governance gap, such as inconsistent citation review evidence for UC-RD-001, weak
-  upload controls for UC-RD-002, a pending GxP boundary decision for UC-RD-003, and
-  incomplete Part 11 assessment for UC-RD-005. Several use cases involve high decision
-  impact and GxP relevance, including lab-note synthesis (UC-RD-005) and regulatory
-  response drafting (UC-RD-007). The inventory is jointly owned by the Enterprise
-  AI Governance Office and R&D Digital Office, indicating a governance structure,
-  but the documented gaps suggest that governance, security, legal review, and traceability
-  controls are not fully mature for many AI pilots.
-Summary: The document is an extract from ACME Pharma's R&D AI use-case inventory,
-  jointly owned by the Enterprise AI Governance Office and the R&D Digital Office.
-  Its purpose is to record how R&D teams intend to use AI, requiring each entry to
-  specify business owner, user population, intended use, data class, decision impact,
-  external-party involvement, and supporting AI system. The extract presents nine
-  use cases in a table, covering activities such as public literature triage, internal
-  research-note summarization, experiment-design challenge, candidate prioritization,
-  lab-note synthesis, patent landscape support, regulatory response drafting, biomarker-study
-  feasibility summarization, and supplier literature monitoring. Statuses range from
-  Running and Running pilot to In development, Proposed, and On hold. Data classes
-  include public, restricted internal, GxP/study record data, and coded subject data,
-  with decision impacts from low to high. Several use cases have high GxP or regulatory
-  relevance, particularly those involving lab records, regulatory submissions, and
-  clinical-adjacent data. Each use case is linked to a supporting AI system, though
-  one is not yet assigned. Critically, the inventory highlights key governance gaps
-  for every use case, such as inconsistent citation review, insufficient upload controls,
-  pending GxP boundary decisions, lack of recorded review rationale, incomplete Part
-  11 and data-integrity assessments, unclear privilege and reuse boundaries, lack
-  of approval for submission-ready content, pending privacy and data-minimization
-  reviews, and supplier terms needing review. This inventory serves as a central tracking
-  tool that reveals both the scope of AI adoption and the specific governance deficiencies
-  that must be addressed before expansion beyond sandbox environments.
-Section_Context: Evidence artifact
-IIA_Relevance_Explanation: This inventory extract provides factual evidence of AI
-  use cases, their status, and identified governance gaps, directly supporting the
-  audit objective to assess governance and control before expansion.
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: This inventory extract provides factual evidence
-  of AI use cases, their status, and identified governance gaps, directly supporting
-  the audit objective to as...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: ACME Pharma R&D AI use-case inventory extract. owner: Enterprise AI
+  Governance Office / R&D Digital Office.'
+Summary: 'title: ACME Pharma R&D AI use-case inventory extract. company: ACME Pharma.
+  doc_type: inventory extract. owner: Enterprise AI Governance Office / R&D Digital
+  Office. status: working. confidentiality: Internal. scenario: AI in Research and
+  Development planning evidence. ACME Pharma R&D AI use-case inventory extract. Inventory
+  purpose. The use-case inventory records how R&D teams intend to use AI.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # ACME Pharma R&D AI use-case inventory extract

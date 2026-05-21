@@ -7,59 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 13_risk_register_extract.md
-IIA_Type: RCM
-IIA_Type_Rational: The document is a risk register that maps identified risks to control
-  maturity and residual concerns, aligning with the definition of a Risk and Control
-  Matrix (RCM) used for audit planning.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The risk register identifies ten risk themes relevant to the audit objective,
-  including confidential research data disclosure to external providers, vendor use
-  of company material for training without approval, unclear ownership of co-developed
-  artifacts, AI output influencing research direction without adequate expert review,
-  retrieval missing critical negative results, cloud misconfiguration or excessive
-  logging, lack of source traceability for model outputs, shadow AI bypassing inventory
-  and approval, and exit process failures. The expanded register details specific
-  risks such as RDAI-R01 (restricted R&D data processed outside approved boundary)
-  with high inherent risk and unproven enforcement at upload, RDAI-R02 (supplier uses
-  ACME content for training) with contract language under review and unclear derived
-  artifacts, RDAI-R04 (AI output influences research direction without accountable
-  scientist review) where evidence of review quality is limited, RDAI-R06 (GxP-relevant
-  records created without Part 11 or data-integrity assessment) with unclear ownership
-  of classification decisions, and RDAI-R08 (shadow AI use bypasses review) where
-  training and policy are planned but unmet user demand exists. Several risks are
-  not fully treated, with treatment depending on contract language, cloud review,
-  data classification, pilot controls, and user training. The planning note cautions
-  that the register is not the full risk universe and audit planning should challenge
-  completeness, especially for IP, third-party, privacy, security, human review, and
-  scientific integrity dimensions.
-Summary: This internal working document is an extract from the R&D AI Risk Register.
-  It presents ten risk themes covering data confidentiality, vendor misuse, intellectual
-  property ownership, human review adequacy, retrieval completeness, cloud security,
-  traceability, shadow IT, and exit procedures. The expanded risk register table lists
-  specific risk IDs with inherent risk ratings, current control maturity, and residual
-  concerns. For example, restricted data processing outside approved boundaries has
-  high inherent risk but enforcement is unproven; supplier use of company content
-  for training is under contract review but derived artifacts remain unclear; AI output
-  influencing research direction lacks robust review evidence; GxP record creation
-  without Part 11 assessment has unclear classification ownership; and shadow AI use
-  persists despite planned training. The document notes that many risks are not fully
-  treated and that mitigation relies on contract language, cloud review, data classification,
-  pilot controls, and user training. A planning note emphasizes that the register
-  should not be considered the complete risk universe and that audit planning must
-  challenge completeness across IP, third-party, privacy, security, human review,
-  and scientific integrity areas. The register serves as a starting point for identifying
-  control gaps in the AI pilot governance, security, legal review, human control,
-  and traceability domains.
-Section_Context: Risk/control matrix
-IIA_Relevance_Explanation: The document is a risk register that maps identified risks
-  to control maturity and residual concerns, aligning with the definition of a Risk
-  and Control Matrix (RCM) used for audit planning.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is a risk register that maps identified
-  risks to control maturity and residual concerns, aligning with the definition of
-  a Risk and Control Matr...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'scenario: AI in Research and Development planning evidence. Vendor uses company
+  material for training or product improvement without approval.'
+Summary: 'title: R&D AI Risk Register Extract. doc_type: risk register. owner: Enterprise
+  Risk / R&D Risk Owner. status: working. company: ACME Pharma. confidentiality: Internal.
+  scenario: AI in Research and Development planning evidence. R&D AI Risk Register
+  Extract. Risk themes. Vendor uses company material for training or product improvement
+  without approval.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # R&D AI Risk Register Extract

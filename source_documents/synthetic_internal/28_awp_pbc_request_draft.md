@@ -7,49 +7,21 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 28_awp_pbc_request_draft.md
-IIA_Type: WP
-IIA_Type_Rational: The document is an internal audit planning draft that lists evidence
-  to be requested from the auditee; it serves as a work paper for the audit engagement.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The draft PBC request list includes 14 specific document requests covering AI
-  strategy, use-case inventory, data classification, third-party contracts, legal
-  review, TPRM, cloud architecture, data flow, model cards, access control, change
-  log, incident response, training, and output review. The document notes that the
-  final request list should be narrowed after discovery to avoid overburdening the
-  auditee. It organizes requests by risk areas such as governance, GxP boundary, data
-  governance, third party, cloud/security, model lifecycle, human review, data integrity,
-  and shadow AI. The scoping note advises starting with top pilot use cases and expanding
-  if inventory or shadow-use evidence suggests unmanaged activity outside the formal
-  pilot. The rationale emphasizes testing whether AI governance exists in operating
-  evidence rather than policy alone.
-Summary: "This document is a draft Provided By Client (PBC) request list prepared\
-  \ by Internal Audit for an audit of ACME Pharma's R&D AI pilots. It enumerates 14\
-  \ categories of documents to be requested, including the R&D AI strategy and roadmap,\
-  \ AI use-case inventory and approval records, data classification rules, third-party\
-  \ contracts and data processing terms, legal and IP reviews, TPRM assessments, cloud\
-  \ architecture diagrams, data-flow documentation, model cards and validation plans,\
-  \ access control matrices, change logs, incident response procedures, training materials,\
-  \ and output review templates. A note clarifies that this is a planning draft and\
-  \ the final list should be narrowed after discovery to focus on the most relevant\
-  \ risks and avoid overburdening the auditee. The document also includes a table\
-  \ mapping risk areas\u2014governance, GxP boundary, data governance, third party,\
-  \ cloud/security, model lifecycle, human review, data integrity, and shadow AI\u2014\
-  to specific evidence requests. A scoping note recommends starting with the top pilot\
-  \ use cases and expanding only if inventory or shadow-use evidence indicates unmanaged\
-  \ activity outside the formal pilot. The evidence request rationale states that\
-  \ the PBC is structured to test whether AI governance exists in operating evidence\
-  \ rather than in policy alone. The document is marked as internal, confidential,\
-  \ and prepared for audit planning purposes."
-Section_Context: Workpaper summary
-IIA_Relevance_Explanation: The document is an internal audit planning draft that lists
-  evidence to be requested from the auditee; it serves as a work paper for the audit
-  engagement.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document is an internal audit planning draft
-  that lists evidence to be requested from the auditee; it serves as a work paper
-  for the audit engagement.'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: Draft PBC Request List for R&D AI Audit. scenario: AI in Research and
+  Development planning evidence.'
+Summary: 'title: Draft PBC Request List for R&D AI Audit. doc_type: PBC draft. owner:
+  Internal Audit. status: planning draft. company: ACME Pharma. confidentiality: Internal.
+  scenario: AI in Research and Development planning evidence. Requested documents.
+  R&D AI strategy and roadmap. AI use-case inventory and approval records.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Draft PBC Request List for R&D AI Audit

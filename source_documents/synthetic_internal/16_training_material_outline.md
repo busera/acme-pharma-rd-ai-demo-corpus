@@ -7,52 +7,22 @@ company: ACME Pharma
 confidentiality: Internal
 scenario: AI in Research and Development planning evidence
 Document_File_Name: 16_training_material_outline.md
-IIA_Type: GOV
-IIA_Type_Rational: The document outlines a training program for responsible AI use
-  in R&D, which is a governance control designed to ensure human accountability, data
-  protection, and policy compliance.
-Quality_Rating: M
-Relevance_Score: H
-Fact: The training outline includes eight modules covering data classification, third-party
-  tool risks, human review, intellectual property, recording AI-assisted analysis,
-  and incident reporting. A scenario exercise asks users to classify data and identify
-  contractual and privacy concerns when pasting unpublished experiment notes into
-  an external AI tool. The document notes that current training is voluntary for pilot
-  users and recommends mandatory training before expanding access. Training effectiveness
-  is assessed through scenario questions rather than simple policy acknowledgement.
-  The training is structured into five short modules with role-based scenarios for
-  discovery scientists, translational teams, and regulatory science users. It addresses
-  GxP boundaries, no-training clauses, support access, derived artifacts, and shadow
-  AI risks.
-Summary: 'The training material outline for Responsible AI Use in R&D is a draft document
-  that defines the structure and content of a training program. It lists eight initial
-  training modules covering why AI in R&D differs from general productivity AI, data
-  classes and restricted research information, third-party tools and vendor retention,
-  human review and scientific accountability, intellectual property risks, recording
-  AI-assisted analysis, handling unsupported AI output, and incident reporting. A
-  scenario exercise is included where a researcher wants to paste unpublished notes
-  into an external AI tool, requiring users to classify data, identify concerns, propose
-  a safe alternative, and document the decision. The document highlights a training
-  gap: current training is voluntary for pilot users, and mandatory training should
-  be considered before expanding access. Training effectiveness checks rely on scenario
-  questions that require users to classify examples by data class, intended use, review
-  requirement, and escalation path, rather than treating completion alone as evidence
-  of control effectiveness. The training is organized into five short modules: defining
-  AI use in R&D, data classification, human accountability and output review, third-party
-  and collaboration risks, and incident reporting. Role-based scenarios are provided
-  for discovery scientists (literature summaries, experiment design), translational
-  teams (biomarker and coded study data), and regulatory science users (response drafting
-  and approved-source boundaries). The outline emphasizes practical application and
-  decision-making over passive policy acknowledgement.'
-Section_Context: Governance framework
-IIA_Relevance_Explanation: The document outlines a training program for responsible
-  AI use in R&D, which is a governance control designed to ensure human accountability,
-  data protection, and policy compliance.
-IIA_Relevance: H
-IIA_Confidence: M
-Notes: 'Auto-derived categorization: The document outlines a training program for
-  responsible AI use in R&D, which is a governance control designed to ensure human
-  accountability, data protectio...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: 'title: ''Training Material Outline: Responsible AI Use in R&D''. scenario:
+  AI in Research and Development planning evidence.'
+Summary: 'title: ''Training Material Outline: Responsible AI Use in R&D''. doc_type:
+  training outline. owner: Learning / R&D Digital Office. status: draft. company:
+  ACME Pharma. confidentiality: Internal. scenario: AI in Research and Development
+  planning evidence. Training Material Outline: Responsible AI Use in R&D. Training
+  modules. Why AI in R&D is different from general productivity AI.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 # Training Material Outline: Responsible AI Use in R&D

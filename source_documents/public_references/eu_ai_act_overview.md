@@ -1,41 +1,21 @@
 ---
 Document_File_Name: eu_ai_act_overview.md
-IIA_Type: REG
-IIA_Type_Rational: The document summarizes the EU AI Act, a key regulation governing
-  AI systems, making it a regulatory reference for assessing legal review requirements.
-Quality_Rating: H
-Relevance_Score: H
-Fact: The EU AI Act is the first comprehensive legal framework on AI globally, establishing
-  risk-based rules for AI developers and deployers. It aims to foster trustworthy
-  AI in Europe and is part of a broader policy package including the AI Continent
-  Action Plan, AI Innovation Package, and AI Factories. The European Commission has
-  launched the AI Pact, a voluntary initiative to encourage early compliance with
-  the Act's key obligations. An AI Act Service Desk provides information and support
-  for implementation. The Act addresses risks of AI to avoid undesirable outcomes,
-  while recognizing that most AI systems pose limited to no risk.
-Summary: The document is an overview of the EU AI Act, the first-ever comprehensive
-  legal framework on artificial intelligence. It explains that the Act sets out risk-based
-  rules for AI developers and deployers to foster trustworthy AI in Europe. The overview
-  notes that the AI Act is part of a wider package of policy measures, including the
-  AI Continent Action Plan, AI Innovation Package, and AI Factories, which together
-  aim to guarantee safety, fundamental rights, and human-centric AI while strengthening
-  uptake, investment, and innovation. To facilitate the transition to the new regulatory
-  framework, the European Commission launched the AI Pact, a voluntary initiative
-  for early compliance, and the AI Act Service Desk for information and support. The
-  page emphasizes that while most AI systems pose limited to no risk, certain AI systems
-  create risks that must be addressed to avoid undesirable outcomes. The content is
-  hosted on the official European Union website, under the digital strategy policy
-  section. The document serves as a high-level introduction to the regulatory framework
-  and its objectives.
-Section_Context: Regulatory requirements
-IIA_Relevance_Explanation: The document summarizes the EU AI Act, a key regulation
-  governing AI systems, making it a regulatory reference for assessing legal review
-  requirements.
-IIA_Relevance: H
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: The document summarizes the EU AI Act, a key
-  regulation governing AI systems, making it a regulatory reference for assessing
-  legal review requirements.'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: '[Skip to main content](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai#main-content).
+  [image omitted]An official website of the European UnionAn official EU website.'
+Summary: 'Document_File_Name: eu_ai_act_overview.md. IIA_Type: UNK. Quality_Rating:
+  L. Relevance_Score: L. Fact: ''[Skip to main content](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai#main-content).
+  [image omitted]An official website of the European UnionAn official EU website.''.
+  L. Relevance_Score: L. Fact: ''''[Skip to main content](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai#main-content).
+  [image omitted]An official website of the European UnionAn official EU website.''''.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 [Skip to main content](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai#main-content)

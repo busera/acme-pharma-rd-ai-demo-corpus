@@ -1,38 +1,21 @@
 ---
 Document_File_Name: fda_ai_drug_development.md
-IIA_Type: CTX
-IIA_Type_Rational: The document provides background definitions, FDA perspectives,
-  and trends on AI use in drug development, establishing the external regulatory context
-  relevant to the audit of ACME's AI pilots.
-Quality_Rating: H
-Relevance_Score: M
-Fact: The FDA defines AI as a machine-based system that makes predictions, recommendations,
-  or decisions using human-defined objectives, and notes that machine learning (ML)
-  is a commonly used subset. The Center for Drug Evaluation and Research (CDER) has
-  observed a significant increase in drug application submissions containing AI components
-  across nonclinical, clinical, postmarketing, and manufacturing phases. AI is also
-  increasingly integrated with Digital Health Technologies and Real-World Data analytics.
-  CDER is actively engaged in these areas and is committed to ensuring appropriate
-  use of AI in drug development.
-Summary: This FDA webpage outlines the agency's perspective on artificial intelligence
-  in drug development. It defines AI and ML, explaining how AI systems perceive environments,
-  abstract perceptions into models, and use model inference to formulate options.
-  The document highlights the growing role of AI throughout the drug product life
-  cycle, noting a marked increase in submissions with AI components across therapeutic
-  areas. It describes AI's integration into nonclinical, clinical, postmarketing,
-  and manufacturing phases, as well as its connection to Digital Health Technologies
-  and Real-World Data analytics. The page emphasizes CDER's active engagement with
-  these technologies and its commitment to ensuring their safe and effective use in
-  drug development.
-Section_Context: Strategic/operational context
-IIA_Relevance_Explanation: The document provides background definitions, FDA perspectives,
-  and trends on AI use in drug development, establishing the external regulatory context
-  relevant to the audit of ACME's AI pilots.
-IIA_Relevance: M
-IIA_Confidence: H
-Notes: 'Auto-derived categorization: The document provides background definitions,
-  FDA perspectives, and trends on AI use in drug development, establishing the external
-  regulatory context releva...'
+IIA_Type: UNK
+Quality_Rating: L
+Relevance_Score: L
+Fact: '[Skip to main content](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development#main-content).
+  [Skip to FDA Search](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development#search-form).'
+Summary: 'Document_File_Name: fda_ai_drug_development.md. IIA_Type: UNK. Quality_Rating:
+  L. Relevance_Score: L. Fact: ''[Skip to main content](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development#main-content).
+  [Skip to FDA Search](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development#search-form).''.
+  L. Relevance_Score: L. Fact: ''''[Skip to main content](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development#main-content).
+  [Skip to FDA Search](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development#search-form).''''.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
+IIA_Confidence: L
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 - [Skip to main content](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development#main-content)

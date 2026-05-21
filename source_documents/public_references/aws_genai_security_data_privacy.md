@@ -1,32 +1,22 @@
 ---
 Document_File_Name: aws_genai_security_data_privacy.md
-IIA_Type: CTX
-IIA_Type_Rational: The document is an external technical guide from AWS that provides
-  context on security and data privacy best practices for generative AI, relevant
-  to evaluating the security posture of AI pilots.
+IIA_Type: UNK
 Quality_Rating: L
-Relevance_Score: H
-Fact: The document is an AWS Prescriptive Guidance titled 'Security considerations
-  for data in generative AI'. It is available in PDF, RSS, and Markdown formats. The
-  document likely provides guidance on securing data in generative AI contexts, including
-  data protection and privacy. It is a public reference from a major cloud provider.
-Summary: The document is an AWS Prescriptive Guidance publication focused on security
-  considerations for data in generative AI. It is accessible in multiple formats,
-  including PDF, RSS, and Markdown. The title suggests the content addresses how to
-  secure data used in generative AI applications, covering aspects such as data protection,
-  access management, and compliance. As an authoritative cloud provider guide, it
-  provides best practices for implementing generative AI securely. The document is
-  relevant for assessing whether ACME Pharma's AI pilots have adequate security controls
-  and data privacy measures.
-Section_Context: Strategic/operational context
-IIA_Relevance_Explanation: The document is an external technical guide from AWS that
-  provides context on security and data privacy best practices for generative AI,
-  relevant to evaluating the security posture of AI pilots.
-IIA_Relevance: H
+Relevance_Score: L
+Fact: We use essential cookies and similar tools that are necessary to provide our
+  site and services. We use performance cookies to collect anonymous statistics, so
+  we can understand how customers use our site and make improvements.
+Summary: 'Document_File_Name: aws_genai_security_data_privacy.md. IIA_Type: UNK. Quality_Rating:
+  L. Relevance_Score: L. Fact: We use essential cookies and similar tools that are
+  necessary to provide our. site and services. We use performance cookies to collect
+  anonymous statistics, so. we can understand how customers use our site and make
+  improvements. L. Relevance_Score: L.'
+Section_Context: Document overview
+IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
+  extract planning evidence.
+IIA_Relevance: L
 IIA_Confidence: L
-Notes: 'Auto-derived categorization: The document is an external technical guide from
-  AWS that provides context on security and data privacy best practices for generative
-  AI, relevant to evaluat...'
+Notes: Auto-derived from scan; verify content during manual review.
 ---
 
 ## Select your cookie preferences
