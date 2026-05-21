@@ -19,6 +19,12 @@ Current source-document count: 50 markdown files.
 - Public-reference files: 15
 - ACME internal-looking evidence files: 33
 
+## Development independence and overfitting boundary
+
+This synthetic document corpus was not used during development of the AI-assisted audit-planning workflow. It was created as a separate public demonstration pack so the example could be run against evidence the workflow had not been tuned on.
+
+That separation is intentional: it reduces the risk that the published demo reflects overfitting to a known document set, hard-coded examples, or source-specific prompt tuning. The corpus should therefore be treated as a fresh evaluation-style demonstration input, not as training material for the workflow itself.
+
 ## What is intentionally excluded
 
 This public package excludes runtime and local working artifacts: logs, raw generated APM output folders, state/cache folders, configuration files, local machine paths, AI runtime implementation details, graph refresh reports, package manifests, and private vault context.
