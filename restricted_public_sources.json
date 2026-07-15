@@ -11,11 +11,12 @@
       "rights_note": "AWS documentation; all rights reserved. Local acquisition only."
     },
     {
-      "filename": "aws_genai_security_scoping_matrix.html",
-      "sha256": "0a781d8dd974041bda5ada42b43ad74c7712a08ab3bcc2c6e5f0de437414befe",
-      "official_url": "https://aws.amazon.com/ai/security/generative-ai-scoping-matrix/",
+      "filename": "aws_genai_security_scoping_matrix_intro_blog.html",
+      "sha256": "14a8cc00607aa80c5758b402c73a3c62bb349985a31d4d79b08d63e00d0e0f5c",
+      "official_url": "https://aws.amazon.com/blogs/security/securing-generative-ai-an-introduction-to-the-generative-ai-security-scoping-matrix/",
+      "reviewed_url": "https://aws.amazon.com/ai/security/generative-ai-scoping-matrix/",
       "canonical_record": "source_documents/public_references/aws_genai_security_scoping_matrix.md",
-      "rights_note": "AWS website content; local acquisition only."
+      "rights_note": "AWS Security Blog content; local acquisition only."
     },
     {
       "filename": "aws_well_architected_ml_lens.pdf",

@@ -1,12 +1,13 @@
-# AWS AI Security Scoping Matrix
+# AWS Generative AI Security Scoping Matrix
 
 ## Authority and status
 
 - **Issuer:** Amazon Web Services
-- **Source:** *AI Security Scoping Matrix*
-- **Version:** Living page; acquired 13 July 2026
+- **Primary source:** *Securing generative AI: An introduction to the Generative AI Security Scoping Matrix*
+- **Published:** 19 October 2023; acquired 15 July 2026
 - **Status:** Vendor security framework; non-binding and not independent assurance
-- **Official source:** <https://aws.amazon.com/ai/security/generative-ai-scoping-matrix/>
+- **Official source:** <https://aws.amazon.com/blogs/security/securing-generative-ai-an-introduction-to-the-generative-ai-security-scoping-matrix/>
+- **Current companion page:** <https://aws.amazon.com/ai/security/generative-ai-scoping-matrix/>
 
 ## Audit-planning relevance
 
@@ -24,12 +25,12 @@ AWS groups considerations across governance and compliance, legal and privacy, r
 
 ## Selected source excerpts
 
-> “The scopes are numbered 1–5, representing least ownership to greatest ownership your organization has over the AI model and its associated data.”
+> “The scopes are numbered 1–5, representing least ownership to greatest ownership.”
 
-> “For Scopes 1 and 2, evaluate the risks stemming from third-party providers and understand their risk mitigation strategies.”
+> “In the Generative AI Security Scoping Matrix, we identify five security disciplines that span the different types of generative AI solutions.”
 
-> “This makes it essential to implement least privilege access control to data before it’s added as context into the inference request.”
+> “Core security disciplines, like identity and access management, data protection, privacy and compliance, application security, and threat modeling are still critically important for generative AI workloads, just as they are for any other workload.”
 
 ## Use boundary
 
-The scopes are a vendor mental model, not a regulatory classification. They can structure planning but cannot establish legal applicability, adequate control design, or operating effectiveness. ACME evidence must establish the actual service, ownership model, contracts, data handling, access paths, and resilience requirements. Consult the current official page before reliance.
+The scopes are a vendor mental model, not a regulatory classification. They can structure planning but cannot establish legal applicability, adequate control design, or operating effectiveness. ACME evidence must establish the actual service, ownership model, contracts, data handling, access paths, and resilience requirements. Consult both current official AWS sources before reliance.

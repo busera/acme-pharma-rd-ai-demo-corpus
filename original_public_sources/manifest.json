@@ -101,10 +101,10 @@
       "corpus_record": "source_documents/public_references/nist_ai_rmf_genai_profile.md"
     },
     {
-      "filename": "owasp_llm_top_10_2025.html",
-      "sha256": "2aeac40f92858f5380328512e3de4f68e22114b80e8bf70bea299c60f9c2c715",
-      "bytes": 305619,
-      "official_url": "https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/",
+      "filename": "owasp_llm_top_10_2025.pdf",
+      "sha256": "eee39216f0e6750fe08f11d17beb1b7e132557db3ed87dcd389cd3d035c4a4c1",
+      "bytes": 8768341,
+      "official_url": "https://genai.owasp.org/download/43299/?tmstv=1731900559",
       "reuse_basis": "Creative Commons Attribution-ShareAlike 4.0 unless otherwise specified",
       "corpus_record": "source_documents/public_references/owasp_llm_top_10.md"
     }

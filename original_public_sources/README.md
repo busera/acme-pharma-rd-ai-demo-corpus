@@ -13,6 +13,8 @@ Use the files here to:
 - inspect the original layout and context;
 - compare future versions with the pinned acquisition.
 
+Superseded acquisitions are retained under `_Archive/` for provenance only. They are absent from `manifest.json` and are never copied by `prepare-full`.
+
 Do not add this directory directly to an APM/AWP run. Use `scripts/prepare_corpus.py prepare-full`, which replaces all public-reference records with 20 originals and writes an adjacent corpus manifest.
 
 ## Integrity

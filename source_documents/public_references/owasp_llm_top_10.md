@@ -7,9 +7,10 @@
 - **Status:** Community security guidance; nonbinding
 - **License:** Creative Commons Attribution-ShareAlike 4.0
 - **Official source:** <https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/>
+- **Full report:** <https://genai.owasp.org/download/43299/?tmstv=1731900559>
 - **Risk archive:** <https://genai.owasp.org/llm-top-10/>
 
-This record summarizes the 2025 edition and supersedes the previous taxonomy.
+This record summarizes the full 45-page 2025 report and supersedes the previous taxonomy.
 
 ## 2025 risk taxonomy
 
