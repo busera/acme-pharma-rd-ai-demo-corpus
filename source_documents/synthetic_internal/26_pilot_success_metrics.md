@@ -1,31 +1,10 @@
----
-title: Pilot Success Metrics for R&D AI
-doc_type: metrics
-owner: R&D AI Product Owner
-status: draft
-company: ACME Pharma
-confidentiality: Internal
-scenario: AI in Research and Development planning evidence
-Document_File_Name: 26_pilot_success_metrics.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'scenario: AI in Research and Development planning evidence. Time saved in preparing
-  literature summaries.'
-Summary: 'title: Pilot Success Metrics for R&D AI. doc_type: metrics. owner: R&D AI
-  Product Owner. status: draft. company: ACME Pharma. confidentiality: Internal. scenario:
-  AI in Research and Development planning evidence. Pilot Success Metrics for R&D
-  AI. Proposed metrics. Time saved in preparing literature summaries.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # Pilot Success Metrics for R&D AI
 
+**Record owner:** NEURALIS Product Owner
+**Approver:** Translational Medicine Business Owner
+**Status:** Metrics baseline version 0.5
+**Effective or as-of date:** 18 June 2026
+**Review cycle:** At pilot gate
 
 ## Proposed metrics
 
@@ -67,17 +46,3 @@ Adoption metrics track active users, repeat users, workspace creation, output ex
 ## Use in governance decisions
 
 The metrics are meant to support go/no-go decisions, not just show adoption. A pilot with high usage but weak source grounding or unclear supplier restrictions should not automatically move to routine use. Conversely, a low-volume pilot may still be valuable if it addresses a high-risk workflow with strong controls.
-
-The audit should test whether success metrics are defined before pilots begin and whether governance forums actually use them. Retrospective metrics chosen after a pilot succeeds are weaker evidence.
-
-## Detailed audit scenario and sample evidence
-
-For audit planning, this artifact would normally be supported by several underlying records rather than read in isolation. Expected supporting evidence includes the accountable owner, approval date, related use-case ID, related system ID, affected R&D functions, data classes permitted, supplier involvement, intended decision impact, and the operating procedure or workflow that tells users what to do. A mature record would also show exceptions, issue follow-up, and the date when the artifact was last challenged by governance.
-
-A realistic sample for 26 pilot success metrics would include at least one discovery-science workspace, one translational-science workspace, and one regulatory-science or quality-adjacent scenario. The sample should show whether the same rule is applied differently depending on data class. Public literature summaries should have lighter evidence requirements. Restricted research content should require project-owner approval, traceability to source material, and explicit output-review responsibility. GxP-adjacent or submission-support use should require a documented boundary assessment and stronger change-control evidence.
-
-The most useful audit evidence is not the existence of the document itself. It is the join between this document and operating records: inventory entries, project approvals, access groups, supplier clauses, monitoring logs, training completion, and examples of outputs reviewed or rejected. If those joins cannot be shown, the control may exist on paper but not operate reliably.
-
-## Questions for walkthroughs
-
-During walkthroughs, the audit team should ask who owns this artifact, how teams know when it applies, what happens when a pilot changes scope, where exceptions are logged, and how management knows the artifact is being followed. The team should also ask for one example where the rule stopped or changed a proposed AI use. Evidence of a controlled rejection, redesign, or escalation is often a stronger sign of governance maturity than a list of approved pilots.

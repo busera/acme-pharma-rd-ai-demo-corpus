@@ -1,32 +1,10 @@
----
-title: Project NEURALIS external-party R&D AI co-development charter
-company: ACME Pharma
-doc_type: project charter
-owner: R&D Digital Office / Translational Medicine
-status: in development
-confidentiality: Internal
-scenario: AI in Research and Development planning evidence
-Document_File_Name: 31_external_party_research_project_neuralis.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'title: Project NEURALIS external-party R&D AI co-development charter. owner:
-  R&D Digital Office / Translational Medicine.'
-Summary: 'title: Project NEURALIS external-party R&D AI co-development charter. company:
-  ACME Pharma. doc_type: project charter. owner: R&D Digital Office / Translational
-  Medicine. status: in development. confidentiality: Internal. scenario: AI in Research
-  and Development planning evidence. Project NEURALIS external-party R&D AI co-development
-  charter. Project summary. Project NEURALIS is developing an AI-supported research-assistant
-  workflow for translational medicine teams.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # Project NEURALIS external-party R&D AI co-development charter
+
+**Record owner:** NEURALIS Project Manager
+**Approver:** Translational Medicine Business Owner and R&D Digital Office Product Owner
+**Status:** Version 0.9, controlled development
+**Effective or as-of date:** 30 June 2026
+**Review cycle:** Monthly
 
 ## Project summary
 
@@ -36,11 +14,10 @@ The solution is being co-developed with HelixBridge Analytics, an external analy
 
 ## Current project status
 
-| Area | Status | Audit concern |
 |---|---|---|
-| Business case | Approved for development | Value case is clear, but risk appetite for broader rollout is not documented |
+| Business case | Approved for controlled development | Value case is clear, but risk appetite for broader rollout is not documented |
 | Technical build | Prototype in controlled development workspace | Architecture review is not final |
-| Data use | Public literature approved; restricted internal summaries approved only for selected test cases | Upload enforcement and deletion evidence are not yet proven |
+| Data use | Public scientific information plus selected restricted internal summaries | Upload enforcement and deletion evidence are not yet proven |
 | Supplier role | HelixBridge performs build and tuning support | Shared-responsibility boundaries need clearer evidence |
 | GxP boundary | Initial view says not GxP, but outputs may influence protocol design | Quality and Regulatory Science have not issued final classification |
 | Validation | Test approach drafted | Negative-evidence and contradictory-source tests are immature |
@@ -53,8 +30,8 @@ The solution is being co-developed with HelixBridge Analytics, an external analy
 |---|---|---|
 | ACME Pharma Translational Medicine | Business owner | Defines intended use, reviewer process, scientific decision boundaries, and expansion criteria |
 | ACME Pharma R&D Digital Office | Product owner | Owns roadmap, user access, release readiness, support model, and inventory entries |
-| ACME Pharma Data Stewardship | Data owner delegate | Approves source data classes, retention, deletion, and lineage expectations |
-| ACME Pharma Quality / Regulatory Science | GxP boundary owner | Determines whether output affects controlled records, submission support, or validation scope |
+| ACME Pharma R&D Data Council delegate | Data owner delegate | Approves source data classes, retention, deletion, and lineage expectations |
+| ACME Pharma Quality and Regulatory Science | GxP boundary owner | Determines whether output affects controlled records, submission support, or validation scope |
 | ACME Pharma Legal/IP | Legal owner | Reviews ownership, no-training, reuse, confidentiality, invention-support, and exit terms |
 | ACME Pharma TPRM / Procurement | Supplier control owner | Performs vendor due diligence and monitors supplier obligations |
 | HelixBridge Analytics | External co-development partner | Builds and tunes the workflow under ACME-approved data, access, and reuse restrictions |
@@ -82,10 +59,6 @@ The solution is being co-developed with HelixBridge Analytics, an external analy
 7. If AI output changes an experiment-design decision, how is that captured in the scientific record?
 8. If Quality later classifies the workflow as GxP-relevant, what additional validation and record controls are required?
 
-## Audit-planning implication
-
-Project NEURALIS is the strongest test case for the audit because it combines R&D value, external co-development, restricted data, model lifecycle, derived artifacts, scientific review, and uncertain GxP boundaries. A generic third-party risk review would miss several AI-specific issues unless it explicitly asks about prompts, embeddings, evaluation sets, model changes, support-data use, and reuse of confidential research know-how.
-
 ## Project workstreams
 
 Project NEURALIS has four workstreams. Workstream A designs retrieval and summarization over approved literature and internal research notes. Workstream B develops experiment-design challenge prompts and evaluation examples. Workstream C builds reviewer feedback capture and issue tracking. Workstream D prepares governance evidence for any future expansion beyond sandbox use. The supplier contributes workflow design and technical implementation; ACME contributes scientific requirements, review examples, and acceptance criteria.
@@ -95,5 +68,3 @@ The project plan states that NEURALIS is not approved for regulatory submission 
 ## Co-development risks under review
 
 The project creates artifacts that are more sensitive than ordinary deliverables: prompt patterns, evaluation examples, reviewer comments, defect labels, acceptance criteria, and source-selection rules. These artifacts can reveal how ACME evaluates research uncertainty. Legal/IP has asked for clear ownership and reuse restrictions. Security has asked for support-access logging. Quality has asked for a boundary assessment before any output enters controlled records.
-
-The audit should treat NEURALIS as a strong test case because it combines external co-development, restricted research context, human review, model-change risk, and unclear transition from sandbox to routine use.

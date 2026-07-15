@@ -1,38 +1,16 @@
----
-title: Research Integrity Review Minutes
-doc_type: meeting minutes
-owner: Research Integrity Committee
-status: sample
-company: ACME Pharma
-confidentiality: Internal
-scenario: AI in Research and Development planning evidence
-Document_File_Name: 14_research_integrity_review_minutes.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'title: Research Integrity Review Minutes. scenario: AI in Research and Development
-  planning evidence.'
-Summary: 'title: Research Integrity Review Minutes. doc_type: meeting minutes. owner:
-  Research Integrity Committee. status: sample. company: ACME Pharma. confidentiality:
-  Internal. scenario: AI in Research and Development planning evidence. Research Integrity
-  Review Minutes. Discussion summary. The committee discussed whether AI-generated
-  summaries may be attached to experiment records.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # Research Integrity Review Minutes
 
+**Record owner:** Research Integrity Committee Secretariat
+**Approver:** Research Integrity Committee Chair
+**Status:** Approved minutes
+**Effective or as-of date:** 5 June 2026
+**Review cycle:** Not applicable
 
 ## Discussion summary
 
 The committee discussed whether AI-generated summaries may be attached to experiment records. Members agreed that AI outputs can support preparation, but the record must distinguish between source evidence, AI-generated interpretation, and scientist judgment.
 
-## Concerns raised
+## Current constraints raised
 
 - AI summaries may flatten disagreement or uncertainty in source literature.
 - Negative results may be underrepresented if retrieval favors documents with clearer language.
@@ -50,13 +28,13 @@ The committee accepted that AI can help scientists find sources and challenge as
 
 ## Decisions and open actions
 
-| Topic | Decision | Open action |
-|---|---|---|
-| AI summaries in research records | Allowed only as supporting drafts, not original evidence | Define label and retention rule |
-| Candidate ranking | Allowed as advisory input | Require rationale and scientist override log |
-| Negative results | Must be explicitly searched and documented | Build test cases using failed experiments and inconclusive studies |
-| Protocol suggestions | Must be reviewed by protocol owner | Add sign-off field to output review template |
-| Regulatory wording | Not approved for submission-ready use | Regulatory Science to define controlled pilot boundary |
+| Topic | Decision | Open action | Owner | Target date |
+|---|---|---|---|---|
+| AI summaries in research records | Allowed only as supporting drafts, not original evidence | Define label and retention rule | Quality and Records Management | 31 July 2026 |
+| Candidate ranking | Allowed as advisory input | Require rationale and scientist override log | Research Portfolio Board Secretariat | 31 July 2026 |
+| Negative results | Must be explicitly searched and documented | Build test cases using failed experiments and inconclusive studies | R&D Digital Office | 15 August 2026 |
+| Protocol suggestions | Must be reviewed by protocol owner | Add sign-off field to output review template | Translational Medicine | 31 July 2026 |
+| Regulatory wording | Not approved for submission-ready use | Define controlled pilot boundary | Regulatory Science | 30 September 2026 |
 
 ## Meeting discussion detail
 
@@ -66,18 +44,4 @@ A second discussion focused on uncertainty. Researchers reported that draft AI o
 
 ## Actions assigned
 
-The committee assigned actions to R&D Digital, Quality, and Scientific Governance. R&D Digital will update user guidance to require source review before reuse. Quality will define when AI output becomes part of a controlled record. Scientific Governance will develop review expectations for outputs used in candidate review, experiment design, or regulatory response preparation.
-
-The audit should request action closure evidence, revised guidance, meeting follow-up, and examples of AI-assisted decision material. The key question is whether integrity expectations have moved from committee discussion into everyday operating practice.
-
-## Detailed audit scenario and sample evidence
-
-For audit planning, this artifact would normally be supported by several underlying records rather than read in isolation. Expected supporting evidence includes the accountable owner, approval date, related use-case ID, related system ID, affected R&D functions, data classes permitted, supplier involvement, intended decision impact, and the operating procedure or workflow that tells users what to do. A mature record would also show exceptions, issue follow-up, and the date when the artifact was last challenged by governance.
-
-A realistic sample for 14 research integrity review minutes would include at least one discovery-science workspace, one translational-science workspace, and one regulatory-science or quality-adjacent scenario. The sample should show whether the same rule is applied differently depending on data class. Public literature summaries should have lighter evidence requirements. Restricted research content should require project-owner approval, traceability to source material, and explicit output-review responsibility. GxP-adjacent or submission-support use should require a documented boundary assessment and stronger change-control evidence.
-
-The most useful audit evidence is not the existence of the document itself. It is the join between this document and operating records: inventory entries, project approvals, access groups, supplier clauses, monitoring logs, training completion, and examples of outputs reviewed or rejected. If those joins cannot be shown, the control may exist on paper but not operate reliably.
-
-## Questions for walkthroughs
-
-During walkthroughs, the audit team should ask who owns this artifact, how teams know when it applies, what happens when a pilot changes scope, where exceptions are logged, and how management knows the artifact is being followed. The team should also ask for one example where the rule stopped or changed a proposed AI use. Evidence of a controlled rejection, redesign, or escalation is often a stronger sign of governance maturity than a list of approved pilots.
+The committee assigned actions to the R&D Digital Office, Quality and Records Management, the Research Portfolio Board Secretariat, Translational Medicine, and Regulatory Science as recorded above. The secretariat will review overdue actions at the July meeting.

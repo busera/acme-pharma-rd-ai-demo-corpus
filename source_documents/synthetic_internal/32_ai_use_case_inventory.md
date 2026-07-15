@@ -1,31 +1,10 @@
----
-title: ACME Pharma R&D AI use-case inventory extract
-company: ACME Pharma
-doc_type: inventory extract
-owner: Enterprise AI Governance Office / R&D Digital Office
-status: working
-confidentiality: Internal
-scenario: AI in Research and Development planning evidence
-Document_File_Name: 32_ai_use_case_inventory.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'title: ACME Pharma R&D AI use-case inventory extract. owner: Enterprise AI
-  Governance Office / R&D Digital Office.'
-Summary: 'title: ACME Pharma R&D AI use-case inventory extract. company: ACME Pharma.
-  doc_type: inventory extract. owner: Enterprise AI Governance Office / R&D Digital
-  Office. status: working. confidentiality: Internal. scenario: AI in Research and
-  Development planning evidence. ACME Pharma R&D AI use-case inventory extract. Inventory
-  purpose. The use-case inventory records how R&D teams intend to use AI.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # ACME Pharma R&D AI use-case inventory extract
+
+**Record owner:** R&D Digital Office
+**Approver:** R&D AI Steering Committee
+**Status:** Controlled inventory extract
+**Effective or as-of date:** 30 June 2026
+**Review cycle:** Monthly
 
 ## Inventory purpose
 
@@ -33,46 +12,32 @@ The use-case inventory records how R&D teams intend to use AI. It is owned joint
 
 ## Inventory extract
 
-| Use case ID | Use case | Business owner | Status | Data class | Decision impact | GxP / regulated relevance | Supporting AI system | Key governance gap |
+| Use case ID | Use case | Business owner | Status | Data class | Decision impact | GxP / regulated relevance | Supporting AI system | Pending action |
 |---|---|---|---|---|---|---|---|---|
-| UC-RD-001 | Public literature triage | Scientific Knowledge Management | Running | Public | Low | Low | SYS-AI-001 Knowledge Search Assistant | Citation review evidence inconsistent |
-| UC-RD-002 | Internal research-note summarization | Discovery Research | Running pilot | Restricted internal | Medium | Possible downstream relevance | SYS-AI-002 R&D Insight Workspace | Upload controls need stronger evidence |
-| UC-RD-003 | Experiment-design challenge | Translational Medicine | In development | Public plus selected internal summaries | Medium-high | Potential protocol-design influence | SYS-AI-003 Project NEURALIS Assistant | GxP boundary decision pending |
-| UC-RD-004 | Candidate prioritization support | Research Portfolio Board | Running pilot | Restricted research | High | May influence portfolio governance | SYS-AI-004 Candidate Evidence Ranker | Review rationale not consistently recorded |
-| UC-RD-005 | Lab-note synthesis | Preclinical Safety | On hold | GxP / study record data | High | High | SYS-AI-005 Lab Record Drafting Assistant | Part 11 and data-integrity assessment not complete |
-| UC-RD-006 | Patent landscape support | Legal/IP and Discovery Research | In development | Public patents plus confidential invention notes | Medium-high | Low GxP, high IP relevance | SYS-AI-006 Patent Landscape Copilot | Privilege and reuse boundaries unclear |
-| UC-RD-007 | Regulatory response outline drafting | Regulatory Science | Proposed | Approved source documents | High | High if used for submission content | SYS-AI-007 Regulatory Drafting Support | Not approved for submission-ready content |
-| UC-RD-008 | Biomarker-study feasibility summarization | Translational Medicine | Proposed | Coded subject and study feasibility data | High | Clinical-adjacent privacy and regulatory relevance | Not assigned | Privacy and data-minimization review pending |
-| UC-RD-009 | Supplier literature-monitoring feed | External Innovation | Running | Public plus partner watchlist | Low-medium | Low | SYS-AI-008 Partner Intelligence Feed | Supplier change and data-use terms need review |
-| UC-RD-010 | Research meeting preparation assistant | Multiple R&D functions | Running unofficially | Unknown | Low to medium | Unknown | Unapproved external tools reported | Shadow AI; inventory incomplete |
+| UC-RD-001 | Public literature triage | Scientific Knowledge Management | Operational | Public scientific information | Low | Not GxP | SYS-AI-001 Knowledge Search Assistant | Citation review evidence inconsistent |
+| UC-RD-002 | Internal research-note summarization | Discovery Research | Controlled pilot | Restricted research information | Medium | Boundary not triggered | SYS-AI-002 R&D Insight Workspace | Upload controls need stronger evidence |
+| UC-RD-003 | Experiment-design challenge | Translational Medicine | Controlled development | Public scientific information; Restricted research information | Medium-high | Pending GxP Boundary Review | SYS-AI-003 Project NEURALIS Assistant | Derived-artifact ownership and supplier support access remain open |
+| UC-RD-004 | Candidate prioritization support | Research Portfolio Board | Controlled pilot | Restricted research information | High, advisory only | Boundary not triggered | SYS-AI-004 Candidate Evidence Ranker | Review rationale not consistently recorded |
+| UC-RD-005 | Lab-note synthesis | Preclinical Safety | On hold | GxP or submission-support information | High | GxP boundary triggered | SYS-AI-005 Lab Record Drafting Assistant | Data-integrity and assurance approach not complete |
+| UC-RD-006 | Patent landscape support | Legal/IP and Discovery Research | Controlled development | Public scientific information; Restricted research information | Medium-high | Not GxP | SYS-AI-006 Patent Landscape Copilot | Privilege and reuse boundaries unclear |
+| UC-RD-007 | Regulatory response outline drafting | Regulatory Science | Proposed only | GxP or submission-support information | High | GxP boundary triggered | SYS-AI-007 Regulatory Drafting Support | No drafting or submission use approved |
+| UC-RD-008 | Biomarker-study feasibility summarization | Translational Medicine | Proposed | Personal or sensitive data | High | Pending GxP Boundary Review | Not assigned | Privacy and data-minimization review pending |
+| UC-RD-009 | Supplier literature-monitoring feed | External Innovation | Operational | Public scientific information; Internal research information | Low-medium | Not GxP | SYS-AI-008 Partner Intelligence Feed | Supplier change and data-use terms need review |
+| UC-RD-010 | Research meeting preparation assistant | Multiple R&D functions | Unofficial | Unknown | Low to medium | Not assessed | SYS-AI-009 External General AI Tools | Shadow use remains unofficial and inventory details are incomplete |
 
 ## Status definitions
 
 | Status | Meaning |
 |---|---|
-| Running | Available to users in an approved environment |
-| Running pilot | Available to a restricted pilot group with active monitoring |
-| In development | Build or configuration work underway; not released for routine use |
-| Proposed | Idea accepted into intake but not yet built or approved |
+| Operational | Available to users in an approved environment |
+| Controlled pilot | Available to a restricted pilot group with active monitoring |
+| Controlled development | Build or configuration work underway; not released for routine use |
+| Proposed / proposed only | Accepted into intake but not built or approved; proposed only prohibits activity beyond concept work |
 | On hold | Blocked by risk, compliance, funding, or technical dependency |
-| Running unofficially | Evidence suggests use outside the approved inventory |
-
-## Audit observations from inventory review
-
-- The inventory is useful, but it is not yet complete enough to prove AI use is controlled across R&D.
-- Status labels are not always matched to evidence. For example, a use case may be marked as running pilot without current monitoring results.
-- GxP relevance is often marked low when the immediate activity is exploratory, even though outputs may later influence protocol, study, or submission-support decisions.
-- Supplier involvement is under-recorded at the use-case level when the underlying AI system is vendor-hosted.
-- The inventory needs a reconciliation control against procurement, cloud, expense, browser extension, and user-survey data to identify shadow AI.
+| Unofficial | Reported use outside an approved environment |
 
 ## Inventory reconciliation notes
 
 The use-case inventory now distinguishes the business activity from the supporting system. For example, literature triage and experiment-design challenge may run on the same platform but have different decision impact, data classes, user populations, and review expectations. Conversely, one use case may use several systems: document repository, retrieval layer, model endpoint, workflow interface, and output archive.
 
 The inventory includes running use cases, pilots, development projects, proposed use cases, on-hold items, and shadow-AI observations. Each entry should show owner, lifecycle state, decision impact, data class, external involvement, and whether the use case maps to a system inventory record. Entries without system mapping are not automatically invalid, but they require follow-up because technical risk cannot be assessed.
-
-## Audit sampling approach
-
-The audit should sample across states. A running use case tests monitoring and access review. A pilot tests gate evidence and time limits. A development project tests early governance. A proposed use case tests intake. A shadow-AI entry tests detection and remediation. The sample should include at least one external-party use case and one use case near the GxP or submission-support boundary.
-
-The inventory should also record rejected or on-hold use cases. Rejections provide evidence that governance can say no or require redesign, which is often more persuasive than a list of approved tools.

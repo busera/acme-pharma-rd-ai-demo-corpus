@@ -1,36 +1,14 @@
----
-title: R&D AI Risk Register Extract
-doc_type: risk register
-owner: Enterprise Risk / R&D Risk Owner
-status: working
-company: ACME Pharma
-confidentiality: Internal
-scenario: AI in Research and Development planning evidence
-Document_File_Name: 13_risk_register_extract.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'scenario: AI in Research and Development planning evidence. Vendor uses company
-  material for training or product improvement without approval.'
-Summary: 'title: R&D AI Risk Register Extract. doc_type: risk register. owner: Enterprise
-  Risk / R&D Risk Owner. status: working. company: ACME Pharma. confidentiality: Internal.
-  scenario: AI in Research and Development planning evidence. R&D AI Risk Register
-  Extract. Risk themes. Vendor uses company material for training or product improvement
-  without approval.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # R&D AI Risk Register Extract
 
+**Record owner:** R&D Digital Office Risk Lead
+**Approver:** R&D AI Steering Committee
+**Status:** Working register extract
+**Effective or as-of date:** 30 June 2026
+**Review cycle:** Monthly
 
 ## Risk themes
 
-1. Confidential research data disclosed to an external provider.
+1. Restricted research information disclosed to an external provider.
 2. Vendor uses company material for training or product improvement without approval.
 3. Co-developed artifacts have unclear ownership.
 4. External personnel gain reusable confidential know-how.
@@ -44,10 +22,6 @@ Notes: Auto-derived from scan; verify content during manual review.
 ## Current treatment status
 
 Several risks are identified but not fully treated. Treatment depends on contract language, cloud review, data classification, pilot controls, and user training.
-
-## Planning note
-
-The register is useful input, but it should not be treated as the full risk universe. Audit planning should challenge completeness, especially for IP, third-party, privacy, security, human review, and scientific integrity dimensions.
 
 ## Expanded risk register extract
 
@@ -66,9 +40,7 @@ The register is useful input, but it should not be treated as the full risk univ
 | RDAI-R11 | Personal, coded subject, or collaborator data is processed without privacy basis | High | Privacy review in progress | Data-flow examples are incomplete |
 | RDAI-R12 | Model changes degrade performance without detection | Medium-high | Change log exists | Regression-test library is immature |
 
-## Planning note
 
-The risk register is useful, but it is not complete enough to define audit scope by itself. Audit should challenge whether the highest-risk use cases are the ones with the best documentation, because informal or blocked use cases may produce more risk than the formal pilot.
 
 ## Governance and inventory risks added
 
@@ -82,10 +54,8 @@ The risk register is useful, but it is not complete enough to define audit scope
 
 The risk register now separates root risks from observed issues. For example, incomplete metadata in the AI use-case register is not itself the main risk; it is evidence for a broader risk that AI governance cannot reliably identify high-risk use cases before expansion. Similarly, researcher use of public AI tools is an observed behavior that supports a shadow-AI risk, not a complete risk statement by itself.
 
-The register groups risks into six themes: governance and inventory completeness, data quality and traceability, third-party co-development, privacy and confidentiality, GxP or submission-support boundary control, and scientific integrity. Each risk includes current control evidence, expected control evidence, and likely audit procedures. This structure is intended to support planning rather than final issue writing.
+The register groups risks into six themes: governance and inventory completeness, data quality and traceability, third-party co-development, privacy and confidentiality, GxP or submission-support boundary control, and scientific integrity. Each risk includes current control evidence, expected control evidence, and assigned treatment actions. This structure is intended to support quarterly risk review.
 
 ## Emerging risks from updated source pack
 
 Newly added risks include inconsistency between the use-case inventory and system inventory, unclear ownership of co-developed prompts and evaluation sets, insufficient evidence that embeddings and feedback comments inherit source-data classification, and lack of monitoring for pilots that become routine through repeated use. Another important risk is model-change opacity: if an approved cloud model changes behavior without a documented impact assessment, prior evaluation evidence may no longer support current use.
-
-The audit should prioritize risks where multiple documents point to the same weakness. Inventory gaps appear in the use-case register, system inventory, shadow-AI survey, and governance model. Third-party risks appear in the SOW, collaboration charter, legal questions, data flow, and offboarding standard. These cross-document patterns are stronger planning evidence than a single risk-register row.

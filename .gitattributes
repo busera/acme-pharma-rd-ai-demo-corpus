@@ -1,0 +1,3 @@
+# Preserve exact acquired source bytes and suppress textual diff normalization.
+original_public_sources/*.pdf -diff -text
+original_public_sources/*.html -diff -text

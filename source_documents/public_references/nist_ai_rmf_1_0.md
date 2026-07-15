@@ -1,26 +1,3 @@
----
-title: NIST AI Risk Management Framework 1.0
-source: NIST
-url: https://www.nist.gov/itl/ai-risk-management-framework
-doc_type: public reference
-company: External public source
-Document_File_Name: nist_ai_rmf_1_0.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'title: NIST AI Risk Management Framework 1.0. url: https://www.nist.gov/itl/ai-risk-management-framework.'
-Summary: 'title: NIST AI Risk Management Framework 1.0. url: https://www.nist.gov/itl/ai-risk-management-framework.
-  doc_type: public reference. company: External public source. Document_File_Name:
-  nist_ai_rmf_1_0.md. IIA_Type: UNK. Quality_Rating: L. Relevance_Score: L. Fact:
-  ''title: NIST AI Risk Management Framework 1.0. url: https://www.nist.gov/itl/ai-risk-management-framework.''.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # NIST AI Risk Management Framework 1.0
 
 NIST describes the AI Risk Management Framework as a voluntary framework to help organizations incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems.

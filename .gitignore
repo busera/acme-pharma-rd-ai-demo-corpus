@@ -50,6 +50,7 @@ dist/
 
 # Local/generated manifests and operational checklists
 manifest.json
+!original_public_sources/manifest.json
 package_manifest.json
 PUBLIC_GITHUB_CHECKLIST.md
 planning/

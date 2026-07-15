@@ -1,0 +1,112 @@
+{
+  "schema_version": "acme-public-originals.v1",
+  "created_at": "2026-07-15",
+  "canonical_input": false,
+  "purpose": "Exact redistributable originals for provenance and test-corpus verification; excluded from the canonical source_documents scanner root to avoid duplicate weighting.",
+  "files": [
+    {
+      "filename": "ecfr_21_cfr_part_11.html",
+      "sha256": "23d9a9962ef87c598a40ebc7513dc2ad61990ffd7f3c92ffb00c76a273bc0c38",
+      "bytes": 109338,
+      "official_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11",
+      "reuse_basis": "US federal regulation / public domain",
+      "corpus_record": "source_documents/public_references/ecfr_21_cfr_part_11.md"
+    },
+    {
+      "filename": "ema_fda_good_ai_practice_2026.pdf",
+      "sha256": "08880e6fe51a0f17ba40168ea21953e5a4b600d97d66e2193000cbc87ab75f99",
+      "bytes": 580822,
+      "official_url": "https://www.ema.europa.eu/en/documents/other/guiding-principles-good-ai-practice-drug-development_en.pdf",
+      "reuse_basis": "EMA reproduction permitted with source acknowledgement; FDA material generally public domain",
+      "corpus_record": "source_documents/public_references/ema_fda_good_ai_practice_2026.md"
+    },
+    {
+      "filename": "ema_hma_ai_workplan_2023_2028_v1.pdf",
+      "sha256": "a78324e56c93dc478d8abb5f8924c81c1cae53bc2ac4bcf27c38746b5f2242c9",
+      "bytes": 560742,
+      "official_url": "https://www.ema.europa.eu/en/documents/work-programme/multi-annual-artificial-intelligence-workplan-2023-2028-hma-ema-joint-big-data-steering-group_en.pdf",
+      "reuse_basis": "EMA reproduction permitted with source acknowledgement",
+      "corpus_record": "source_documents/public_references/ema_hma_ai_workplan_2023_2028.md"
+    },
+    {
+      "filename": "eu_ai_act_regulation_2024_1689_en.pdf",
+      "sha256": "bba630444b3278e881066774002a1d7824308934f49ccfa203e65be43692f55e",
+      "bytes": 2583319,
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "reuse_basis": "EUR-Lex legal-document reuse permitted with attribution",
+      "corpus_record": "source_documents/public_references/eu_ai_act_overview.md"
+    },
+    {
+      "filename": "fda_ai_drug_development_living_2026-07-13.html",
+      "sha256": "28a7287016119da03ebc522547ed408b60b02d4f9225d79159920a2215179c95",
+      "bytes": 41419,
+      "official_url": "https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development",
+      "reuse_basis": "US federal work / public domain unless otherwise noted",
+      "corpus_record": "source_documents/public_references/fda_ai_drug_development.md"
+    },
+    {
+      "filename": "fda_ai_medical_products_revised_2025.pdf",
+      "sha256": "1729b473665d08be7f9f94f0e73efa86c1f51e95fdc7baa5c7a5401549ec8763",
+      "bytes": 2051953,
+      "official_url": "https://www.fda.gov/media/177030/download",
+      "reuse_basis": "US federal work / public domain unless otherwise noted",
+      "corpus_record": "source_documents/public_references/fda_ai_medical_products_revised_2025.md"
+    },
+    {
+      "filename": "fda_ai_ml_drug_biological_products_discussion_2023.pdf",
+      "sha256": "59c4577d5644f0c7fedbd31664215f4d5fb18b4caa4d2c628252824e4fd4ad60",
+      "bytes": 1286296,
+      "official_url": "https://www.fda.gov/media/167973/download",
+      "reuse_basis": "US federal work / public domain unless otherwise noted",
+      "corpus_record": "source_documents/public_references/fda_ai_ml_drug_development_discussion.md"
+    },
+    {
+      "filename": "fda_ai_regulatory_decision_draft_2025.pdf",
+      "sha256": "62352ed0fc17c07a670ed1381a8cdb1173f1c8988fb6e066da270e7cc72d4aaa",
+      "bytes": 416872,
+      "official_url": "https://www.fda.gov/media/184830/download",
+      "reuse_basis": "US federal work / public domain unless otherwise noted",
+      "corpus_record": "source_documents/public_references/fda_ai_regulatory_decision_draft_2025.md"
+    },
+    {
+      "filename": "fda_computer_software_assurance_2026.pdf",
+      "sha256": "11e2e21f5eb226b56a578da44e732965a2318e9b983422c6a58e51bc7b2e223a",
+      "bytes": 752262,
+      "official_url": "https://www.fda.gov/media/188844/download",
+      "reuse_basis": "US federal work / public domain unless otherwise noted",
+      "corpus_record": "source_documents/public_references/fda_computer_software_assurance.md"
+    },
+    {
+      "filename": "fda_part11_scope_application_2003.pdf",
+      "sha256": "306013031df65004566799023444b3fd66d17dca72eea4c7eb5bacfd4a697ac5",
+      "bytes": 44957,
+      "official_url": "https://www.fda.gov/media/75414/download",
+      "reuse_basis": "US federal work / public domain unless otherwise noted",
+      "corpus_record": "source_documents/public_references/fda_part_11_electronic_records_scope.md"
+    },
+    {
+      "filename": "nist_ai_100_1.pdf",
+      "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "bytes": 1946127,
+      "official_url": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf",
+      "reuse_basis": "NIST technical series reuse permitted with acknowledgement",
+      "corpus_record": "source_documents/public_references/nist_ai_rmf_1_0.md"
+    },
+    {
+      "filename": "nist_ai_600_1.pdf",
+      "sha256": "6e73620ab6b64e90ef2c04bf0e0d6246185a2f4b1b13cab0df494496cff89b6a",
+      "bytes": 1174643,
+      "official_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "reuse_basis": "NIST technical series reuse permitted with acknowledgement",
+      "corpus_record": "source_documents/public_references/nist_ai_rmf_genai_profile.md"
+    },
+    {
+      "filename": "owasp_llm_top_10_2025.html",
+      "sha256": "2aeac40f92858f5380328512e3de4f68e22114b80e8bf70bea299c60f9c2c715",
+      "bytes": 305619,
+      "official_url": "https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/",
+      "reuse_basis": "Creative Commons Attribution-ShareAlike 4.0 unless otherwise specified",
+      "corpus_record": "source_documents/public_references/owasp_llm_top_10.md"
+    }
+  ]
+}

@@ -1,38 +1,14 @@
----
-title: R&D AI Strategy 2026
-doc_type: strategy
-owner: ACME Pharma R&D Leadership
-status: draft
-company: ACME Pharma
-confidentiality: Internal
-scenario: AI in Research and Development planning evidence
-Document_File_Name: 01_rd_ai_strategy_2026.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'scenario: AI in Research and Development planning evidence. ACME Pharma R&D
-  wants to use AI to improve research productivity without weakening research integrity,
-  confidentiality, intellectual property protection, or regulatory readiness.'
-Summary: 'title: R&D AI Strategy 2026. doc_type: strategy. owner: ACME Pharma R&D
-  Leadership. status: draft. company: ACME Pharma. confidentiality: Internal. scenario:
-  AI in Research and Development planning evidence. R&D AI Strategy 2026. Purpose.
-  ACME Pharma R&D wants to use AI to improve research productivity without weakening
-  research integrity, confidentiality, intellectual property protection, or regulatory
-  readiness.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # R&D AI Strategy 2026
 
+**Record owner:** R&D Digital Office
+**Approver:** R&D AI Steering Committee
+**Status:** Version 1.0, approved
+**Effective or as-of date:** 1 January 2026
+**Review cycle:** Annual
 
 ## Purpose
 
-ACME Pharma R&D wants to use AI to improve research productivity without weakening research integrity, confidentiality, intellectual property protection, or regulatory readiness. The strategy covers four initial AI-enabled capabilities: literature review support, experiment design suggestions, lab-note synthesis, and candidate prioritization for early-stage research.
+ACME Pharma R&D wants to use AI to improve research productivity without weakening research integrity, confidentiality, intellectual property protection, or regulatory readiness. The strategy covers the ten activities recorded as UC-RD-001 through UC-RD-010, including proposed, on-hold, and unofficial activity that is not approved for routine use.
 
 ## Strategic objectives
 
@@ -58,19 +34,24 @@ The strategy assumes a phased rollout. Pilot use cases may run in a controlled s
 
 ## ACME Pharma R&D operating context
 
-ACME Pharma is a 50,000-employee global life-sciences company with a central R&D organization of roughly 9,000 employees and long-running partnerships with universities, contract research organizations, technology providers, and data vendors. The R&D AI program sits inside the Global Research Platforms group, but its users span discovery biology, translational science, preclinical safety, clinical pharmacology, biomarker science, regulatory science, and scientific knowledge management.
+ACME Pharma is a 50,000-employee global life-sciences company with a central R&D organization of roughly 9,000 employees and long-running partnerships with universities, contract research organizations, technology providers, and data vendors. The R&D AI program sits inside the R&D Digital Office, but its users span discovery biology, translational medicine, preclinical safety, clinical pharmacology, biomarker science, regulatory science, and scientific knowledge management.
 
-The current audit scope focuses on pre-approval R&D use cases, not commercial, manufacturing, or patient-facing medical advice. The highest-risk boundary is where AI output starts to influence a GxP-relevant decision, a regulatory submission support activity, or an electronic research record that could later be relied on for development decisions.
+This strategy covers pre-approval R&D use cases, not commercial, manufacturing, or patient-facing medical advice. The highest-risk boundary is where AI output starts to influence a GxP-relevant decision, regulatory submission support, or an electronic research record later relied on for development decisions.
 
 ## AI use-case portfolio
 
-| Portfolio area | Example use | Current boundary |
+| Use case | Activity | Current boundary |
 |---|---|---|
-| Literature intelligence | Summarize publications, compare mechanisms of action, identify contradictory findings | Source-linked summaries only; no scientific conclusion without scientist sign-off |
-| Experiment design challenge | Identify missing controls, likely confounders, and practical constraints | Advisory only; protocol owner remains accountable |
-| Lab-note synthesis | Turn raw notes and assay observations into review drafts | No replacement of original records; source linkage required |
-| Candidate prioritization | Rank early candidates using weighted evidence and uncertainty flags | Not a gate decision; ranking must be reviewed with primary evidence |
-| Regulatory drafting support | Draft outline language from approved source documents | Not yet approved for submission-ready content |
+| UC-RD-001 | Public literature triage | Operational; source-linked summaries |
+| UC-RD-002 | Internal research-note summarization | Controlled pilot in an approved workspace |
+| UC-RD-003 | Experiment-design challenge | Controlled development; advisory; GxP boundary pending |
+| UC-RD-004 | Candidate prioritization | Controlled pilot; advisory and not a gate decision |
+| UC-RD-005 | Lab-note synthesis | On hold; original records may not be replaced |
+| UC-RD-006 | Patent landscape support | Controlled development with Legal/IP restrictions |
+| UC-RD-007 | Regulatory response outline drafting | Proposed only; no drafting, regulatory, or submission use approved |
+| UC-RD-008 | Biomarker-study feasibility summarization | Proposed; no system assigned |
+| UC-RD-009 | Supplier literature-monitoring feed | Operational within approved public and internal watchlist data |
+| UC-RD-010 | Research meeting preparation assistant | Unofficial shadow use; not an approved service |
 
 ## Governance decision points
 
@@ -86,8 +67,6 @@ The R&D AI strategy assumes that the first twelve months will remain a controlle
 
 For planning purposes, the strategy separates three decision levels. Level 1 covers productivity support using public literature or training examples. Level 2 covers internal research material where outputs may influence study design, candidate prioritization, or portfolio discussion. Level 3 covers GxP-adjacent or submission-support activities where outputs could become part of an electronic record, validation package, regulatory response, or inspection-relevant rationale. The strategy says Level 3 is not prohibited, but it requires a documented intended-use statement, accountable process owner, quality review, traceability to source evidence, and a validation or computer software assurance rationale.
 
-## Portfolio pressure points observed by the steering group
+## Portfolio pressure points observed by the R&D AI Steering Committee
 
-The strategy notes three pressure points that are likely to matter in an audit. First, individual teams are already using public AI assistants for literature summaries because approved internal tools are slower and less flexible. Second, several external research collaborations include AI-enabled analysis work even though the AI component is not always visible in the contract summary. Third, the difference between a research aid and a decision-support tool is not stable: a tool may begin as a drafting assistant, but its output can become influential once it appears in governance decks, candidate review packets, or study design notes.
-
-The preferred control approach is therefore not to block all experimentation. It is to force visible classification and escalation when a use case crosses a boundary: public to internal data, non-confidential to confidential data, draft to decision support, single study to platform reuse, or sandbox to routine operation. The audit should test whether those boundaries are actually recognized in operating records, not only described in strategy slides.
+The strategy notes three pressure points that are likely to matter in governance review. First, individual teams are already using public AI assistants for literature summaries because approved internal tools are slower and less flexible. Second, several external research collaborations include AI-enabled analysis work even though the AI component is not always visible in the contract summary. Third, the difference between a research aid and a decision-support tool is not stable: a tool may begin as a drafting assistant, but its output can become influential once it appears in governance decks, candidate review packets, or study design notes.

@@ -1,13 +1,13 @@
 # Source map: ACME Pharma R&D AI demo corpus
 
-Updated: 2026-05-17
+Updated: 2026-07-15
 
 ## Counts
 
-- Public reference markdown files: 15
-- ACME Pharma internal evidence files: 33
+- Public reference markdown files: 21
+- ACME Pharma internal evidence files: 32
 - Meta/source statement files: 2
-- Total source markdown files: 50
+- Total source markdown files: 55
 
 ## Public references
 
@@ -15,10 +15,15 @@ Updated: 2026-05-17
 |---|---|---|
 | `aws_genai_security_data_privacy.md` | aws_genai_security_data_privacy | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 | `aws_genai_security_scoping_matrix.md` | aws_genai_security_scoping_matrix | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
+| `aws_well_architected_ml_lens.md` | AWS Well-Architected Framework: Machine Learning Lens, 2026 edition | Supports questions on ML ownership, lineage, permissions, privacy, licensing, deployment, observability, drift, and lifecycle operations |
+| `ecfr_21_cfr_part_11.md` | 21 CFR Part 11, current eCFR capture | Provides binding electronic-record and electronic-signature criteria where applicability is established |
+| `ema_fda_good_ai_practice_2026.md` | Joint EMA/FDA Guiding Principles of Good AI Practice in Drug Development | Supports lifecycle questions on context of use, risk, data governance, validation, monitoring, and transparency |
 | `ema_hma_ai_workplan_2023_2028.md` | HMA-EMA multi-annual AI workplan 2023-2028 | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 | `eu_ai_act_overview.md` | eu_ai_act_overview | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 | `fda_ai_drug_development.md` | fda_ai_drug_development | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
+| `fda_ai_medical_products_revised_2025.md` | FDA cross-center paper on AI and medical products, revised 2025 | Supports end-to-end lifecycle, data fitness, quality assurance, monitoring, bias, and robustness questions |
 | `fda_ai_ml_drug_development_discussion.md` | FDA discussion paper on AI/ML in drug and biological product development | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
+| `fda_ai_regulatory_decision_draft_2025.md` | FDA draft guidance on AI supporting regulatory decision-making | Supports context-of-use, model-risk, credibility-evidence, evaluation, deviation, and lifecycle-maintenance questions; draft status must remain visible |
 | `fda_computer_software_assurance.md` | FDA computer software assurance for production and quality management system software | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 | `fda_part_11_electronic_records_scope.md` | FDA Part 11 electronic records and electronic signatures scope and application | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 | `ispe_gamp5_second_edition_public_summary.md` | ISPE GAMP 5 second edition public summary | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
@@ -27,6 +32,7 @@ Updated: 2026-05-17
 | `nist_ai_rmf_genai_profile.md` | nist_ai_rmf_genai_profile | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 | `oecd_ai_in_science.md` | oecd_ai_in_science | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 | `oecd_ai_science_governance_challenges.md` | oecd_ai_science_governance_challenges | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
+| `oecd_glp_data_integrity_2021.md` | OECD GLP Series No. 22 advisory on data integrity | Supports GLP-scoped questions on data lifecycle, metadata, audit trails, access, review, retention, backup, and archive |
 | `owasp_llm_top_10.md` | owasp_llm_top_10 | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 
 ## ACME Pharma internal evidence
@@ -34,7 +40,7 @@ Updated: 2026-05-17
 | File | Title | Audit-planning use |
 |---|---|---|
 | `01_rd_ai_strategy_2026.md` | R&D AI Strategy 2026 | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
-| `02_ai_use_case_register.md` | AI Use Case Register for R&D | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
+| `02_ai_use_case_register.md` | R&D AI Intake and Exception Register | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
 | `03_rd_data_classification_standard.md` | R&D Data Classification Standard | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
 | `04_research_collaboration_charter.md` | Research Collaboration Charter for AI-Enabled Projects | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
 | `05_vendor_copro_sow_excerpt.md` | 'Excerpt: AI Co-Development Statement of Work' | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
@@ -60,7 +66,6 @@ Updated: 2026-05-17
 | `25_shadow_ai_survey_results.md` | Shadow AI Survey Results in R&D | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
 | `26_pilot_success_metrics.md` | Pilot Success Metrics for R&D AI | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
 | `27_offboarding_external_contributors.md` | Offboarding Checklist for External AI Contributors | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
-| `28_awp_pbc_request_draft.md` | Draft PBC Request List for R&D AI Audit | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
 | `29_rd_org_chart_and_governance.md` | ACME Pharma R&D organization chart and governance map | Internal-looking planning evidence for ACME Pharma R&D AI audit scope |
 | `30_ai_governance_operating_model.md` | ACME Pharma AI governance operating model | Overarching AI governance model, lifecycle gates, risk tiering, and inventory expectations |
 | `31_external_party_research_project_neuralis.md` | Project NEURALIS external-party R&D AI co-development charter | Concrete external-party co-development project for third-party/shared-responsibility testing |
@@ -71,7 +76,7 @@ Updated: 2026-05-17
 
 | File | Purpose | Boundary |
 |---|---|---|
-| `example_outputs/ACME_Pharma_RnD_AI_APM_demo_output_5_risks.md` | Curated generated-output example reduced to 5 selected risks out of 27 candidate risks from the source run. Includes executive summary, engagement context, organizational context, selected risk/risk-control/scope/work-program rows, objectives, logistics, and PBC/evidence-request extracts. | Demonstration extract only; not a complete APM, not audit assurance, not a production methodology |
+| `example_outputs/ACME_Pharma_RnD_AI_APM_demo_output_5_risks.md` | Curated generated-output example reduced to 5 selected risks out of 27 candidate risks from the earlier 50-file source run. Includes executive summary, engagement context, organizational context, selected risk/risk-control/scope/work-program rows, objectives, logistics, and PBC/evidence-request extracts. | Historical demonstration extract only; not output from either current preparation mode |
 
 ## Article visual assets
 
@@ -83,6 +88,10 @@ Updated: 2026-05-17
 
 The central source-status statement is `source_documents/00_meta/DEMO_SOURCE_STATEMENT.md`. Individual ACME Pharma documents are not repeatedly stamped with disclosure language so they can function as realistic article examples.
 
+External files in `source_documents/public_references/` and auditee-owned records in `source_documents/synthetic_internal/` contain no pipeline-generated YAML frontmatter. This prevents stale classifications, ratings, generated facts, or generated summaries from being mistaken for source evidence or biasing a future intake.
+
 ## Public package boundary
 
 This repository publishes only the curated demo corpus, navigation material, and selected public demonstration extracts. It intentionally excludes raw generated audit-planning output folders, logs, runtime state, local configuration, AI runtime implementation details, graph refresh reports, and working-package manifests.
+
+The 20-source external framework inventory is documented in `FRAMEWORK_SOURCE_PROVENANCE.md`. Thirteen redistributable originals are committed outside the canonical scanner root. Seven publisher-restricted originals can be downloaded locally with `scripts/prepare_corpus.py`; the resulting receipt records current hashes and publisher drift. See `AGENTS.md` for duplicate-safe preparation.

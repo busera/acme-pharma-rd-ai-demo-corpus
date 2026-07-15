@@ -1,32 +1,10 @@
----
-title: 'Incident Response Playbook: AI Data Leakage in R&D'
-doc_type: playbook
-owner: Security Incident Response
-status: draft
-company: ACME Pharma
-confidentiality: Internal
-scenario: AI in Research and Development planning evidence
-Document_File_Name: 19_incident_response_playbook.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'title: ''Incident Response Playbook: AI Data Leakage in R&D''. scenario: AI
-  in Research and Development planning evidence.'
-Summary: 'title: ''Incident Response Playbook: AI Data Leakage in R&D''. doc_type:
-  playbook. owner: Security Incident Response. status: draft. company: ACME Pharma.
-  confidentiality: Internal. scenario: AI in Research and Development planning evidence.
-  Incident Response Playbook: AI Data Leakage in R&D. Trigger examples. Vendor support
-  accesses restricted material without approval.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # Incident Response Playbook: AI Data Leakage in R&D
 
+**Record owner:** Security Incident Response
+**Approver:** R&D Digital Office and Legal/IP
+**Status:** Version 1.0, approved
+**Effective or as-of date:** 2 May 2026
+**Review cycle:** Annual exercise
 
 ## Trigger examples
 
@@ -46,18 +24,9 @@ Notes: Auto-derived from scan; verify content during manual review.
 6. Assess whether outputs, embeddings, logs, or caches must be deleted.
 7. Document root cause and corrective action.
 
-## Open question
+## Pending response decision
 
 The playbook does not yet define how to verify deletion from external AI-provider systems if data was incorporated into training or evaluation workflows.
-
-## Incident scenarios
-
-1. Restricted compound data uploaded to an unapproved AI endpoint.
-2. Supplier support views a prompt containing unpublished target strategy.
-3. AI output with fabricated citations is copied into a meeting pack.
-4. A user exports model output and source snippets to an uncontrolled collaboration space.
-5. A vendor subprocessor is discovered after pilot data has already been processed.
-6. A retrieval or model change causes material degradation in negative-evidence detection.
 
 ## Response evidence
 
@@ -72,17 +41,3 @@ The first containment step is usually to stop further use, preserve prompts and 
 ## Open response questions
 
 The playbook still needs clearer procedures for external model providers and co-development partners. It is not always clear whether ACME can require prompt/output preservation, supplier log export, or deletion confirmation within the required time. The playbook also does not yet define when a research-integrity review is needed after AI output influenced a decision packet.
-
-The audit should test incident-readiness through tabletop evidence, not only the written playbook. A good sample scenario would involve restricted assay context pasted into an unapproved assistant and later copied into a project summary.
-
-## Detailed audit scenario and sample evidence
-
-For audit planning, this artifact would normally be supported by several underlying records rather than read in isolation. Expected supporting evidence includes the accountable owner, approval date, related use-case ID, related system ID, affected R&D functions, data classes permitted, supplier involvement, intended decision impact, and the operating procedure or workflow that tells users what to do. A mature record would also show exceptions, issue follow-up, and the date when the artifact was last challenged by governance.
-
-A realistic sample for 19 incident response playbook would include at least one discovery-science workspace, one translational-science workspace, and one regulatory-science or quality-adjacent scenario. The sample should show whether the same rule is applied differently depending on data class. Public literature summaries should have lighter evidence requirements. Restricted research content should require project-owner approval, traceability to source material, and explicit output-review responsibility. GxP-adjacent or submission-support use should require a documented boundary assessment and stronger change-control evidence.
-
-The most useful audit evidence is not the existence of the document itself. It is the join between this document and operating records: inventory entries, project approvals, access groups, supplier clauses, monitoring logs, training completion, and examples of outputs reviewed or rejected. If those joins cannot be shown, the control may exist on paper but not operate reliably.
-
-## Questions for walkthroughs
-
-During walkthroughs, the audit team should ask who owns this artifact, how teams know when it applies, what happens when a pilot changes scope, where exceptions are logged, and how management knows the artifact is being followed. The team should also ask for one example where the rule stopped or changed a proposed AI use. Evidence of a controlled rejection, redesign, or escalation is often a stronger sign of governance maturity than a list of approved pilots.

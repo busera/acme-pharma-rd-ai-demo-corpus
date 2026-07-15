@@ -8,4 +8,6 @@ Current file:
 
 - `ACME_Pharma_RnD_AI_APM_demo_output_5_risks.md` — curated APM output extract reduced to 5 selected risks out of 27 candidate risks in the generated run. It includes multiple APM areas: executive summary, engagement context, organizational context, risk universe, risk/control matrix, scope rationale, engagement objectives, work-program rows, logistics, and selected PBC/evidence requests.
 
-The full source corpus remains in `source_documents/`. The source-status statement is in `source_documents/00_meta/DEMO_SOURCE_STATEMENT.md`.
+The extract was generated from the earlier 50-file corpus and predates the six external framework-reference records added in July 2026. It is retained as a reduced historical example and must not be represented as output from either current preparation mode.
+
+The current source corpus remains in `source_documents/`. The source-status statement is in `source_documents/00_meta/DEMO_SOURCE_STATEMENT.md`, and external-framework acquisition provenance is in `FRAMEWORK_SOURCE_PROVENANCE.md`.

@@ -1,33 +1,10 @@
----
-title: Acceptable Use Policy for AI in R&D
-doc_type: policy
-owner: AI Governance Office
-status: approved
-company: ACME Pharma
-confidentiality: Internal
-scenario: AI in Research and Development planning evidence
-Document_File_Name: 15_acceptable_use_policy.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'title: Acceptable Use Policy for AI in R&D. scenario: AI in Research and Development
-  planning evidence.'
-Summary: 'title: Acceptable Use Policy for AI in R&D. doc_type: policy. owner: AI
-  Governance Office. status: approved. company: ACME Pharma. confidentiality: Internal.
-  scenario: AI in Research and Development planning evidence. Acceptable Use Policy
-  for AI in R&D. Permitted uses. Researchers may use approved AI tools for public-literature
-  summarization, drafting non-confidential outlines, comparing public methods, generating
-  code examples for non-production analysis, and preparing questions for expert review.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # Acceptable Use Policy for AI in R&D
 
+**Record owner:** R&D Digital Office
+**Approver:** R&D AI Steering Committee
+**Status:** Version 1.0, effective
+**Effective or as-of date:** 1 May 2026
+**Review cycle:** Annual
 
 ## Permitted uses
 
@@ -46,7 +23,7 @@ Researchers may use approved AI tools for public-literature summarization, draft
 
 Users must check source evidence, label AI-assisted content where required, retain review notes for decision-relevant outputs, and report suspected data leakage or incorrect output that influenced a decision.
 
-## Open issue
+## Pending policy decision
 
 The policy does not yet define how to monitor compliance without creating excessive surveillance of research work.
 
@@ -67,17 +44,3 @@ The policy requires users to treat prompts and outputs as company records when t
 ## Practical examples for researchers
 
 Allowed: asking an approved tool to summarize ten public papers and list contradictions, then reviewing the cited papers manually. Allowed with approval: asking a controlled workspace to compare internal study notes and identify missing controls. Not allowed: pasting unpublished assay results into a public assistant to draft a candidate-ranking memo. Not allowed: asking an external tool to rewrite partner-confidential protocol text before Legal confirms the collaboration terms.
-
-The audit should test whether policy examples match actual researcher scenarios. A policy that sounds clear to governance teams may still fail if researchers cannot tell whether their data is restricted, whether a tool is approved, or whether output can be reused in decision material.
-
-## Detailed audit scenario and sample evidence
-
-For audit planning, this artifact would normally be supported by several underlying records rather than read in isolation. Expected supporting evidence includes the accountable owner, approval date, related use-case ID, related system ID, affected R&D functions, data classes permitted, supplier involvement, intended decision impact, and the operating procedure or workflow that tells users what to do. A mature record would also show exceptions, issue follow-up, and the date when the artifact was last challenged by governance.
-
-A realistic sample for 15 acceptable use policy would include at least one discovery-science workspace, one translational-science workspace, and one regulatory-science or quality-adjacent scenario. The sample should show whether the same rule is applied differently depending on data class. Public literature summaries should have lighter evidence requirements. Restricted research content should require project-owner approval, traceability to source material, and explicit output-review responsibility. GxP-adjacent or submission-support use should require a documented boundary assessment and stronger change-control evidence.
-
-The most useful audit evidence is not the existence of the document itself. It is the join between this document and operating records: inventory entries, project approvals, access groups, supplier clauses, monitoring logs, training completion, and examples of outputs reviewed or rejected. If those joins cannot be shown, the control may exist on paper but not operate reliably.
-
-## Questions for walkthroughs
-
-During walkthroughs, the audit team should ask who owns this artifact, how teams know when it applies, what happens when a pilot changes scope, where exceptions are logged, and how management knows the artifact is being followed. The team should also ask for one example where the rule stopped or changed a proposed AI use. Evidence of a controlled rejection, redesign, or escalation is often a stronger sign of governance maturity than a list of approved pilots.

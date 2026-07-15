@@ -1,25 +1,3 @@
----
-Document_File_Name: oecd_ai_in_science.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: '[Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html#main-content).
-  Challenges, Opportunities and the Future of Research.'
-Summary: 'Document_File_Name: oecd_ai_in_science.md. IIA_Type: UNK. Quality_Rating:
-  L. Relevance_Score: L. Fact: ''[Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html#main-content).
-  Challenges, Opportunities and the Future of Research.''. L. Relevance_Score: L.
-  Fact: ''''[Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html#main-content).
-  Challenges, Opportunities and the Future of Research.''''.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
-[Skip to main content](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html#main-content)
-
 # Artificial Intelligence in Science
 
 Challenges, Opportunities and the Future of Research

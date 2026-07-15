@@ -1,32 +1,3 @@
----
-title: ACME Pharma demo source statement
-company: ACME Pharma
-doc_type: source statement
-confidentiality: Public article support note
-Document_File_Name: DEMO_SOURCE_STATEMENT.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'title: ACME Pharma demo source statement. confidentiality: Public article support
-  note.'
-Summary: 'title: ACME Pharma demo source statement. company: ACME Pharma. doc_type:
-  source statement. confidentiality: Public article support note. ACME Pharma demo
-  source statement. This evidence pack uses ACME Pharma, an obviously fake global
-  life-sciences company, to demonstrate audit-planning analysis for AI in Research
-  and Development. ACME Pharma is not a real company, client, employer, supplier,
-  audit entity, or research sponsor. Scope and purpose. The pack supports a public
-  article about using AI-assisted workflow to turn messy planning evidence into a
-  reviewable audit-planning basis. The purpose is to create realistic planning material
-  without exposing employer data, client data, real audit files, real suppliers, real
-  systems, employee information, or confidential research content.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # ACME Pharma demo source statement
 
 Created: 2026-05-16
@@ -39,9 +10,9 @@ The pack supports a public article about using AI-assisted workflow to turn mess
 
 ## How the pack was created
 
-- Public references were summarized from authoritative public sources such as FDA, EMA/HMA, MHRA, NIST, OECD, OWASP, AWS, and ISPE/GAMP pages.
+- Public references were summarized from authoritative public sources such as FDA, EMA/HMA, eCFR, MHRA, NIST, OECD, OWASP, AWS, and ISPE/GAMP pages. The current reference set includes six records added from the reviewed July 2026 Criteria Library acquisition.
 - Internal-looking ACME Pharma documents were written from scratch for demonstration use.
-- Names, governance forums, program labels, counts, roles, project examples, risks, and control gaps are invented but designed to resemble plausible issues in a large pharmaceutical R&D organization.
+- Names, governance forums, program labels, counts, roles, project examples, pending actions, and control states are invented but designed to resemble plausible records in a large pharmaceutical R&D organization.
 - The scenario assumes a global company with about 50,000 employees and an R&D organization of about 9,000 employees.
 
 ## Use boundary
@@ -54,4 +25,10 @@ The pack intentionally avoids references to any real employer, any real pharmace
 
 ## Public package state
 
-Current source-pack count: 50 markdown files: 33 internal ACME artifacts, 15 public references, and 2 meta/source-status files. Generated outputs, graph-refresh reports, local configuration, runtime logs, and working-package manifests are intentionally outside this public corpus.
+Current summary-corpus count: 55 Markdown files: 32 internal ACME records, 21 public references, and 2 meta/source-status files. The 20-authority acquisition inventory and reviewed hashes are documented in the repository-level `FRAMEWORK_SOURCE_PROVENANCE.md`. Generated outputs, graph-refresh reports, local configuration, runtime logs, and downloaded publisher-restricted originals remain outside the canonical source folder.
+
+Public-reference records are attributed summaries and bounded excerpts. They are planning inputs, not proof of applicability, implementation, occurrence, control design, or operating effectiveness. Complete copyrighted publications are not republished in this corpus.
+
+The public-reference and synthetic-internal files intentionally exclude pipeline-generated YAML frontmatter. Prior-run classifications, ratings, generated facts, and generated summaries are not source evidence and should be produced afresh, if needed, by each future run.
+
+The repository can also prepare an expanded 54-file input containing the 2 meta records, 32 internal records, and 20 current external originals. `AGENTS.md` defines the preparation modes and duplicate-avoidance rules.

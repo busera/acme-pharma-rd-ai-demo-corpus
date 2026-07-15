@@ -1,37 +1,10 @@
----
-title: 'Model Card: Experiment Design Assistant'
-doc_type: model card
-owner: R&D AI Product Owner
-status: draft
-company: ACME Pharma
-confidentiality: Internal
-scenario: AI in Research and Development planning evidence
-Document_File_Name: 11_model_card_experiment_design_assistant.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: 'title: ''Model Card: Experiment Design Assistant''. scenario: AI in Research
-  and Development planning evidence.'
-Summary: 'title: ''Model Card: Experiment Design Assistant''. doc_type: model card.
-  owner: R&D AI Product Owner. status: draft. company: ACME Pharma. confidentiality:
-  Internal. scenario: AI in Research and Development planning evidence. Model Card:
-  Experiment Design Assistant. Intended use. The assistant suggests experiment-planning
-  considerations based on approved protocols, historical observations, and public
-  scientific context.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
 # Model Card: Experiment Design Assistant
 
-
-## Intended use
-
-The assistant suggests experiment-planning considerations based on approved protocols, historical observations, and public scientific context. It is intended to challenge completeness, not to decide the final design.
+**Record owner:** NEURALIS Product Owner
+**Approver:** Translational Medicine Business Owner
+**Status:** Version 0.7, development record
+**Effective or as-of date:** 12 June 2026
+**Review cycle:** Each release candidate
 
 ## Not intended for
 
@@ -40,10 +13,6 @@ The assistant suggests experiment-planning considerations based on approved prot
 - Regulatory claim drafting without validated evidence.
 - Use with restricted human-subject or clinical data.
 - Use with unapproved third-party data.
-
-## Known limitations
-
-The model may overstate support from weak evidence, miss negative results, confuse similar protocols, or create plausible but unsupported rationale. It may also fail to detect whether a prior experiment was exploratory, failed, superseded, or not comparable.
 
 ## Human review
 
@@ -55,7 +24,7 @@ The Experiment Design Assistant reviews proposed early research experiments and 
 
 ## Evaluation results snapshot
 
-| Test set | Pass criterion | Latest result | Concern |
+| Test set | Pass criterion | Latest result | Current limitation |
 |---|---|---|---|
 | Literature-grounded suggestions | At least one source link for each material claim | Mostly met | Weak when source documents use inconsistent assay names |
 | Negative evidence retrieval | Flags contradictory or failed prior results | Partially met | Negative results are often buried in appendices or short lab notes |
@@ -75,17 +44,3 @@ The model card states that the assistant may use public literature, approved int
 ## Evaluation expectations
 
 Evaluation examples should include strong and weak study plans, missing negative controls, ambiguous endpoints, conflicting literature, small sample-size rationale, and feasibility constraints. Reviewers should score whether the assistant identifies issues, cites source context, avoids unsupported conclusions, and distinguishes suggestions from evidence. The model card requires tracking false confidence, missed confounders, irrelevant suggestions, and invented citations.
-
-Monitoring includes user feedback, periodic sample review, model-version changes, retrieval-source changes, and incidents where an output was copied into a decision document without appropriate review. The audit should verify whether this model card is connected to actual release and monitoring records.
-
-## Detailed audit scenario and sample evidence
-
-For audit planning, this artifact would normally be supported by several underlying records rather than read in isolation. Expected supporting evidence includes the accountable owner, approval date, related use-case ID, related system ID, affected R&D functions, data classes permitted, supplier involvement, intended decision impact, and the operating procedure or workflow that tells users what to do. A mature record would also show exceptions, issue follow-up, and the date when the artifact was last challenged by governance.
-
-A realistic sample for 11 model card experiment design assistant would include at least one discovery-science workspace, one translational-science workspace, and one regulatory-science or quality-adjacent scenario. The sample should show whether the same rule is applied differently depending on data class. Public literature summaries should have lighter evidence requirements. Restricted research content should require project-owner approval, traceability to source material, and explicit output-review responsibility. GxP-adjacent or submission-support use should require a documented boundary assessment and stronger change-control evidence.
-
-The most useful audit evidence is not the existence of the document itself. It is the join between this document and operating records: inventory entries, project approvals, access groups, supplier clauses, monitoring logs, training completion, and examples of outputs reviewed or rejected. If those joins cannot be shown, the control may exist on paper but not operate reliably.
-
-## Questions for walkthroughs
-
-During walkthroughs, the audit team should ask who owns this artifact, how teams know when it applies, what happens when a pilot changes scope, where exceptions are logged, and how management knows the artifact is being followed. The team should also ask for one example where the rule stopped or changed a proposed AI use. Evidence of a controlled rejection, redesign, or escalation is often a stronger sign of governance maturity than a list of approved pilots.

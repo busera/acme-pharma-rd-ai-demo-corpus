@@ -1,46 +1,3 @@
----
-Document_File_Name: nist_ai_rmf_genai_profile.md
-IIA_Type: UNK
-Quality_Rating: L
-Relevance_Score: L
-Fact: '[Skip to main content](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence#main-content).
-  A .gov website belongs to an official government organization in the United States.'
-Summary: 'Document_File_Name: nist_ai_rmf_genai_profile.md. IIA_Type: UNK. Quality_Rating:
-  L. Relevance_Score: L. Fact: ''[Skip to main content](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence#main-content).
-  A .gov website belongs to an official government organization in the United States.''.
-  L. Relevance_Score: L. Fact: ''''[Skip to main content](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence#main-content).
-  A .gov website belongs to an official government organization in the United States.''''.'
-Section_Context: Document overview
-IIA_Relevance_Explanation: Listed to preserve coverage; manual review required to
-  extract planning evidence.
-IIA_Relevance: L
-IIA_Confidence: L
-Notes: Auto-derived from scan; verify content during manual review.
----
-
-[Skip to main content](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence#main-content)
-
-[image omitted]
-
-**Official websites use .gov**
-
-A **.gov** website belongs to an official government organization in the United States.
-
-
-[image omitted]
-
-**Secure .gov websites use HTTPS**
-
-A **lock** ( LockA locked padlock
-) or **https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
-
-
-https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
-
-[image omitted]
-
-[PUBLICATIONS](https://www.nist.gov/publications)
-
 # Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile
 
 Published
@@ -109,5 +66,3 @@ If you have any questions about this publication or are having problems accessin
 
 
 Created July 26, 2024, Updated April 8, 2026
-
-[Was this page helpful?](https://www.nist.gov/webform/page_feedback?page=https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence&page_title=Artificial%20Intelligence%20Risk%20Management%20Framework:%20Generative%20Artificial%20Intelligence%20Profile&source_entity_type=node&source_entity_id=1855536)
