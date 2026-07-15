@@ -36,7 +36,7 @@ Keep these facts aligned if the synthetic records are changed:
 
 ### Mode A: summary corpus
 
-Use for the stable public demonstration set. It contains 2 meta records, 21 attributed public-reference records, and 32 synthetic internal records.
+Use for the stable public demonstration set. It contains 2 meta records, 20 attributed public-reference records, and 32 synthetic internal records.
 
 ```bash
 python3 scripts/prepare_corpus.py verify
@@ -48,7 +48,7 @@ The tool writes the evidence directory and an adjacent `acme-apm-summary-input.m
 
 ### Mode B: expanded-source corpus
 
-Use when the run should inspect current official source files instead of the 21 public-reference records.
+Use when the run should inspect current official source files instead of the 20 public-reference records.
 
 ```bash
 python3 scripts/prepare_corpus.py fetch-restricted \
@@ -69,7 +69,7 @@ The fetch step:
 - records `unchanged` or `changed` for fixed files;
 - records `not_compared` for living HTML pages;
 - writes actual SHA-256 and byte count to `download_receipt.json`;
-- accepts publisher updates but does not accept modification after receipt creation.
+- detects cached-file changes while `download_receipt.json` remains trusted; the receipt is not cryptographically authenticated against a separate trust store.
 
 The committed 13 redistributable originals and their hashes are under `original_public_sources/`.
 

@@ -10,7 +10,7 @@ The source files under `source_documents/public_references/` are planning inputs
 
 ## Provenance inventory
 
-| Issuer / authority | Verified source and version | Corpus representation | Official URL | Acquired raw SHA-256 | Normalized SHA-256 |
+| Issuer / authority | Verified source and version | Corpus representation | Official URL | Acquired raw SHA-256 | Reviewed normalized-source SHA-256 |
 |---|---|---|---|---|---|
 | Amazon Web Services | Security considerations for data in generative AI; living page, initial publication 2025-07-16 | `aws_genai_security_data_privacy.md` | <https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-data-considerations-gen-ai/security.html> | `7a7bc32f6c18735efd93515c3e93d73b54e73f06b28a69c76975d29bb30e8a66` | `1077a18fb2ac2e62d38e36e4787b474715b4198174401f9911f65166a66cabfe` |
 | Amazon Web Services | Generative AI Security Scoping Matrix; living page | `aws_genai_security_scoping_matrix.md` | <https://aws.amazon.com/ai/security/generative-ai-scoping-matrix/> | `0a781d8dd974041bda5ada42b43ad74c7712a08ab3bcc2c6e5f0de437414befe` | `b5404c2835a4fdd1da9df7fe522f9ac46e38c88d558d786bd60376a8dc4cd4dc` |
@@ -29,7 +29,7 @@ The source files under `source_documents/public_references/` are planning inputs
 | MHRA | GxP Data Integrity Guidance and Definitions; revision 1, 2018-03 | `mhra_gxp_data_integrity_guidance.md` | <https://assets.publishing.service.gov.uk/media/5aa2b9ede5274a3e391e37f3/MHRA_GxP_data_integrity_guide_March_edited_Final.pdf> | `e05dda11a93324c47f3f96aa106933d0073d8eb450f09d736ea53b19cf7ebd0d` | `fa2ffaebd41e3fd1671582ce0ebbcbb25da85947c4c08944e49c4efc99a7dc71` |
 | NIST | AI Risk Management Framework 1.0; 2023-01-26 | `nist_ai_rmf_1_0.md` | <https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf> | `7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1` | `e86cfccff5ca87b79dd4e354011fd637839b2bcf60b30a85856f4e44745afc42` |
 | NIST | AI RMF Generative AI Profile; 2024-07-26 | `nist_ai_rmf_genai_profile.md` | <https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf> | `6e73620ab6b64e90ef2c04bf0e0d6246185a2f4b1b13cab0df494496cff89b6a` | `ce7f90c1622d19d23afd22069b6fced494b00f60ca31d9f9be665ad9163a0d24` |
-| OECD | Artificial Intelligence in Science; 2023-06-26 | `oecd_ai_in_science.md` and `oecd_ai_science_governance_challenges.md` | <https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/artificial-intelligence-in-science_4f3d6efd/a8d820bd-en.pdf> | `90b6de484a3b482540664db75292af9555e48fdaa441187769abc9291c2d6b75` | `618afb39a607dd5b0f495814d39c43c7c6f4e2116fb76121c1be80b0d8ab0376` |
+| OECD | Artificial Intelligence in Science; 2023-06-26 | `oecd_ai_in_science.md` | <https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/artificial-intelligence-in-science_4f3d6efd/a8d820bd-en.pdf> | `90b6de484a3b482540664db75292af9555e48fdaa441187769abc9291c2d6b75` | `618afb39a607dd5b0f495814d39c43c7c6f4e2116fb76121c1be80b0d8ab0376` |
 | OECD | Advisory Document on GLP Data Integrity; ENV/CBC/MONO(2021)26 | `oecd_glp_data_integrity_2021.md` | <https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/09/glp-data-integrity_c2f067ec/45779212-en.pdf> | `8e5be63b476d8e647742f6696870314f876c08918b35f96b87e737a0b1668839` | `8a4e96914ce7968b889c526ece301a8fb81482778fb2bd1d5add9ed12e168be0` |
 | OWASP GenAI Security Project | OWASP Top 10 for LLM Applications 2025 | `owasp_llm_top_10.md` | <https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/> | `2aeac40f92858f5380328512e3de4f68e22114b80e8bf70bea299c60f9c2c715` | `b85408531a224935cb6c0162d4a0e18ea39b10947910b84e5e5d1eb789af077c` |
 
@@ -44,7 +44,7 @@ US federal sources are generally public domain unless otherwise noted. Other pub
 ## Freshness and applicability
 
 - URLs, living pages, drafts, regulations, and guidance can change after the acquisition date.
-- The hashes identify the exact acquired raw and normalized bytes used to prepare these records; they are not claims that the linked content is unchanged today.
+- The hashes identify the reviewed raw and normalized acquisition artifacts from the Criteria Library. They are not byte hashes of the subsequently curated Markdown records and are not claims that linked content is unchanged today. Git versions the current corpus representations.
 - Draft, advisory, vendor, and framework material must not be described as binding law.
 - Binding rules must not be applied until jurisdiction, activity, record, product, and audit-period applicability are established.
 - External criteria cannot prove that an ACME event occurred or that a control exists or operates effectively.

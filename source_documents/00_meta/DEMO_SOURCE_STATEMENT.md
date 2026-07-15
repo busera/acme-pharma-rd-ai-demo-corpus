@@ -25,7 +25,7 @@ The pack intentionally avoids references to any real employer, any real pharmace
 
 ## Public package state
 
-Current summary-corpus count: 55 Markdown files: 32 internal ACME records, 21 public references, and 2 meta/source-status files. The 20-authority acquisition inventory and reviewed hashes are documented in the repository-level `FRAMEWORK_SOURCE_PROVENANCE.md`. Generated outputs, graph-refresh reports, local configuration, runtime logs, and downloaded publisher-restricted originals remain outside the canonical source folder.
+Current summary-corpus count: 54 Markdown files: 32 internal ACME records, 20 public references, and 2 meta/source-status files. The 20-authority acquisition inventory and reviewed hashes are documented in the repository-level `FRAMEWORK_SOURCE_PROVENANCE.md`. Generated outputs, graph-refresh reports, local configuration, runtime logs, and downloaded publisher-restricted originals remain outside the canonical source folder.
 
 Public-reference records are attributed summaries and bounded excerpts. They are planning inputs, not proof of applicability, implementation, occurrence, control design, or operating effectiveness. Complete copyrighted publications are not republished in this corpus.
 

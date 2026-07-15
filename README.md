@@ -17,10 +17,10 @@ ACME Pharma is an obviously fake company name. The internal-looking documents ar
 - `example_outputs/` — curated demonstration output generated from the corpus. The included APM extract is reduced to 5 selected risks out of 27 candidate risks from the source run.
 - `article_assets/` — flattened PNG visuals used in the companion Medium article. These are public-safe article-support images, not implementation screenshots or raw audit outputs.
 
-Current summary-corpus count: 55 Markdown files.
+Current summary-corpus count: 54 Markdown files.
 
 - Meta/source-status files: 2
-- Public-reference files: 21
+- Public-reference files: 20
 - ACME internal-looking evidence files: 32
 
 ## Development independence and overfitting boundary
@@ -46,7 +46,7 @@ Use it as a safe example set for:
 - creating public article visuals or examples without exposing real audit material;
 - inspecting a short, curated generated-output extract without publishing the full raw APM run.
 
-Use `AGENTS.md` and `scripts/prepare_corpus.py` to create either the stable 55-file summary corpus or an expanded 54-file input containing 32 internal records, 2 meta records, and 20 current official originals. The expanded mode excludes the 21 public-reference summaries so external authorities are not double-counted.
+Use `AGENTS.md` and `scripts/prepare_corpus.py` to create either the stable 54-file summary corpus or an expanded 54-file input containing 32 internal records, 2 meta records, and 20 current official originals. The expanded mode excludes the 20 public-reference summaries so external authorities are not double-counted.
 
 Do not use it to represent real company practices, make compliance claims, provide legal/regulatory/validation/audit assurance, or benchmark actual pharmaceutical companies.
 

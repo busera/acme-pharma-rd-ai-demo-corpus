@@ -4,10 +4,10 @@ Updated: 2026-07-15
 
 ## Counts
 
-- Public reference markdown files: 21
+- Public reference markdown files: 20
 - ACME Pharma internal evidence files: 32
 - Meta/source statement files: 2
-- Total source markdown files: 55
+- Total source markdown files: 54
 
 ## Public references
 
@@ -19,7 +19,7 @@ Updated: 2026-07-15
 | `ecfr_21_cfr_part_11.md` | 21 CFR Part 11, current eCFR capture | Provides binding electronic-record and electronic-signature criteria where applicability is established |
 | `ema_fda_good_ai_practice_2026.md` | Joint EMA/FDA Guiding Principles of Good AI Practice in Drug Development | Supports lifecycle questions on context of use, risk, data governance, validation, monitoring, and transparency |
 | `ema_hma_ai_workplan_2023_2028.md` | HMA-EMA multi-annual AI workplan 2023-2028 | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
-| `eu_ai_act_overview.md` | eu_ai_act_overview | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
+| `eu_ai_act_overview.md` | Regulation (EU) 2024/1689 — Artificial Intelligence Act | Separates enacted EU law from later proposals and supports role, scope, classification, documentation, and oversight analysis |
 | `fda_ai_drug_development.md` | fda_ai_drug_development | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 | `fda_ai_medical_products_revised_2025.md` | FDA cross-center paper on AI and medical products, revised 2025 | Supports end-to-end lifecycle, data fitness, quality assurance, monitoring, bias, and robustness questions |
 | `fda_ai_ml_drug_development_discussion.md` | FDA discussion paper on AI/ML in drug and biological product development | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
@@ -29,11 +29,10 @@ Updated: 2026-07-15
 | `ispe_gamp5_second_edition_public_summary.md` | ISPE GAMP 5 second edition public summary | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 | `mhra_gxp_data_integrity_guidance.md` | MHRA guidance on GxP data integrity | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
 | `nist_ai_rmf_1_0.md` | NIST AI Risk Management Framework 1.0 | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
-| `nist_ai_rmf_genai_profile.md` | nist_ai_rmf_genai_profile | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
-| `oecd_ai_in_science.md` | oecd_ai_in_science | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
-| `oecd_ai_science_governance_challenges.md` | oecd_ai_science_governance_challenges | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
+| `nist_ai_rmf_genai_profile.md` | NIST AI RMF Generative Artificial Intelligence Profile | Supports voluntary GenAI risk management across Govern, Map, Measure, and Manage |
+| `oecd_ai_in_science.md` | OECD Artificial Intelligence in Science | Provides bounded policy context on scientific productivity, research governance, reproducibility, and dual use |
 | `oecd_glp_data_integrity_2021.md` | OECD GLP Series No. 22 advisory on data integrity | Supports GLP-scoped questions on data lifecycle, metadata, audit trails, access, review, retention, backup, and archive |
-| `owasp_llm_top_10.md` | owasp_llm_top_10 | Grounds AI/GxP/data/privacy/third-party planning expectations in public source material |
+| `owasp_llm_top_10.md` | OWASP Top 10 for LLM Applications 2025 | Supports current LLM security analysis using the 2025 taxonomy |
 
 ## ACME Pharma internal evidence
 

@@ -4,7 +4,7 @@ This directory contains exact acquired copies of public-reference originals whos
 
 ## Important: not canonical scanner input
 
-The canonical summary input is `source_documents/`, currently 55 Markdown files. This directory sits outside that scanner root deliberately. Ingesting both an original and its attributed public-reference record would duplicate and potentially overweight the same external authority.
+The canonical summary input is `source_documents/`, currently 54 Markdown files. This directory sits outside that scanner root deliberately. Ingesting both an original and its attributed public-reference record would duplicate and potentially overweight the same external authority.
 
 Use the files here to:
 

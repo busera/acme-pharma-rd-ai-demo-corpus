@@ -1,103 +1,40 @@
-# OWASP Top 10 for Large Language Model Applications
+# OWASP Top 10 for LLM Applications 2025
 
-## About This Repository
+## Authority and status
 
-This is the repository for the **OWASP Top 10 for Large Language Model Applications**. However, this project has now grown into the comprehensive **OWASP GenAI Security Project** \- a global initiative that encompasses multiple security initiatives beyond just the Top 10 list.
+- **Issuer:** OWASP GenAI Security Project
+- **Edition:** 2025 release, published 18 November 2024
+- **Status:** Community security guidance; nonbinding
+- **License:** Creative Commons Attribution-ShareAlike 4.0
+- **Official source:** <https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/>
+- **Risk archive:** <https://genai.owasp.org/llm-top-10/>
 
-## OWASP GenAI Security Project
+This record summarizes the 2025 edition and supersedes the previous taxonomy.
 
-The OWASP GenAI Security Project is a global, open-source initiative dedicated to identifying, mitigating, and documenting security and safety risks associated with generative AI technologies, including large language models (LLMs), agentic AI systems, and AI-driven applications. Our mission is to empower organizations, security professionals, AI practitioners, and policymakers with comprehensive, actionable guidance and tools to ensure the secure development, deployment, and governance of generative AI systems.
+## 2025 risk taxonomy
 
-**Learn more about our mission and charter:** [Project Mission and Charter](https://genai.owasp.org/project-mission-and-charter/)
+1. **LLM01:2025 Prompt Injection** — crafted or retrieved instructions can alter model behavior or connected actions.
+2. **LLM02:2025 Sensitive Information Disclosure** — prompts, context, training data, or outputs may expose protected information.
+3. **LLM03:2025 Supply Chain** — models, datasets, adapters, libraries, and service dependencies may introduce compromise or untracked change.
+4. **LLM04:2025 Data and Model Poisoning** — manipulated training, fine-tuning, retrieval, or embedding data may corrupt behavior.
+5. **LLM05:2025 Improper Output Handling** — unvalidated model output may trigger downstream injection, execution, or data-integrity failures.
+6. **LLM06:2025 Excessive Agency** — broad permissions, tools, autonomy, or missing approvals can produce harmful actions.
+7. **LLM07:2025 System Prompt Leakage** — exposed system instructions may reveal controls, sensitive context, or exploitable assumptions.
+8. **LLM08:2025 Vector and Embedding Weaknesses** — retrieval and embedding systems may permit unauthorized access, poisoning, leakage, or cross-context contamination.
+9. **LLM09:2025 Misinformation** — confident but false or misleading output can distort decisions and erode trust.
+10. **LLM10:2025 Unbounded Consumption** — uncontrolled inference, context, loops, or requests can exhaust resources or create unexpected cost.
 
-**Visit our main project site:** [genai.owasp.org](https://genai.owasp.org/)
+## Relevance to the ACME scenario
 
-## Latest Top 10 for LLM Applications
+The taxonomy supports security and control questions for retrieval-augmented research assistants, external model endpoints, supplier components, embeddings, prompt libraries, generated outputs, and agent-like actions. It is particularly useful for assessing:
 
-The OWASP Top 10 for Large Language Model Applications continues to be a core component of our work, identifying the most critical security vulnerabilities in LLM applications.
+- prompt and retrieved-content trust boundaries;
+- source, model, and supplier provenance;
+- output validation before downstream reuse;
+- least privilege and human approval for consequential actions;
+- segregation and access controls for vector stores and embeddings;
+- resource limits, monitoring, incident response, and change control.
 
-**Access the latest Top 10 for LLM:** [https://genai.owasp.org/llm-top-10/](https://genai.owasp.org/llm-top-10/)
+## Use boundary
 
-## Project Background and Growth
-
-The project has evolved significantly since its inception. From a small group of security professionals addressing an urgent security gap in 2023, it has grown into a global community with over 600 contributing experts from more than 18 countries and nearly 8,000 active community members.
-
-**Read our full project background:** [Introduction and Background](https://genai.owasp.org/introduction-genai-security-project/)
-
-## Get Involved
-
-### Contribute to the Project
-
-We welcome all expert ideas, contributions, suggestions, and remarks from security professionals, researchers, developers, and anyone passionate about AI security.
-
-**Learn how to contribute:** [https://genai.owasp.org/contribute/](https://genai.owasp.org/contribute/)
-
-### Join Our Meetings
-
-Participate in our bi-weekly sync meetings and stay connected with the community.
-
-**Meeting information:** [https://genai.owasp.org/meetings/](https://genai.owasp.org/meetings/)
-
-### Connect with the Community
-
-- Join our working group channel on the [OWASP Slack](https://owasp.org/slack/invite) \- sign up and join us on the `#project-top10-for-llm` channel
-- [Follow our project LinkedIn page](https://www.linkedin.com/company/owasp-top-10-for-large-language-model-applications/)
-- [Subscribe to our newsletter](https://llmtop10.beehiiv.com/subscribe) for periodic updates
-
-## Project Support
-
-We are a not-for-profit, open-source, community-driven project. If you are interested in supporting the project with resources or becoming a sponsor to help us sustain community efforts and offset operational and outreach costs, visit the [Sponsor Section](https://genai.owasp.org/sponsorship) on our website.
-
-**Thank you to our current [Sponsors and Supporters](https://genai.owasp.org/supporters/)**
-
-## Educational Resources
-
-New to LLM Application security? Check out our [resources page](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/wiki/Educational-Resources) to learn more.
-
-* * *
-
-# OWASP Top 10 for Large Language Model Applications version 1.1
-
-## LLM01: Prompt Injection
-
-Manipulating LLMs via crafted inputs can lead to unauthorized access, data breaches, and compromised decision-making.
-
-## LLM02: Insecure Output Handling
-
-Neglecting to validate LLM outputs may lead to downstream security exploits, including code execution that compromises systems and exposes data.
-
-## LLM03: Training Data Poisoning
-
-Tampered training data can impair LLM models leading to responses that may compromise security, accuracy, or ethical behavior.
-
-## LLM04: Model Denial of Service
-
-Overloading LLMs with resource-heavy operations can cause service disruptions and increased costs.
-
-## LLM05: Supply Chain Vulnerabilities
-
-Depending upon compromised components, services or datasets undermine system integrity, causing data breaches and system failures.
-
-## LLM06: Sensitive Information Disclosure
-
-Failure to protect against disclosure of sensitive information in LLM outputs can result in legal consequences or a loss of competitive advantage.
-
-## LLM07: Insecure Plugin Design
-
-LLM plugins processing untrusted inputs and having insufficient access control risk severe exploits like remote code execution.
-
-## LLM08: Excessive Agency
-
-Granting LLMs unchecked autonomy to take action can lead to unintended consequences, jeopardizing reliability, privacy, and trust.
-
-## LLM09: Overreliance
-
-Failing to critically assess LLM outputs can lead to compromised decision making, security vulnerabilities, and legal liabilities.
-
-## LLM10: Model Theft
-
-Unauthorized access to proprietary large language models risks theft, competitive advantage, and dissemination of sensitive information.
-
-* * *
-
-[Edit on GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/master/index.md)
+OWASP identifies application-security risks and mitigations. It is not law, pharmaceutical regulation, validation evidence, or proof that a specific vulnerability exists in ACME. Applicability must be evaluated against the actual architecture, data, intended use, and threat model.
