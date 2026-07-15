@@ -159,6 +159,20 @@ class PrepareCorpusTests(unittest.TestCase):
         self.assertEqual(receipt["files"][0]["status"], "unchanged")
         self.assertEqual(receipt["files"][0]["actual_sha256"], sha256(self.remote))
 
+    def test_receipt_pairs_reviewed_hash_with_fetched_official_url(self):
+        manifest_path = self.root / "restricted_public_sources.json"
+        manifest = json.loads(manifest_path.read_text())
+        manifest["files"][0]["reviewed_url"] = "https://example.test/companion-page"
+        manifest_path.write_text(json.dumps(manifest))
+        cache = Path(self.temp.name) / "cache"
+
+        fetch_restricted_sources(self.root, cache)
+
+        receipt = json.loads((cache / "download_receipt.json").read_text())
+        record = receipt["files"][0]
+        self.assertEqual(record["reviewed_url"], self.remote.as_uri())
+        self.assertEqual(record["reviewed_sha256"], sha256(self.remote))
+
     def test_fetch_keeps_changed_official_source_and_records_hash_drift(self):
         manifest_path = self.root / "restricted_public_sources.json"
         manifest = json.loads(manifest_path.read_text())

@@ -191,7 +191,7 @@ def fetch_restricted_sources(repo_root: Path, cache: Path) -> list[Path]:
             {
                 "filename": destination.name,
                 "official_url": entry["official_url"],
-                "reviewed_url": entry.get("reviewed_url", entry["official_url"]),
+                "reviewed_url": entry["official_url"],
                 "reviewed_sha256": expected,
                 "actual_sha256": actual,
                 "bytes": destination.stat().st_size,
